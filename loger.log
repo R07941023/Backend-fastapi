@@ -1,0 +1,70 @@
+2023-12-23 21:58:04,706 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:58:48,243 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:58:58,267 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:01:01,179 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:02:04,447 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:02:19,114 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:02:30,210 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:02:36,018 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:03:37,843 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:05:05,947 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:05:32,658 - DEBUG - Using selector: SelectSelector
+2023-12-23 22:05:44,315 - INFO - [admin]: Welocime
+2023-12-23 22:05:44,317 - DEBUG - Entering history()
+2023-12-23 22:05:44,317 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 22:05:44,317 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 22:05:44,512 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 22:05:44,512 - DEBUG -  Entering get()
+2023-12-23 22:05:44,512 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 22:05:44,512 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 22:05:44,512 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 22:05:44,512 - DEBUG - cookie_mode = 'basic'
+2023-12-23 22:05:44,512 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 22:05:44,512 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 22:05:44,512 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 22:05:44,512 - DEBUG - loaded persistent cookie
+2023-12-23 22:05:44,512 - DEBUG - reusing cookie
+2023-12-23 22:05:44,528 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 22:05:44,697 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 22:05:44,700 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 22:05:44,700 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 22:05:44,700 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 22:05:44,700 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 22:05:44,898 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 22:05:44,898 - DEBUG - response code=200
+2023-12-23 22:05:44,898 - DEBUG -  Exiting get()
+2023-12-23 22:05:44,898 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 22:05:44,915 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 22:05:44,931 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 22:05:44,931 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 22:05:44,931 - DEBUG - Exiting history()
+2023-12-23 22:07:04,137 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:10:16,608 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:10:41,016 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:10:43,643 - INFO - [admin]: Welocime
+2023-12-24 02:11:11,109 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:11:14,723 - INFO - [admin]: Welocime
+2023-12-24 02:11:30,644 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:11:46,122 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:11:54,834 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:12:15,251 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:13:14,790 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:16:26,117 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:16:35,706 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:16:53,642 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:18:43,683 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:19:22,552 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:19:56,792 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:20:19,204 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:20:35,892 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:21:14,131 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:21:48,157 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:22:06,944 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:22:15,828 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:22:33,129 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:22:40,705 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:23:33,592 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:23:55,690 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:23:55,733 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:24:16,973 - DEBUG - Using selector: SelectSelector
+2023-12-24 02:24:32,054 - DEBUG - Using selector: SelectSelector

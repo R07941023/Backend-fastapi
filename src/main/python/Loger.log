@@ -1,0 +1,1682 @@
+2023-12-19 19:44:06,114 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:44:10,232 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:44:28,302 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:54:37,334 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:54:38,992 - INFO - hi
+2023-12-19 19:56:43,579 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:56:58,765 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:57:10,355 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:57:11,961 - INFO - hi
+2023-12-19 19:57:19,101 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:57:25,749 - DEBUG - Using selector: SelectSelector
+2023-12-19 19:57:54,210 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:06:02,786 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:06:08,501 - INFO - Welocime: {uid}
+2023-12-19 20:06:19,859 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:06:19,913 - INFO - Welocime: admin
+2023-12-19 20:07:26,707 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:07:26,799 - INFO - Welocime: admin
+2023-12-19 20:07:49,589 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:07:49,658 - INFO - Welocime: admin
+2023-12-19 20:09:15,470 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:09:26,103 - INFO - Welocime: admin
+2023-12-19 20:10:46,469 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:11:54,252 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:11:58,807 - INFO - Welocime: admin
+2023-12-19 20:12:37,213 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:14:06,111 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:14:07,064 - INFO - Welocime: admin
+2023-12-19 20:14:33,144 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:14:33,208 - INFO - Welocime: admin
+2023-12-19 20:14:38,047 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:15:22,779 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:15:25,728 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:15:28,181 - INFO - Welocime: admin
+2023-12-19 20:16:08,621 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:16:08,685 - INFO - admin: Welocime
+2023-12-19 20:16:20,430 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:16:21,497 - INFO - [admin]: Welocime
+2023-12-19 20:22:54,394 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:27:06,954 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:27:08,790 - INFO - [admin]: Welocime
+2023-12-19 20:27:10,230 - INFO - [admin]: Welocime
+2023-12-19 20:27:21,768 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:27:26,923 - INFO - [admin]: Welocime
+2023-12-19 20:29:49,044 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:35:43,080 - DEBUG - Using selector: SelectSelector
+2023-12-19 20:35:50,416 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:28:19,141 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:31:25,002 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:32:13,838 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:32:26,306 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:32:36,064 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:32:48,887 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:33:13,592 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:33:20,584 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:33:56,036 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:34:06,212 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:34:15,254 - INFO - [admin]: Welocime
+2023-12-19 21:34:30,414 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:34:30,469 - INFO - [admin]: Welocime
+2023-12-19 21:37:36,875 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:37:42,523 - INFO - [admin]: Welocime
+2023-12-19 21:37:53,972 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:38:00,948 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:38:30,611 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:39:03,814 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:39:21,115 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:39:24,474 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:39:35,409 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:40:58,590 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:41:07,989 - DEBUG - Using proactor: IocpProactor
+2023-12-19 21:41:07,993 - INFO - HTTP Request: POST http://testserver/appTest/users "HTTP/1.1 307 Temporary Redirect"
+2023-12-19 21:41:07,994 - DEBUG - Using proactor: IocpProactor
+2023-12-19 21:41:07,997 - INFO - [admin]: Welocime
+2023-12-19 21:41:07,999 - INFO - HTTP Request: POST http://testserver/appTest/users/ "HTTP/1.1 200 OK"
+2023-12-19 21:41:20,327 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:42:10,971 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:42:12,209 - DEBUG - Using proactor: IocpProactor
+2023-12-19 21:42:12,214 - INFO - HTTP Request: POST http://testserver/appTest/users "HTTP/1.1 307 Temporary Redirect"
+2023-12-19 21:42:12,215 - DEBUG - Using proactor: IocpProactor
+2023-12-19 21:42:12,219 - INFO - [admin]: Welocime
+2023-12-19 21:42:12,221 - INFO - HTTP Request: POST http://testserver/appTest/users/ "HTTP/1.1 200 OK"
+2023-12-19 21:42:24,511 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:45:35,348 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:45:46,305 - DEBUG - Using selector: SelectSelector
+2023-12-19 21:48:01,527 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:05:05,952 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:05:13,885 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:09:06,712 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:09:24,418 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:09:36,097 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:18:13,273 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:18:50,247 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:18:54,990 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:19:11,855 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:25:34,014 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:27:46,061 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:27:56,175 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:28:03,791 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:28:47,250 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:29:05,281 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:29:36,760 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:30:11,294 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:30:13,066 - INFO - [admin]: Welocime
+2023-12-19 22:31:10,248 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:31:58,203 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:32:22,226 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:32:58,938 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:33:02,017 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:33:30,819 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:36:13,885 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:36:45,746 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:36:59,377 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:37:06,567 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:38:48,828 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:38:53,675 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:39:04,962 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:39:55,482 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:40:03,033 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:43:10,758 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:43:58,311 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:44:01,281 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:48:48,215 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:49:01,707 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:51:27,658 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:51:48,309 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:52:07,805 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:56:49,446 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:56:50,797 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:57:28,678 - DEBUG - Using selector: SelectSelector
+2023-12-19 22:59:01,531 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:01:06,175 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:01:16,803 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:01:21,326 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:01:50,376 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:02:01,683 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:02:15,655 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:07:17,989 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:07:37,059 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:07:48,995 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:10:47,788 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:10:53,281 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:11:09,925 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:11:41,776 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:11:51,897 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:11:55,258 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:12:08,192 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:14:19,259 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:14:40,627 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:14:46,554 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:14:53,456 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:15:05,782 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:15:27,529 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:15:29,872 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:15:40,177 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:15:47,639 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:15:59,461 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:16:06,736 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:16:24,620 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:18:36,656 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:18:46,053 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:19:06,488 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:21:25,662 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:21:44,848 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:22:07,555 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:22:14,276 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:22:22,925 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:22:45,055 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:22:53,633 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:23:13,513 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:23:34,900 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:24:00,863 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:24:10,105 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:24:34,735 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:24:41,420 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:24:44,034 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:24:50,581 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:25:10,793 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:25:30,230 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:25:54,091 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:26:32,426 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:27:05,503 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:27:15,404 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:28:11,597 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:28:19,767 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:29:17,514 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:29:28,872 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:29:58,445 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:30:22,238 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:30:44,545 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:31:17,304 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:31:49,472 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:31:56,318 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:33:40,770 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:33:46,496 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:33:51,952 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:34:13,395 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:34:34,618 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:34:58,021 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:35:01,282 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:36:22,646 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:36:26,485 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:36:37,615 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:36:55,623 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:37:26,061 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:46:10,543 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:47:49,975 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:48:00,675 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:48:13,511 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:48:26,468 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:48:55,088 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:49:11,191 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:49:22,784 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:49:36,925 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:49:57,353 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:50:20,649 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:50:40,322 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:50:46,281 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:51:12,988 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:51:30,004 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:51:34,509 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:51:50,467 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:51:53,897 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:52:02,645 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:52:38,332 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:52:48,213 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:52:55,728 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:53:08,083 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:53:11,586 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:53:19,980 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:53:21,293 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:53:53,575 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:54:09,310 - DEBUG - Using selector: SelectSelector
+2023-12-19 23:54:18,184 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:20:56,578 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:22:53,363 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:23:07,525 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:23:31,522 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:23:38,054 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:23:55,828 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:24:05,073 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:24:14,131 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:25:42,875 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:26:21,634 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:27:04,375 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:27:16,147 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:28:04,250 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:28:19,042 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:28:25,445 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:28:43,185 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:28:49,370 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:28:56,134 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:29:12,681 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:29:18,167 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:29:51,937 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:29:55,381 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:30:11,283 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:30:20,116 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:30:23,628 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:30:29,961 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:31:22,361 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:31:26,790 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:31:46,661 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:31:56,447 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:32:04,668 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:32:23,933 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:32:30,425 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:34:00,117 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:34:16,303 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:34:37,358 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:34:52,468 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:34:53,675 - INFO - [admin]: Welocime
+2023-12-20 00:34:55,689 - INFO - [admin]: Welocime
+2023-12-20 00:34:55,981 - INFO - [admin]: Welocime
+2023-12-20 00:34:56,166 - INFO - [admin]: Welocime
+2023-12-20 00:34:56,325 - INFO - [admin]: Welocime
+2023-12-20 00:35:37,948 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:35:42,534 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:35:52,857 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:35:55,483 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:35:57,638 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:36:00,594 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:36:06,406 - INFO - [admin]: Welocime
+2023-12-20 00:36:14,105 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:36:16,574 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:36:18,855 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:36:21,727 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:36:23,296 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:36:26,183 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:37:16,779 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:37:33,307 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:37:35,297 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:37:40,324 - INFO - [admin]: Welocime
+2023-12-20 00:40:11,626 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:40:16,422 - INFO - [admin]: Welocime
+2023-12-20 00:40:39,124 - DEBUG - Using selector: SelectSelector
+2023-12-20 00:46:25,280 - DEBUG - Using proactor: IocpProactor
+2023-12-20 00:46:38,123 - INFO - [admin]: Welocime
+2023-12-20 00:46:46,598 - INFO - [admin]: Welocime
+2023-12-20 00:51:46,261 - DEBUG - Using proactor: IocpProactor
+2023-12-20 00:51:47,564 - INFO - [admin]: Welocime
+2023-12-20 00:51:49,175 - INFO - [admin]: Welocime
+2023-12-23 19:23:24,552 - DEBUG - Using proactor: IocpProactor
+2023-12-23 19:34:25,951 - DEBUG - Using proactor: IocpProactor
+2023-12-23 19:34:32,719 - INFO - [admin]: Welocime
+2023-12-23 19:35:15,961 - INFO - [admin]: Welocime
+2023-12-23 19:35:41,230 - DEBUG - Using proactor: IocpProactor
+2023-12-23 19:35:43,856 - INFO - [admin]: Welocime
+2023-12-23 19:36:41,361 - DEBUG - Using selector: SelectSelector
+2023-12-23 19:37:03,504 - DEBUG - Using selector: SelectSelector
+2023-12-23 19:44:33,978 - DEBUG - Using proactor: IocpProactor
+2023-12-23 19:44:54,002 - DEBUG - Using proactor: IocpProactor
+2023-12-23 19:49:02,793 - DEBUG - Using selector: SelectSelector
+2023-12-23 19:49:19,754 - DEBUG - Using selector: SelectSelector
+2023-12-23 19:49:22,488 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:03:59,697 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:04:10,687 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:06:55,386 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:07:08,809 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:07:20,090 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:07:36,321 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:09:10,016 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:09:53,495 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:11:45,488 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:12:02,649 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:12:45,082 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:18:15,569 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:18:30,033 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:18:36,841 - INFO - [admin]: Welocime
+2023-12-23 20:18:36,841 - DEBUG - Entering history()
+2023-12-23 20:18:36,859 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:18:36,863 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:18:36,863 - DEBUG -  Entering _fetch_ticker_tz()
+2023-12-23 20:18:36,863 - DEBUG -   Entering get()
+2023-12-23 20:18:36,863 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:18:36,863 - DEBUG - params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2023-12-23 20:18:36,863 - DEBUG -    Entering _get_cookie_and_crumb()
+2023-12-23 20:18:36,864 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:18:36,864 - DEBUG -     Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:18:36,869 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:18:36,874 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:18:36,877 - DEBUG - Starting new HTTPS connection (1): fc.yahoo.com:443
+2023-12-23 20:19:01,373 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:19:01,893 - INFO - [admin]: Welocime
+2023-12-23 20:19:01,895 - DEBUG - Entering history()
+2023-12-23 20:19:01,900 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:19:01,901 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:19:01,901 - DEBUG -  Entering _fetch_ticker_tz()
+2023-12-23 20:19:01,902 - DEBUG -   Entering get()
+2023-12-23 20:19:01,902 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:19:01,902 - DEBUG - params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2023-12-23 20:19:01,902 - DEBUG -    Entering _get_cookie_and_crumb()
+2023-12-23 20:19:01,902 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:19:01,902 - DEBUG -     Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:19:01,906 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:19:01,906 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:19:01,911 - DEBUG - Starting new HTTPS connection (1): fc.yahoo.com:443
+2023-12-23 20:19:19,734 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:19:25,149 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:19:26,009 - INFO - [admin]: Welocime
+2023-12-23 20:19:26,010 - DEBUG - Entering history()
+2023-12-23 20:19:26,014 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:19:26,015 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:19:26,016 - DEBUG -  Entering _fetch_ticker_tz()
+2023-12-23 20:19:26,016 - DEBUG -   Entering get()
+2023-12-23 20:19:26,016 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:19:26,016 - DEBUG - params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2023-12-23 20:19:26,016 - DEBUG -    Entering _get_cookie_and_crumb()
+2023-12-23 20:19:26,016 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:19:26,016 - DEBUG -     Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:19:26,018 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:19:26,019 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:19:26,022 - DEBUG - Starting new HTTPS connection (1): fc.yahoo.com:443
+2023-12-23 20:20:14,940 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:21:58,996 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:22:03,835 - INFO - [admin]: Welocime
+2023-12-23 20:22:03,837 - DEBUG - Entering history()
+2023-12-23 20:22:03,840 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:22:03,840 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:22:03,841 - DEBUG -  Entering _fetch_ticker_tz()
+2023-12-23 20:22:03,842 - DEBUG -   Entering get()
+2023-12-23 20:22:03,842 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:22:03,842 - DEBUG - params=frozendict.frozendict({'range': '1d', 'interval': '1d'})
+2023-12-23 20:22:03,842 - DEBUG -    Entering _get_cookie_and_crumb()
+2023-12-23 20:22:03,842 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:22:03,842 - DEBUG -     Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:22:03,844 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:22:03,845 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:22:03,849 - DEBUG - Starting new HTTPS connection (1): fc.yahoo.com:443
+2023-12-23 20:22:19,662 - DEBUG - https://fc.yahoo.com:443 "GET / HTTP/1.1" 502 4352
+2023-12-23 20:22:19,663 - DEBUG - ('DELETE FROM "_cookieschema" WHERE ("_cookieschema"."strategy" = ?)', ['basic'])
+2023-12-23 20:22:19,663 - DEBUG - ('BEGIN', None)
+2023-12-23 20:22:19,663 - DEBUG - ('INSERT INTO "_cookieschema" ("strategy", "fetch_date", "cookie_bytes") VALUES (?, ?, ?)', ['basic', datetime.datetime(2023, 12, 23, 20, 22, 19, 663828), <memory at 0x000002AF81BF9580>])
+2023-12-23 20:22:19,666 - DEBUG - fetched basic cookie = <Cookie A3=d=AQABBMzPhmUCEPhQcoxjLFNtwWiwrBkKByQFEgEBAQEhiGWQZb3etrYB_eMAAA&S=AQAAAinqmyjBTO0iDxaS-pm0raQ for .yahoo.com/>
+2023-12-23 20:22:19,666 - DEBUG - reusing cookie
+2023-12-23 20:22:19,668 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:22:19,838 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 20:22:19,839 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 20:22:19,840 - DEBUG -     Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:22:19,840 - DEBUG -    Exiting _get_cookie_and_crumb()
+2023-12-23 20:22:19,844 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:22:19,984 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?range=1d&interval=1d&crumb=87KXeVqr5G7 HTTP/1.1" 200 873
+2023-12-23 20:22:19,985 - DEBUG - response code=200
+2023-12-23 20:22:19,985 - DEBUG -   Exiting get()
+2023-12-23 20:22:19,985 - DEBUG -  Exiting _fetch_ticker_tz()
+2023-12-23 20:22:20,230 - DEBUG - ('BEGIN', None)
+2023-12-23 20:22:20,231 - DEBUG - ('INSERT INTO "_kv" ("key", "value") VALUES (?, ?)', ['2330.TW', 'Asia/Taipei'])
+2023-12-23 20:22:20,238 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-20 00:00:00+08:00', 'period2': '2023-12-21 00:00:00+08:00', 'interval': '1d', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:22:20,238 - DEBUG -  Entering get()
+2023-12-23 20:22:20,238 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:22:20,238 - DEBUG - params=frozendict.frozendict({'period1': 1703001600, 'period2': 1703088000, 'interval': '1d', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 20:22:20,238 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:22:20,238 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:22:20,238 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:22:20,238 - DEBUG - reusing cookie
+2023-12-23 20:22:20,238 - DEBUG - reusing crumb
+2023-12-23 20:22:20,238 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:22:20,238 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:22:20,320 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1703001600&period2=1703088000&interval=1d&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 871
+2023-12-23 20:22:20,321 - DEBUG - response code=200
+2023-12-23 20:22:20,321 - DEBUG -  Exiting get()
+2023-12-23 20:22:20,326 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-20 01:00:00 -> 2023-12-20 01:00:00
+2023-12-23 20:22:20,330 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-20 09:00:00+08:00 -> 2023-12-20 09:00:00+08:00
+2023-12-23 20:22:20,342 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-20 00:00:00+08:00 -> 2023-12-20 00:00:00+08:00
+2023-12-23 20:22:20,360 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-20 00:00:00+08:00 -> 2023-12-20 00:00:00+08:00
+2023-12-23 20:22:20,360 - DEBUG - Exiting history()
+2023-12-23 20:22:29,357 - INFO - [admin]: Welocime
+2023-12-23 20:22:29,357 - DEBUG - Entering history()
+2023-12-23 20:22:29,358 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:22:29,362 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-20 00:00:00+08:00', 'period2': '2023-12-21 00:00:00+08:00', 'interval': '1d', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:22:29,364 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-20 01:00:00 -> 2023-12-20 01:00:00
+2023-12-23 20:22:29,365 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-20 09:00:00+08:00 -> 2023-12-20 09:00:00+08:00
+2023-12-23 20:22:29,370 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-20 00:00:00+08:00 -> 2023-12-20 00:00:00+08:00
+2023-12-23 20:22:29,375 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-20 00:00:00+08:00 -> 2023-12-20 00:00:00+08:00
+2023-12-23 20:22:29,375 - DEBUG - Exiting history()
+2023-12-23 20:22:42,891 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:22:43,605 - INFO - [admin]: Welocime
+2023-12-23 20:22:43,607 - DEBUG - Entering history()
+2023-12-23 20:22:43,610 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:22:43,611 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:22:43,877 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-10 00:00:00+08:00', 'period2': '2023-12-21 00:00:00+08:00', 'interval': '1d', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:22:43,878 - DEBUG -  Entering get()
+2023-12-23 20:22:43,878 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:22:43,878 - DEBUG - params=frozendict.frozendict({'period1': 1702137600, 'period2': 1703088000, 'interval': '1d', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 20:22:43,878 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:22:43,878 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:22:43,878 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:22:43,880 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:22:43,881 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:22:43,882 - DEBUG - loaded persistent cookie
+2023-12-23 20:22:43,882 - DEBUG - reusing cookie
+2023-12-23 20:22:43,884 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:22:44,045 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 500 3160
+2023-12-23 20:22:44,046 - DEBUG - Didn't receive crumb
+2023-12-23 20:22:44,046 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:22:44,046 - DEBUG - toggling cookie strategy basic -> csrf
+2023-12-23 20:22:44,046 - DEBUG -    Entering _get_crumb_csrf()
+2023-12-23 20:22:44,046 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['csrf', 1, 0])
+2023-12-23 20:22:44,048 - DEBUG - Starting new HTTPS connection (1): guce.yahoo.com:443
+2023-12-23 20:22:44,356 - DEBUG - https://guce.yahoo.com:443 "GET /consent HTTP/1.1" 302 0
+2023-12-23 20:22:44,358 - DEBUG - Starting new HTTPS connection (1): www.yahoo.com:443
+2023-12-23 20:22:44,478 - DEBUG - https://www.yahoo.com:443 "GET /?guccounter=1 HTTP/1.1" 302 17
+2023-12-23 20:22:44,481 - DEBUG - Starting new HTTPS connection (1): tw.yahoo.com:443
+2023-12-23 20:22:44,592 - DEBUG - https://tw.yahoo.com:443 "GET /?p=us HTTP/1.1" 200 None
+2023-12-23 20:22:44,876 - DEBUG - Failed to find "csrfToken" in response
+2023-12-23 20:22:44,876 - DEBUG -    Exiting _get_crumb_csrf()
+2023-12-23 20:22:44,876 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:22:44,878 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:22:45,004 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702137600&period2=1703088000&interval=1d&includePrePost=False&events=div%2Csplits%2CcapitalGains HTTP/1.1" 200 1316
+2023-12-23 20:22:45,004 - DEBUG - response code=200
+2023-12-23 20:22:45,004 - DEBUG -  Exiting get()
+2023-12-23 20:22:45,006 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-20 01:00:00
+2023-12-23 20:22:45,007 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-20 09:00:00+08:00
+2023-12-23 20:22:45,016 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 00:00:00+08:00 -> 2023-12-20 00:00:00+08:00
+2023-12-23 20:22:45,021 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 00:00:00+08:00 -> 2023-12-20 00:00:00+08:00
+2023-12-23 20:22:45,022 - DEBUG - Exiting history()
+2023-12-23 20:23:14,155 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:23:16,965 - INFO - [admin]: Welocime
+2023-12-23 20:23:16,966 - DEBUG - Entering history()
+2023-12-23 20:23:16,971 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:23:16,971 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:23:17,221 - DEBUG - 2330.TW: Yahoo GET parameters: {'range': '1mo', 'interval': '1d', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:23:17,221 - DEBUG -  Entering get()
+2023-12-23 20:23:17,221 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:23:17,221 - DEBUG - params={'range': '1mo', 'interval': '1d', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:23:17,221 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:23:17,221 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:23:17,221 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:23:17,223 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:23:17,224 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:23:17,226 - DEBUG - loaded persistent cookie
+2023-12-23 20:23:17,226 - DEBUG - reusing cookie
+2023-12-23 20:23:17,229 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:23:17,406 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 20:23:17,407 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 20:23:17,407 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:23:17,407 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:23:17,409 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:23:17,529 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?range=1mo&interval=1d&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 904
+2023-12-23 20:23:17,529 - DEBUG - response code=200
+2023-12-23 20:23:17,529 - DEBUG -  Exiting get()
+2023-12-23 20:23:17,531 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-11-22 01:00:00 -> 2023-12-22 01:00:00
+2023-12-23 20:23:17,533 - DEBUG - 2330.TW: OHLC after cleaning: 2023-11-22 09:00:00+08:00 -> 2023-12-22 09:00:00+08:00
+2023-12-23 20:23:17,540 - DEBUG - 2330.TW: OHLC after combining events: 2023-11-22 00:00:00+08:00 -> 2023-12-22 00:00:00+08:00
+2023-12-23 20:23:17,545 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-11-22 00:00:00+08:00 -> 2023-12-22 00:00:00+08:00
+2023-12-23 20:23:17,545 - DEBUG - Exiting history()
+2023-12-23 20:23:35,231 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:25:33,764 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:25:34,776 - INFO - [admin]: Welocime
+2023-12-23 20:25:34,778 - DEBUG - Entering history()
+2023-12-23 20:25:34,781 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:25:34,781 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:25:35,033 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-10 00:00:00+08:00', 'period2': '2023-12-21 00:00:00+08:00', 'interval': '1h', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:25:35,033 - DEBUG -  Entering get()
+2023-12-23 20:25:35,033 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:25:35,033 - DEBUG - params=frozendict.frozendict({'period1': 1702137600, 'period2': 1703088000, 'interval': '1h', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 20:25:35,033 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:25:35,033 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:25:35,033 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:25:35,035 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:25:35,036 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:25:35,036 - DEBUG - loaded persistent cookie
+2023-12-23 20:25:35,037 - DEBUG - reusing cookie
+2023-12-23 20:25:35,040 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:25:35,210 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 500 3160
+2023-12-23 20:25:35,211 - DEBUG - Didn't receive crumb
+2023-12-23 20:25:35,211 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:25:35,211 - DEBUG - toggling cookie strategy basic -> csrf
+2023-12-23 20:25:35,211 - DEBUG -    Entering _get_crumb_csrf()
+2023-12-23 20:25:35,211 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['csrf', 1, 0])
+2023-12-23 20:25:35,213 - DEBUG - Starting new HTTPS connection (1): guce.yahoo.com:443
+2023-12-23 20:25:35,539 - DEBUG - https://guce.yahoo.com:443 "GET /consent HTTP/1.1" 302 0
+2023-12-23 20:25:35,542 - DEBUG - Starting new HTTPS connection (1): www.yahoo.com:443
+2023-12-23 20:25:35,618 - DEBUG - https://www.yahoo.com:443 "GET /?guccounter=1 HTTP/1.1" 302 17
+2023-12-23 20:25:35,621 - DEBUG - Starting new HTTPS connection (1): tw.yahoo.com:443
+2023-12-23 20:25:35,721 - DEBUG - https://tw.yahoo.com:443 "GET /?p=us HTTP/1.1" 200 None
+2023-12-23 20:25:36,078 - DEBUG - Failed to find "csrfToken" in response
+2023-12-23 20:25:36,078 - DEBUG -    Exiting _get_crumb_csrf()
+2023-12-23 20:25:36,078 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:25:36,080 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:25:36,192 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702137600&period2=1703088000&interval=1h&includePrePost=False&events=div%2Csplits%2CcapitalGains HTTP/1.1" 200 1061
+2023-12-23 20:25:36,192 - DEBUG - response code=200
+2023-12-23 20:25:36,193 - DEBUG -  Exiting get()
+2023-12-23 20:25:36,194 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-20 05:00:00
+2023-12-23 20:25:36,204 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-20 13:00:00+08:00
+2023-12-23 20:25:36,211 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-20 13:00:00+08:00
+2023-12-23 20:25:36,216 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-20 13:00:00+08:00
+2023-12-23 20:25:36,216 - DEBUG - Exiting history()
+2023-12-23 20:26:45,877 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:26:54,179 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:26:57,340 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:26:58,836 - INFO - [admin]: Welocime
+2023-12-23 20:26:58,837 - DEBUG - Entering history()
+2023-12-23 20:26:58,841 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:26:58,842 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:26:59,098 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-10 00:00:00+08:00', 'period2': '2023-12-10 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:26:59,098 - DEBUG -  Entering get()
+2023-12-23 20:26:59,099 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:26:59,099 - DEBUG - params=frozendict.frozendict({'period1': 1702137600, 'period2': 1702137600, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 20:26:59,099 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:26:59,099 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:26:59,099 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:26:59,101 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:26:59,101 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:26:59,102 - DEBUG - loaded persistent cookie
+2023-12-23 20:26:59,102 - DEBUG - reusing cookie
+2023-12-23 20:26:59,104 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:26:59,269 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 20:26:59,269 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 20:26:59,269 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:26:59,269 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:26:59,271 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:26:59,432 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702137600&period2=1702137600&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 765
+2023-12-23 20:26:59,433 - DEBUG - response code=200
+2023-12-23 20:26:59,433 - DEBUG -  Exiting get()
+2023-12-23 20:26:59,434 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-10 -> 2023-12-10)
+2023-12-23 20:26:59,434 - DEBUG - Exiting history()
+2023-12-23 20:27:10,171 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:27:10,206 - INFO - [admin]: Welocime
+2023-12-23 20:27:10,207 - DEBUG - Entering history()
+2023-12-23 20:27:10,210 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:27:10,210 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:27:10,463 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-10 00:00:00+08:00', 'period2': '2023-12-11 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:27:10,463 - DEBUG -  Entering get()
+2023-12-23 20:27:10,463 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:27:10,463 - DEBUG - params=frozendict.frozendict({'period1': 1702137600, 'period2': 1702224000, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 20:27:10,463 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:27:10,463 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:27:10,463 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:27:10,465 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:27:10,465 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:27:10,466 - DEBUG - loaded persistent cookie
+2023-12-23 20:27:10,466 - DEBUG - reusing cookie
+2023-12-23 20:27:10,469 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:27:10,647 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 20:27:10,648 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 20:27:10,648 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:27:10,648 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:27:10,650 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:27:10,823 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702137600&period2=1702224000&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 765
+2023-12-23 20:27:10,825 - DEBUG - response code=200
+2023-12-23 20:27:10,825 - DEBUG -  Exiting get()
+2023-12-23 20:27:10,829 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-10 -> 2023-12-11)
+2023-12-23 20:27:10,829 - DEBUG - Exiting history()
+2023-12-23 20:27:24,692 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:27:25,811 - INFO - [admin]: Welocime
+2023-12-23 20:27:25,812 - DEBUG - Entering history()
+2023-12-23 20:27:25,815 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:27:25,815 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:27:26,055 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-11 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:27:26,056 - DEBUG -  Entering get()
+2023-12-23 20:27:26,056 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:27:26,056 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702224000, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 20:27:26,057 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:27:26,057 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:27:26,057 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:27:26,058 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:27:26,059 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:27:26,060 - DEBUG - loaded persistent cookie
+2023-12-23 20:27:26,060 - DEBUG - reusing cookie
+2023-12-23 20:27:26,062 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:27:26,223 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 500 3160
+2023-12-23 20:27:26,224 - DEBUG - Didn't receive crumb
+2023-12-23 20:27:26,224 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:27:26,224 - DEBUG - toggling cookie strategy basic -> csrf
+2023-12-23 20:27:26,224 - DEBUG -    Entering _get_crumb_csrf()
+2023-12-23 20:27:26,225 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['csrf', 1, 0])
+2023-12-23 20:27:26,227 - DEBUG - Starting new HTTPS connection (1): guce.yahoo.com:443
+2023-12-23 20:27:26,526 - DEBUG - https://guce.yahoo.com:443 "GET /consent HTTP/1.1" 302 0
+2023-12-23 20:27:26,528 - DEBUG - Starting new HTTPS connection (1): www.yahoo.com:443
+2023-12-23 20:27:26,591 - DEBUG - https://www.yahoo.com:443 "GET /?guccounter=1 HTTP/1.1" 302 17
+2023-12-23 20:27:26,594 - DEBUG - Starting new HTTPS connection (1): tw.yahoo.com:443
+2023-12-23 20:27:26,717 - DEBUG - https://tw.yahoo.com:443 "GET /?p=us HTTP/1.1" 200 None
+2023-12-23 20:27:27,066 - DEBUG - Failed to find "csrfToken" in response
+2023-12-23 20:27:27,066 - DEBUG -    Exiting _get_crumb_csrf()
+2023-12-23 20:27:27,066 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:27:27,068 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:27:27,224 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702224000&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains HTTP/1.1" 200 765
+2023-12-23 20:27:27,224 - DEBUG - response code=200
+2023-12-23 20:27:27,224 - DEBUG -  Exiting get()
+2023-12-23 20:27:27,225 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-11 -> 2023-12-11)
+2023-12-23 20:27:27,225 - DEBUG - Exiting history()
+2023-12-23 20:27:34,963 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:27:35,000 - INFO - [admin]: Welocime
+2023-12-23 20:27:35,001 - DEBUG - Entering history()
+2023-12-23 20:27:35,003 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:27:35,004 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:27:35,282 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:27:35,282 - DEBUG -  Entering get()
+2023-12-23 20:27:35,282 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:27:35,282 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 20:27:35,282 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:27:35,282 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:27:35,282 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:27:35,285 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:27:35,285 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:27:35,286 - DEBUG - loaded persistent cookie
+2023-12-23 20:27:35,287 - DEBUG - reusing cookie
+2023-12-23 20:27:35,290 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:27:35,477 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 20:27:35,478 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 20:27:35,478 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:27:35,478 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:27:35,479 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:27:35,654 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 20:27:35,655 - DEBUG - response code=200
+2023-12-23 20:27:35,655 - DEBUG -  Exiting get()
+2023-12-23 20:27:35,658 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 20:27:35,667 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 20:27:35,672 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 20:27:35,676 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 20:27:35,676 - DEBUG - Exiting history()
+2023-12-23 20:47:51,370 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:48:05,751 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:48:32,530 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:48:32,568 - INFO - [admin]: Welocime
+2023-12-23 20:48:32,568 - DEBUG - Entering history()
+2023-12-23 20:48:32,571 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 20:48:32,571 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 20:48:32,845 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 20:48:32,846 - DEBUG -  Entering get()
+2023-12-23 20:48:32,846 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 20:48:32,846 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 20:48:32,846 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 20:48:32,846 - DEBUG - cookie_mode = 'basic'
+2023-12-23 20:48:32,846 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 20:48:32,848 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 20:48:32,848 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 20:48:32,849 - DEBUG - loaded persistent cookie
+2023-12-23 20:48:32,849 - DEBUG - reusing cookie
+2023-12-23 20:48:32,852 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 20:48:32,979 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 20:48:32,980 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 20:48:32,980 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 20:48:32,980 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 20:48:32,981 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 20:48:33,163 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 20:48:33,164 - DEBUG - response code=200
+2023-12-23 20:48:33,164 - DEBUG -  Exiting get()
+2023-12-23 20:48:33,167 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 20:48:33,185 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 20:48:33,193 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 20:48:33,202 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 20:48:33,202 - DEBUG - Exiting history()
+2023-12-23 20:48:38,758 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:51:48,714 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:52:16,572 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:52:50,870 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:53:01,410 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:53:51,080 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:54:32,147 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:54:47,097 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:55:21,983 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:55:25,874 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:57:04,090 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:57:53,796 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:58:07,384 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:58:55,548 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:59:31,290 - DEBUG - Using selector: SelectSelector
+2023-12-23 20:59:51,475 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:00:15,803 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:00:27,264 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:00:56,088 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:01:32,929 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:01:46,527 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:01:46,565 - DEBUG - Entering history()
+2023-12-23 21:01:46,567 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:01:46,568 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:01:46,809 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:01:46,810 - DEBUG -  Entering get()
+2023-12-23 21:01:46,810 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:01:46,810 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:01:46,810 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:01:46,810 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:01:46,810 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:01:46,812 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:01:46,812 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:01:46,814 - DEBUG - loaded persistent cookie
+2023-12-23 21:01:46,814 - DEBUG - reusing cookie
+2023-12-23 21:01:46,816 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:01:46,993 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:01:46,993 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:01:46,994 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:01:46,994 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:01:46,995 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:01:47,166 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:01:47,167 - DEBUG - response code=200
+2023-12-23 21:01:47,167 - DEBUG -  Exiting get()
+2023-12-23 21:01:47,169 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:01:47,178 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:01:47,189 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:01:47,199 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:01:47,199 - DEBUG - Exiting history()
+2023-12-23 21:01:54,656 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:01:54,694 - DEBUG - Entering history()
+2023-12-23 21:01:54,696 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:01:54,696 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:01:54,960 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:01:54,960 - DEBUG -  Entering get()
+2023-12-23 21:01:54,960 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:01:54,960 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:01:54,960 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:01:54,961 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:01:54,961 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:01:54,962 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:01:54,963 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:01:54,963 - DEBUG - loaded persistent cookie
+2023-12-23 21:01:54,963 - DEBUG - reusing cookie
+2023-12-23 21:01:54,966 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:01:55,130 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:01:55,131 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:01:55,131 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:01:55,131 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:01:55,133 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:01:55,265 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 2434
+2023-12-23 21:01:55,266 - DEBUG - response code=200
+2023-12-23 21:01:55,266 - DEBUG -  Exiting get()
+2023-12-23 21:01:55,268 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:01:55,276 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:01:55,281 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:01:55,285 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:01:55,285 - DEBUG - Exiting history()
+2023-12-23 21:02:02,765 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:02:09,686 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:02:09,728 - DEBUG - Entering history()
+2023-12-23 21:02:09,731 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:02:09,731 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:02:10,000 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:02:10,000 - DEBUG -  Entering get()
+2023-12-23 21:02:10,000 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:02:10,000 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:02:10,000 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:02:10,000 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:02:10,001 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:02:10,003 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:02:10,003 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:02:10,004 - DEBUG - loaded persistent cookie
+2023-12-23 21:02:10,004 - DEBUG - reusing cookie
+2023-12-23 21:02:10,007 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:02:10,129 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:02:10,129 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:02:10,129 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:02:10,129 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:02:10,131 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:02:10,308 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:02:10,308 - DEBUG - response code=200
+2023-12-23 21:02:10,308 - DEBUG -  Exiting get()
+2023-12-23 21:02:10,310 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:02:10,319 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:02:10,323 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:02:10,327 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:02:10,328 - DEBUG - Exiting history()
+2023-12-23 21:02:39,888 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:02:39,923 - DEBUG - Entering history()
+2023-12-23 21:02:39,925 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:02:39,926 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:02:40,182 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:02:40,182 - DEBUG -  Entering get()
+2023-12-23 21:02:40,182 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:02:40,183 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:02:40,183 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:02:40,183 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:02:40,183 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:02:40,185 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:02:40,185 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:02:40,186 - DEBUG - loaded persistent cookie
+2023-12-23 21:02:40,186 - DEBUG - reusing cookie
+2023-12-23 21:02:40,189 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:02:40,310 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:02:40,311 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:02:40,311 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:02:40,312 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:02:40,313 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:02:40,486 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:02:40,486 - DEBUG - response code=200
+2023-12-23 21:02:40,486 - DEBUG -  Exiting get()
+2023-12-23 21:02:40,489 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:02:40,499 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:02:40,504 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:02:40,509 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:02:40,509 - DEBUG - Exiting history()
+2023-12-23 21:03:00,792 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:03:00,833 - INFO - [admin]: Welocime
+2023-12-23 21:03:17,978 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:03:20,775 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:04:43,885 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:04:45,644 - DEBUG - Entering history()
+2023-12-23 21:04:45,648 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:04:45,649 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:04:45,918 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:04:45,918 - DEBUG -  Entering get()
+2023-12-23 21:04:45,918 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:04:45,918 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:04:45,918 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:04:45,918 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:04:45,918 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:04:45,920 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:04:45,921 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:04:45,923 - DEBUG - loaded persistent cookie
+2023-12-23 21:04:45,923 - DEBUG - reusing cookie
+2023-12-23 21:04:45,926 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:04:46,033 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:04:46,033 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:04:46,034 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:04:46,034 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:04:46,035 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:04:46,224 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:04:46,225 - DEBUG - response code=200
+2023-12-23 21:04:46,225 - DEBUG -  Exiting get()
+2023-12-23 21:04:46,227 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:04:46,237 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:04:46,242 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:04:46,248 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:04:46,248 - DEBUG - Exiting history()
+2023-12-23 21:05:10,170 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:05:10,205 - DEBUG - Entering history()
+2023-12-23 21:05:10,210 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:05:10,211 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:05:10,432 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:05:10,432 - DEBUG -  Entering get()
+2023-12-23 21:05:10,433 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:05:10,433 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:05:10,433 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:05:10,433 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:05:10,433 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:05:10,434 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:05:10,435 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:05:10,436 - DEBUG - loaded persistent cookie
+2023-12-23 21:05:10,436 - DEBUG - reusing cookie
+2023-12-23 21:05:10,438 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:05:10,533 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:05:10,534 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:05:10,534 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:05:10,534 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:05:10,535 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:05:10,708 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:05:10,708 - DEBUG - response code=200
+2023-12-23 21:05:10,708 - DEBUG -  Exiting get()
+2023-12-23 21:05:10,711 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:05:10,719 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:05:10,723 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:05:10,730 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:05:10,730 - DEBUG - Exiting history()
+2023-12-23 21:05:27,601 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:05:28,087 - DEBUG - Entering history()
+2023-12-23 21:05:28,090 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:05:28,091 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:05:28,318 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:05:28,319 - DEBUG -  Entering get()
+2023-12-23 21:05:28,319 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:05:28,319 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:05:28,319 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:05:28,319 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:05:28,319 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:05:28,321 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:05:28,322 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:05:28,323 - DEBUG - loaded persistent cookie
+2023-12-23 21:05:28,323 - DEBUG - reusing cookie
+2023-12-23 21:05:28,326 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:05:28,422 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:05:28,422 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:05:28,422 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:05:28,422 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:05:28,424 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:05:28,591 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:05:28,592 - DEBUG - response code=200
+2023-12-23 21:05:28,592 - DEBUG -  Exiting get()
+2023-12-23 21:05:28,597 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:05:28,615 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:05:28,624 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:05:28,635 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:05:28,635 - DEBUG - Exiting history()
+2023-12-23 21:05:28,675 - INFO - [admin]: Welocime
+2023-12-23 21:06:01,807 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:06:02,278 - DEBUG - Entering history()
+2023-12-23 21:06:02,282 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:06:02,283 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:06:02,527 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:06:02,527 - DEBUG -  Entering get()
+2023-12-23 21:06:02,527 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:06:02,527 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:06:02,527 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:06:02,527 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:06:02,527 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:06:02,529 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:06:02,529 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:06:02,530 - DEBUG - loaded persistent cookie
+2023-12-23 21:06:02,530 - DEBUG - reusing cookie
+2023-12-23 21:06:02,533 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:06:02,634 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:06:02,634 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:06:02,634 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:06:02,634 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:06:02,636 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:06:02,816 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:06:02,816 - DEBUG - response code=200
+2023-12-23 21:06:02,816 - DEBUG -  Exiting get()
+2023-12-23 21:06:02,819 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:06:02,828 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:06:02,833 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:06:02,838 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:06:02,838 - DEBUG - Exiting history()
+2023-12-23 21:06:33,495 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:06:33,530 - DEBUG - Entering history()
+2023-12-23 21:06:33,535 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:06:33,536 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:06:33,805 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:06:33,805 - DEBUG -  Entering get()
+2023-12-23 21:06:33,806 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:06:33,806 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:06:33,806 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:06:33,806 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:06:33,806 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:06:33,807 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:06:33,808 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:06:33,808 - DEBUG - loaded persistent cookie
+2023-12-23 21:06:33,809 - DEBUG - reusing cookie
+2023-12-23 21:06:33,811 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:06:33,945 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:06:33,947 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:06:33,947 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:06:33,947 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:06:33,949 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:06:34,062 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:06:34,062 - DEBUG - response code=200
+2023-12-23 21:06:34,063 - DEBUG -  Exiting get()
+2023-12-23 21:06:34,065 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:06:34,076 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:06:34,081 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:06:34,087 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:06:34,087 - DEBUG - Exiting history()
+2023-12-23 21:07:23,112 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:07:23,147 - DEBUG - Entering history()
+2023-12-23 21:07:23,150 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:07:23,151 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:07:23,437 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:07:23,437 - DEBUG -  Entering get()
+2023-12-23 21:07:23,438 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:07:23,438 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:07:23,438 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:07:23,438 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:07:23,438 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:07:23,440 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:07:23,440 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:07:23,441 - DEBUG - loaded persistent cookie
+2023-12-23 21:07:23,441 - DEBUG - reusing cookie
+2023-12-23 21:07:23,444 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:07:23,594 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:07:23,595 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:07:23,595 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:07:23,595 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:07:23,597 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:07:23,849 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:07:23,849 - DEBUG - response code=200
+2023-12-23 21:07:23,849 - DEBUG -  Exiting get()
+2023-12-23 21:07:23,852 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:07:23,861 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:07:23,866 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:07:23,872 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:07:23,872 - DEBUG - Exiting history()
+2023-12-23 21:08:11,891 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:08:14,696 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:08:20,509 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:08:22,665 - INFO - [admin]: Welocime
+2023-12-23 21:08:24,527 - INFO - [admin]: Welocime
+2023-12-23 21:08:25,918 - INFO - [admin]: Welocime
+2023-12-23 21:08:29,941 - INFO - [admin]: Welocime
+2023-12-23 21:12:53,206 - INFO - [admin]: Welocime
+2023-12-23 21:13:10,182 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:13:10,314 - INFO - [admin]: Welocime
+2023-12-23 21:13:10,317 - DEBUG - Entering history()
+2023-12-23 21:13:10,321 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:13:10,322 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:13:10,557 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:13:10,557 - DEBUG -  Entering get()
+2023-12-23 21:13:10,557 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:13:10,557 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:13:10,557 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:13:10,557 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:13:10,557 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:13:10,559 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:13:10,559 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:13:10,560 - DEBUG - loaded persistent cookie
+2023-12-23 21:13:10,560 - DEBUG - reusing cookie
+2023-12-23 21:13:10,562 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:13:10,731 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:13:10,732 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:13:10,732 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:13:10,732 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:13:10,734 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:13:10,850 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:13:10,852 - DEBUG - response code=200
+2023-12-23 21:13:10,852 - DEBUG -  Exiting get()
+2023-12-23 21:13:10,855 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:13:10,862 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:13:10,866 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:13:10,873 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:13:10,873 - DEBUG - Exiting history()
+2023-12-23 21:17:47,095 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:24:55,397 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:25:32,529 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:27:17,989 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:28:24,894 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:28:58,954 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:30:27,411 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:31:04,123 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:31:55,738 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:31:57,345 - INFO - [admin]: Welocime
+2023-12-23 21:32:24,594 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:33:36,049 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:33:42,834 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:33:47,208 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:33:53,872 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:34:01,020 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:34:11,075 - INFO - [admin]: Welocime
+2023-12-23 21:34:11,076 - DEBUG - Entering history()
+2023-12-23 21:34:11,080 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:34:11,080 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:34:11,337 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-11 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:34:11,337 - DEBUG -  Entering get()
+2023-12-23 21:34:11,338 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:34:11,338 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702224000, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:34:11,338 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:34:11,338 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:34:11,338 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:34:11,340 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:34:11,341 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:34:11,342 - DEBUG - loaded persistent cookie
+2023-12-23 21:34:11,342 - DEBUG - reusing cookie
+2023-12-23 21:34:11,344 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:34:11,513 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:34:11,514 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:34:11,514 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:34:11,514 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:34:11,515 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:34:11,624 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702224000&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 765
+2023-12-23 21:34:11,624 - DEBUG - response code=200
+2023-12-23 21:34:11,629 - DEBUG -  Exiting get()
+2023-12-23 21:34:11,629 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-11 -> 2023-12-11)
+2023-12-23 21:34:11,629 - DEBUG - Exiting history()
+2023-12-23 21:35:20,493 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:35:20,536 - INFO - [admin]: Welocime
+2023-12-23 21:35:20,537 - DEBUG - Entering history()
+2023-12-23 21:35:20,539 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:35:20,540 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:35:20,793 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-11 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:35:20,793 - DEBUG -  Entering get()
+2023-12-23 21:35:20,793 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:35:20,793 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702224000, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:35:20,793 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:35:20,793 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:35:20,793 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:35:20,798 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:35:20,798 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:35:20,799 - DEBUG - loaded persistent cookie
+2023-12-23 21:35:20,799 - DEBUG - reusing cookie
+2023-12-23 21:35:20,799 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:35:21,002 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:35:21,003 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:35:21,003 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:35:21,003 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:35:21,004 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:35:21,114 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702224000&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 765
+2023-12-23 21:35:21,114 - DEBUG - response code=200
+2023-12-23 21:35:21,114 - DEBUG -  Exiting get()
+2023-12-23 21:35:21,115 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-11 -> 2023-12-11)
+2023-12-23 21:35:21,115 - DEBUG - Exiting history()
+2023-12-23 21:35:26,019 - INFO - [admin]: Welocime
+2023-12-23 21:35:26,020 - DEBUG - Entering history()
+2023-12-23 21:35:26,020 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:35:26,022 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-11 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:35:26,024 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-11 -> 2023-12-11)
+2023-12-23 21:35:26,024 - DEBUG - Exiting history()
+2023-12-23 21:36:05,841 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:36:21,891 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:37:21,436 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:37:25,110 - INFO - [admin]: Welocime
+2023-12-23 21:37:25,111 - DEBUG - Entering history()
+2023-12-23 21:37:25,116 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:37:25,116 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:37:25,351 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-11 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:37:25,351 - DEBUG -  Entering get()
+2023-12-23 21:37:25,351 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:37:25,351 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702224000, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:37:25,351 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:37:25,351 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:37:25,351 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:37:25,351 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:37:25,351 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:37:25,351 - DEBUG - loaded persistent cookie
+2023-12-23 21:37:25,351 - DEBUG - reusing cookie
+2023-12-23 21:37:25,358 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:37:25,472 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:37:25,473 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:37:25,473 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:37:25,473 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:37:25,475 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:37:25,636 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702224000&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 765
+2023-12-23 21:37:25,636 - DEBUG - response code=200
+2023-12-23 21:37:25,636 - DEBUG -  Exiting get()
+2023-12-23 21:37:25,636 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-11 -> 2023-12-11)
+2023-12-23 21:37:25,636 - DEBUG - Exiting history()
+2023-12-23 21:38:04,254 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:38:04,527 - INFO - [admin]: Welocime
+2023-12-23 21:38:04,529 - DEBUG - Entering history()
+2023-12-23 21:38:04,532 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:38:04,533 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:38:04,766 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-11 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:38:04,766 - DEBUG -  Entering get()
+2023-12-23 21:38:04,766 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:38:04,766 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702224000, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:38:04,766 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:38:04,766 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:38:04,766 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:38:04,770 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:38:04,770 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:38:04,770 - DEBUG - loaded persistent cookie
+2023-12-23 21:38:04,770 - DEBUG - reusing cookie
+2023-12-23 21:38:04,775 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:38:04,870 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:38:04,870 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:38:04,870 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:38:04,870 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:38:04,874 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:38:05,057 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702224000&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 765
+2023-12-23 21:38:05,058 - DEBUG - response code=200
+2023-12-23 21:38:05,058 - DEBUG -  Exiting get()
+2023-12-23 21:38:05,060 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-11 -> 2023-12-11)
+2023-12-23 21:38:05,060 - DEBUG - Exiting history()
+2023-12-23 21:38:07,147 - INFO - [admin]: Welocime
+2023-12-23 21:38:07,148 - DEBUG - Entering history()
+2023-12-23 21:38:07,149 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:38:07,152 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-11 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:38:07,153 - ERROR - 2330.TW: No price data found, symbol may be delisted (1m 2023-12-11 -> 2023-12-11)
+2023-12-23 21:38:07,153 - DEBUG - Exiting history()
+2023-12-23 21:38:28,443 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:38:33,334 - INFO - [admin]: Welocime
+2023-12-23 21:38:33,335 - DEBUG - Entering history()
+2023-12-23 21:38:33,335 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:38:33,335 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:38:33,624 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:38:33,624 - DEBUG -  Entering get()
+2023-12-23 21:38:33,624 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:38:33,624 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:38:33,624 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:38:33,624 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:38:33,624 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:38:33,626 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:38:33,626 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:38:33,628 - DEBUG - loaded persistent cookie
+2023-12-23 21:38:33,628 - DEBUG - reusing cookie
+2023-12-23 21:38:33,630 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:38:33,795 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:38:33,795 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:38:33,795 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:38:33,795 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:38:33,795 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:38:33,993 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:38:33,993 - DEBUG - response code=200
+2023-12-23 21:38:33,993 - DEBUG -  Exiting get()
+2023-12-23 21:38:33,996 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:38:34,005 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:38:34,009 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:38:34,015 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:38:34,015 - DEBUG - Exiting history()
+2023-12-23 21:40:17,352 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:40:18,657 - INFO - [admin]: Welocime
+2023-12-23 21:40:18,658 - DEBUG - Entering history()
+2023-12-23 21:40:18,661 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:40:18,662 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:40:18,924 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:40:18,924 - DEBUG -  Entering get()
+2023-12-23 21:40:18,927 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:40:18,927 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:40:18,927 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:40:18,927 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:40:18,927 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:40:18,930 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:40:18,932 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:40:18,932 - DEBUG - loaded persistent cookie
+2023-12-23 21:40:18,932 - DEBUG - reusing cookie
+2023-12-23 21:40:18,932 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:40:19,046 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:40:19,046 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:40:19,046 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:40:19,046 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:40:19,046 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:40:19,152 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:40:19,152 - DEBUG - response code=200
+2023-12-23 21:40:19,152 - DEBUG -  Exiting get()
+2023-12-23 21:40:19,152 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:40:19,168 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:40:19,172 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:40:19,177 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:40:19,177 - DEBUG - Exiting history()
+2023-12-23 21:41:05,434 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:41:09,790 - INFO - [admin]: Welocime
+2023-12-23 21:41:09,791 - DEBUG - Entering history()
+2023-12-23 21:41:09,791 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:41:09,795 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:41:10,045 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:41:10,045 - DEBUG -  Entering get()
+2023-12-23 21:41:10,045 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:41:10,045 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:41:10,045 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:41:10,045 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:41:10,045 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:41:10,050 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:41:10,050 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:41:10,050 - DEBUG - loaded persistent cookie
+2023-12-23 21:41:10,050 - DEBUG - reusing cookie
+2023-12-23 21:41:10,055 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:41:10,195 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:41:10,195 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:41:10,195 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:41:10,195 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:41:10,195 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:41:10,380 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:41:10,381 - DEBUG - response code=200
+2023-12-23 21:41:10,381 - DEBUG -  Exiting get()
+2023-12-23 21:41:10,383 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:41:10,392 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:41:10,395 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:41:10,400 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:41:10,400 - DEBUG - Exiting history()
+2023-12-23 21:41:33,371 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:41:33,406 - INFO - [admin]: Welocime
+2023-12-23 21:41:33,406 - DEBUG - Entering history()
+2023-12-23 21:41:33,411 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:41:33,412 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:41:33,651 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:41:33,652 - DEBUG -  Entering get()
+2023-12-23 21:41:33,652 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:41:33,652 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:41:33,652 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:41:33,652 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:41:33,652 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:41:33,653 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:41:33,655 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:41:33,655 - DEBUG - loaded persistent cookie
+2023-12-23 21:41:33,655 - DEBUG - reusing cookie
+2023-12-23 21:41:33,658 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:41:33,836 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:41:33,836 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:41:33,836 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:41:33,836 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:41:33,836 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:41:34,027 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:41:34,027 - DEBUG - response code=200
+2023-12-23 21:41:34,027 - DEBUG -  Exiting get()
+2023-12-23 21:41:34,027 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:41:34,039 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:41:34,044 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:41:34,047 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:41:34,047 - DEBUG - Exiting history()
+2023-12-23 21:41:39,567 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:41:39,614 - INFO - [admin]: Welocime
+2023-12-23 21:41:39,615 - DEBUG - Entering history()
+2023-12-23 21:41:39,618 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:41:39,619 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:41:39,907 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:41:39,908 - DEBUG -  Entering get()
+2023-12-23 21:41:39,908 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:41:39,908 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:41:39,908 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:41:39,908 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:41:39,908 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:41:39,910 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:41:39,910 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:41:39,911 - DEBUG - loaded persistent cookie
+2023-12-23 21:41:39,911 - DEBUG - reusing cookie
+2023-12-23 21:41:39,915 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:41:40,072 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:41:40,072 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:41:40,072 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:41:40,072 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:41:40,076 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:41:40,188 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 2463
+2023-12-23 21:41:40,188 - DEBUG - response code=200
+2023-12-23 21:41:40,188 - DEBUG -  Exiting get()
+2023-12-23 21:41:40,188 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:41:40,206 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:41:40,206 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:41:40,219 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:41:40,219 - DEBUG - Exiting history()
+2023-12-23 21:42:14,510 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:42:15,700 - INFO - [admin]: Welocime
+2023-12-23 21:42:15,701 - DEBUG - Entering history()
+2023-12-23 21:42:15,704 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:42:15,705 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:42:15,939 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:42:15,939 - DEBUG -  Entering get()
+2023-12-23 21:42:15,939 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:42:15,939 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:42:15,939 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:42:15,939 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:42:15,939 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:42:15,944 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:42:15,944 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:42:15,944 - DEBUG - loaded persistent cookie
+2023-12-23 21:42:15,944 - DEBUG - reusing cookie
+2023-12-23 21:42:15,950 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:42:16,120 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:42:16,120 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:42:16,120 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:42:16,121 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:42:16,122 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:42:16,294 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:42:16,294 - DEBUG - response code=200
+2023-12-23 21:42:16,294 - DEBUG -  Exiting get()
+2023-12-23 21:42:16,298 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:42:16,306 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:42:16,310 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:42:16,314 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:42:16,314 - DEBUG - Exiting history()
+2023-12-23 21:42:23,387 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:42:46,160 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:42:46,668 - INFO - [admin]: Welocime
+2023-12-23 21:42:46,670 - DEBUG - Entering history()
+2023-12-23 21:42:46,675 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:42:46,676 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:42:46,944 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:42:46,944 - DEBUG -  Entering get()
+2023-12-23 21:42:46,944 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:42:46,944 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:42:46,944 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:42:46,944 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:42:46,944 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:42:46,947 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:42:46,947 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:42:46,947 - DEBUG - loaded persistent cookie
+2023-12-23 21:42:46,947 - DEBUG - reusing cookie
+2023-12-23 21:42:46,950 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:42:47,137 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:42:47,137 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:42:47,137 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:42:47,137 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:42:47,137 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:42:47,246 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:42:47,246 - DEBUG - response code=200
+2023-12-23 21:42:47,246 - DEBUG -  Exiting get()
+2023-12-23 21:42:47,251 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:42:47,267 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:42:47,270 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:42:47,275 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:42:47,275 - DEBUG - Exiting history()
+2023-12-23 21:43:20,312 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:43:57,380 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:43:59,940 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:44:05,867 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:44:06,145 - INFO - [admin]: Welocime
+2023-12-23 21:44:06,145 - DEBUG - Entering history()
+2023-12-23 21:44:06,151 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:44:06,152 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:44:06,408 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:44:06,408 - DEBUG -  Entering get()
+2023-12-23 21:44:06,408 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:44:06,408 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:44:06,408 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:44:06,408 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:44:06,408 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:44:06,410 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:44:06,410 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:44:06,411 - DEBUG - loaded persistent cookie
+2023-12-23 21:44:06,411 - DEBUG - reusing cookie
+2023-12-23 21:44:06,415 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:44:06,583 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:44:06,583 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:44:06,583 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:44:06,583 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:44:06,585 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:44:06,756 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:44:06,756 - DEBUG - response code=200
+2023-12-23 21:44:06,756 - DEBUG -  Exiting get()
+2023-12-23 21:44:06,761 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:44:06,769 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:44:06,774 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:44:06,780 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:44:06,780 - DEBUG - Exiting history()
+2023-12-23 21:44:21,287 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:44:31,854 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:44:31,889 - INFO - [admin]: Welocime
+2023-12-23 21:44:31,889 - DEBUG - Entering history()
+2023-12-23 21:44:31,889 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:44:31,889 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:44:32,142 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:44:32,142 - DEBUG -  Entering get()
+2023-12-23 21:44:32,142 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:44:32,142 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:44:32,142 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:44:32,142 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:44:32,142 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:44:32,144 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:44:32,144 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:44:32,146 - DEBUG - loaded persistent cookie
+2023-12-23 21:44:32,146 - DEBUG - reusing cookie
+2023-12-23 21:44:32,147 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:44:32,268 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:44:32,268 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:44:32,268 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:44:32,268 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:44:32,268 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:44:32,454 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:44:32,455 - DEBUG - response code=200
+2023-12-23 21:44:32,455 - DEBUG -  Exiting get()
+2023-12-23 21:44:32,457 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:44:32,463 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:44:32,469 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:44:32,476 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:44:32,476 - DEBUG - Exiting history()
+2023-12-23 21:44:40,669 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:44:51,708 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:45:03,450 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:45:03,775 - INFO - [admin]: Welocime
+2023-12-23 21:45:03,776 - DEBUG - Entering history()
+2023-12-23 21:45:03,783 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:45:03,784 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:45:04,077 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:45:04,077 - DEBUG -  Entering get()
+2023-12-23 21:45:04,077 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:45:04,077 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:45:04,078 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:45:04,078 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:45:04,078 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:45:04,081 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:45:04,083 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:45:04,083 - DEBUG - loaded persistent cookie
+2023-12-23 21:45:04,083 - DEBUG - reusing cookie
+2023-12-23 21:45:04,087 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:45:04,195 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:45:04,196 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:45:04,196 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:45:04,196 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:45:04,200 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:45:04,307 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:45:04,307 - DEBUG - response code=200
+2023-12-23 21:45:04,307 - DEBUG -  Exiting get()
+2023-12-23 21:45:04,310 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:45:04,319 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:45:04,331 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:45:04,339 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:45:04,339 - DEBUG - Exiting history()
+2023-12-23 21:48:43,393 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:48:44,240 - INFO - [admin]: Welocime
+2023-12-23 21:48:44,242 - DEBUG - Entering history()
+2023-12-23 21:48:44,244 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:48:44,244 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:48:44,472 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:48:44,472 - DEBUG -  Entering get()
+2023-12-23 21:48:44,472 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:48:44,472 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:48:44,472 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:48:44,472 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:48:44,472 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:48:44,475 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:48:44,476 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:48:44,477 - DEBUG - loaded persistent cookie
+2023-12-23 21:48:44,477 - DEBUG - reusing cookie
+2023-12-23 21:48:44,477 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:48:44,674 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:48:44,676 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:48:44,676 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:48:44,676 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:48:44,676 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:48:44,872 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:48:44,875 - DEBUG - response code=200
+2023-12-23 21:48:44,875 - DEBUG -  Exiting get()
+2023-12-23 21:48:44,875 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:48:44,893 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:48:44,901 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:48:44,902 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:48:44,907 - DEBUG - Exiting history()
+2023-12-23 21:49:57,870 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:50:00,343 - INFO - [admin]: Welocime
+2023-12-23 21:50:00,344 - DEBUG - Entering history()
+2023-12-23 21:50:00,346 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:50:00,347 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:50:00,567 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:50:00,567 - DEBUG -  Entering get()
+2023-12-23 21:50:00,575 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:50:00,575 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:50:00,575 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:50:00,575 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:50:00,575 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:50:00,577 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:50:00,577 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:50:00,577 - DEBUG - loaded persistent cookie
+2023-12-23 21:50:00,577 - DEBUG - reusing cookie
+2023-12-23 21:50:00,577 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:50:00,688 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:50:00,689 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:50:00,689 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:50:00,689 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:50:00,690 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:50:00,994 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:50:00,994 - DEBUG - response code=200
+2023-12-23 21:50:00,994 - DEBUG -  Exiting get()
+2023-12-23 21:50:00,997 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:50:01,006 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:50:01,010 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:50:01,016 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:50:01,016 - DEBUG - Exiting history()
+2023-12-23 21:50:10,184 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:50:10,309 - INFO - [admin]: Welocime
+2023-12-23 21:50:10,310 - DEBUG - Entering history()
+2023-12-23 21:50:10,313 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:50:10,313 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:50:10,519 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:50:10,519 - DEBUG -  Entering get()
+2023-12-23 21:50:10,519 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:50:10,519 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:50:10,519 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:50:10,519 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:50:10,519 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:50:10,521 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:50:10,521 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:50:10,522 - DEBUG - loaded persistent cookie
+2023-12-23 21:50:10,522 - DEBUG - reusing cookie
+2023-12-23 21:50:10,525 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:50:10,622 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:50:10,623 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:50:10,623 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:50:10,623 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:50:10,624 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:50:10,798 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:50:10,798 - DEBUG - response code=200
+2023-12-23 21:50:10,798 - DEBUG -  Exiting get()
+2023-12-23 21:50:10,801 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:50:10,808 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:50:10,808 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:50:10,818 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:50:10,818 - DEBUG - Exiting history()
+2023-12-23 21:50:41,361 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:50:41,830 - INFO - [admin]: Welocime
+2023-12-23 21:50:41,831 - DEBUG - Entering history()
+2023-12-23 21:50:41,834 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:50:41,835 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:50:42,101 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:50:42,101 - DEBUG -  Entering get()
+2023-12-23 21:50:42,101 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:50:42,101 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:50:42,101 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:50:42,101 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:50:42,101 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:50:42,103 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:50:42,103 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:50:42,104 - DEBUG - loaded persistent cookie
+2023-12-23 21:50:42,104 - DEBUG - reusing cookie
+2023-12-23 21:50:42,106 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:50:42,213 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:50:42,213 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:50:42,213 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:50:42,213 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:50:42,220 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:50:42,389 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:50:42,389 - DEBUG - response code=200
+2023-12-23 21:50:42,389 - DEBUG -  Exiting get()
+2023-12-23 21:50:42,389 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:50:42,400 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:50:42,405 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:50:42,409 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:50:42,409 - DEBUG - Exiting history()
+2023-12-23 21:52:05,409 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:52:06,294 - INFO - [admin]: Welocime
+2023-12-23 21:52:06,295 - DEBUG - Entering history()
+2023-12-23 21:52:06,297 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:52:06,298 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:52:06,493 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:52:06,493 - DEBUG -  Entering get()
+2023-12-23 21:52:06,493 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:52:06,493 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:52:06,493 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:52:06,493 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:52:06,493 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:52:06,495 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:52:06,495 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:52:06,496 - DEBUG - loaded persistent cookie
+2023-12-23 21:52:06,496 - DEBUG - reusing cookie
+2023-12-23 21:52:06,499 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:52:06,589 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:52:06,589 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:52:06,589 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:52:06,589 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:52:06,605 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:52:06,787 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:52:06,787 - DEBUG - response code=200
+2023-12-23 21:52:06,787 - DEBUG -  Exiting get()
+2023-12-23 21:52:06,787 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:52:06,804 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:52:06,804 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:52:06,804 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:52:06,804 - DEBUG - Exiting history()
+2023-12-23 21:52:56,478 - DEBUG - Using selector: SelectSelector
+2023-12-23 21:52:59,859 - INFO - [admin]: Welocime
+2023-12-23 21:52:59,860 - DEBUG - Entering history()
+2023-12-23 21:52:59,863 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_kv" ("key" VARCHAR(255) NOT NULL PRIMARY KEY, "value" VARCHAR(255)) WITHOUT ROWID', [])
+2023-12-23 21:52:59,864 - DEBUG - ('SELECT "t1"."key", "t1"."value" FROM "_kv" AS "t1" WHERE ("t1"."key" = ?) LIMIT ? OFFSET ?', ['2330.TW', 1, 0])
+2023-12-23 21:53:00,101 - DEBUG - 2330.TW: Yahoo GET parameters: {'period1': '2023-12-11 00:00:00+08:00', 'period2': '2023-12-12 00:00:00+08:00', 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'}
+2023-12-23 21:53:00,101 - DEBUG -  Entering get()
+2023-12-23 21:53:00,101 - DEBUG - url=https://query2.finance.yahoo.com/v8/finance/chart/2330.TW
+2023-12-23 21:53:00,101 - DEBUG - params=frozendict.frozendict({'period1': 1702224000, 'period2': 1702310400, 'interval': '1m', 'includePrePost': False, 'events': 'div,splits,capitalGains'})
+2023-12-23 21:53:00,101 - DEBUG -   Entering _get_cookie_and_crumb()
+2023-12-23 21:53:00,101 - DEBUG - cookie_mode = 'basic'
+2023-12-23 21:53:00,101 - DEBUG -    Entering _get_cookie_and_crumb_basic()
+2023-12-23 21:53:00,101 - DEBUG - ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+2023-12-23 21:53:00,101 - DEBUG - ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+2023-12-23 21:53:00,101 - DEBUG - loaded persistent cookie
+2023-12-23 21:53:00,101 - DEBUG - reusing cookie
+2023-12-23 21:53:00,101 - DEBUG - Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2023-12-23 21:53:00,285 - DEBUG - https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/1.1" 200 None
+2023-12-23 21:53:00,286 - DEBUG - crumb = '87KXeVqr5G7'
+2023-12-23 21:53:00,286 - DEBUG -    Exiting _get_cookie_and_crumb_basic()
+2023-12-23 21:53:00,286 - DEBUG -   Exiting _get_cookie_and_crumb()
+2023-12-23 21:53:00,286 - DEBUG - Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+2023-12-23 21:53:00,486 - DEBUG - https://query2.finance.yahoo.com:443 "GET /v8/finance/chart/2330.TW?period1=1702224000&period2=1702310400&interval=1m&includePrePost=False&events=div%2Csplits%2CcapitalGains&crumb=87KXeVqr5G7 HTTP/1.1" 200 None
+2023-12-23 21:53:00,486 - DEBUG - response code=200
+2023-12-23 21:53:00,486 - DEBUG -  Exiting get()
+2023-12-23 21:53:00,486 - DEBUG - 2330.TW: yfinance received OHLC data: 2023-12-11 01:00:00 -> 2023-12-11 05:29:00
+2023-12-23 21:53:00,486 - DEBUG - 2330.TW: OHLC after cleaning: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:53:00,486 - DEBUG - 2330.TW: OHLC after combining events: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:29:00+08:00
+2023-12-23 21:53:00,502 - DEBUG - 2330.TW: yfinance returning OHLC: 2023-12-11 09:00:00+08:00 -> 2023-12-11 13:25:00+08:00
+2023-12-23 21:53:00,502 - DEBUG - Exiting history()
