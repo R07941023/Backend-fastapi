@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, Header
-from src.main.python.scheme.dataLoader import GetUserID
+from src.main.python.scheme.dataLoader import *
 from src.main.python.errorHandle.handler import registerUID, handle_exceptions
+from src.main.python.dataLoader.minIO import *
 import logging
 
 # build the logger
@@ -21,4 +22,21 @@ def read_user(item: GetUserID, uid: str = Depends(get_uid)):
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
     res = {'statusCode': 200, "data": item, "info": 'welcome'}
+    return res
+
+
+@appTest.post("/get/data/minIO/objKeys")
+@handle_exceptions
+def getDataMinIOObjKeys(item: GetDataMinIOObjKeys, uid: str = Depends(get_uid)): 
+    logging.info(f'[{uid}]: Welocime')
+    item = registerUID(item, uid)
+    res = findListFromMinIO(item)
+    return res
+
+@appTest.post("/get/data/minIO/obj")
+@handle_exceptions
+def getDataMinIOObj(item: GetDataMinIOObj, uid: str = Depends(get_uid)): 
+    logging.info(f'[{uid}]: Welocime')
+    item = registerUID(item, uid)
+    res = downloadObjFromMinIO(item)
     return res

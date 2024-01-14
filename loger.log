@@ -68,3 +68,600 @@
 2023-12-24 02:23:55,733 - DEBUG - Using selector: SelectSelector
 2023-12-24 02:24:16,973 - DEBUG - Using selector: SelectSelector
 2023-12-24 02:24:32,054 - DEBUG - Using selector: SelectSelector
+2024-01-15 00:30:51,420 - DEBUG - Using selector: SelectSelector
+2024-01-15 00:35:54,063 - DEBUG - Using selector: SelectSelector
+2024-01-15 00:36:29,994 - INFO - [admin]: Welocime
+2024-01-15 00:36:29,995 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-15 00:36:29,997 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-15 00:36:29,999 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-15 00:36:30,002 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-15 00:36:30,002 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-15 00:36:30,003 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-15 00:36:30,004 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-15 00:36:30,007 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-15 00:36:30,007 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-15 00:36:30,007 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-15 00:36:30,007 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-15 00:36:30,011 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-15 00:36:30,027 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-15 00:36:30,027 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000283A7D52E50>
+2024-01-15 00:36:30,147 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-15 00:36:30,276 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-15 00:36:30,280 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-15 00:36:30,282 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x00000283A7CC3B80>
+2024-01-15 00:36:30,283 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x00000283B845E1F0>
+2024-01-15 00:36:30,314 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x00000283A7CC3940>
+2024-01-15 00:36:30,369 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-15 00:36:30,374 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-15 00:36:30,374 - DEBUG - Registering retry handlers for service: s3
+2024-01-15 00:36:30,375 - DEBUG - Registering S3 region redirector handler
+2024-01-15 00:36:30,375 - DEBUG - Registering S3Express Identity Resolver
+2024-01-15 00:36:30,376 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x00000283A7D738B0>
+2024-01-15 00:36:30,376 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x00000283A7D665E0>
+2024-01-15 00:36:30,376 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000283A7D74430>
+2024-01-15 00:36:30,376 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000283B8EE2E20>>
+2024-01-15 00:36:30,376 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000283B8EE2DF0>>
+2024-01-15 00:36:30,376 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x00000283A7D66430>
+2024-01-15 00:36:30,376 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000283A7D745E0>
+2024-01-15 00:36:30,376 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000283B8EE2E20>>
+2024-01-15 00:36:30,376 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 00:36:30,377 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 00:36:30,377 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 00:36:30,377 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 00:36:30,378 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x00000283A7D66940>
+2024-01-15 00:36:30,378 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000283B8EE2DF0>>
+2024-01-15 00:36:30,378 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x00000283A7D660D0>
+2024-01-15 00:36:30,378 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x00000283A7D73CA0>
+2024-01-15 00:36:30,378 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x00000283B8BE6B50>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 00:36:30,378 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000283B8BE6C10>>
+2024-01-15 00:36:30,379 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000283B84725E0>>
+2024-01-15 00:36:30,379 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x00000283A7D66310>
+2024-01-15 00:36:30,379 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x00000283A7D74550>
+2024-01-15 00:36:30,379 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000283B8EE2DF0>>
+2024-01-15 00:36:30,379 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 00:36:30,379 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240114T163630Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 00:36:30,379 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240114T163630Z
+20240114/us-east-1/s3/aws4_request
+4c07f9611f9e1e1b5d22c1b1c19a9b43badd4e5d3b29a6f9524f5ccd2e0511f6
+2024-01-15 00:36:30,380 - DEBUG - Signature:
+282bfb18461b113aacc4f27f3653f8d157093e418a9b90d324fa22399a38c119
+2024-01-15 00:36:30,380 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x00000283A7D743A0>
+2024-01-15 00:36:30,380 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240114T163630Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240114/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=282bfb18461b113aacc4f27f3653f8d157093e418a9b90d324fa22399a38c119', 'amz-sdk-invocation-id': b'3c85338d-167e-43b7-863a-2612b983b3e5', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 00:36:30,380 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-15 00:36:30,398 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 584
+2024-01-15 00:36:30,398 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '584', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA44036AEA9F5A', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 14 Jan 2024 16:36:30 GMT'}
+2024-01-15 00:36:30,398 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>test.txt</Key><LastModified>2024-01-11T15:44:30.772Z</LastModified><ETag>&#34;ee90faa12f3ea46ccdfbbb4510706016&#34;</ETag><Size>267</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-15 00:36:30,399 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x00000283B8EE2D60>
+2024-01-15 00:36:30,399 - DEBUG - No retry needed.
+2024-01-15 00:36:30,399 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000283B8EE2E20>>
+2024-01-15 00:36:30,400 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x00000283A7D73940>
+2024-01-15 00:37:48,845 - DEBUG - Using selector: SelectSelector
+2024-01-15 00:37:55,305 - DEBUG - Using selector: SelectSelector
+2024-01-15 00:39:51,454 - DEBUG - Using selector: SelectSelector
+2024-01-15 00:39:51,514 - INFO - [admin]: Welocime
+2024-01-15 00:39:51,515 - INFO - [admin]: Build the conn for MinIO
+2024-01-15 00:39:51,516 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-15 00:39:51,518 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-15 00:39:51,519 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-15 00:39:51,520 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-15 00:39:51,520 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-15 00:39:51,521 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-15 00:39:51,522 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-15 00:39:51,524 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-15 00:39:51,524 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-15 00:39:51,525 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-15 00:39:51,525 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-15 00:39:51,529 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-15 00:39:51,548 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-15 00:39:51,548 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001B237C32E50>
+2024-01-15 00:39:51,636 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-15 00:39:51,719 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-15 00:39:51,724 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-15 00:39:51,726 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001B237BA2B80>
+2024-01-15 00:39:51,726 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001B24833E430>
+2024-01-15 00:39:51,747 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001B237BA2940>
+2024-01-15 00:39:51,752 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-15 00:39:51,810 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-15 00:39:51,810 - DEBUG - Registering retry handlers for service: s3
+2024-01-15 00:39:51,810 - DEBUG - Registering S3 region redirector handler
+2024-01-15 00:39:51,811 - DEBUG - Registering S3Express Identity Resolver
+2024-01-15 00:39:51,812 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000001B237C548B0>
+2024-01-15 00:39:51,812 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000001B237C4D5E0>
+2024-01-15 00:39:51,812 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001B237C55430>
+2024-01-15 00:39:51,812 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B248DADA90>>
+2024-01-15 00:39:51,812 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B248DADA60>>
+2024-01-15 00:39:51,812 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000001B237C4D430>
+2024-01-15 00:39:51,812 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001B237C555E0>
+2024-01-15 00:39:51,812 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B248DADA90>>
+2024-01-15 00:39:51,813 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 00:39:51,814 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 00:39:51,814 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 00:39:51,814 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 00:39:51,814 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000001B237C4D940>
+2024-01-15 00:39:51,814 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B248DADA60>>
+2024-01-15 00:39:51,814 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000001B237C4D0D0>
+2024-01-15 00:39:51,814 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000001B237C54CA0>
+2024-01-15 00:39:51,814 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001B248AB3B20>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 00:39:51,815 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001B248AB3760>>
+2024-01-15 00:39:51,815 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001B248341A90>>
+2024-01-15 00:39:51,815 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000001B237C4D310>
+2024-01-15 00:39:51,815 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000001B237C55550>
+2024-01-15 00:39:51,815 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B248DADA60>>
+2024-01-15 00:39:51,816 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 00:39:51,816 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240114T163951Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 00:39:51,816 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240114T163951Z
+20240114/us-east-1/s3/aws4_request
+e9c99f1e674a0b589590f109c10e74ad022704c162580d99e6c30282c9cd11ef
+2024-01-15 00:39:51,816 - DEBUG - Signature:
+ada7035142458f644d0a325d65ae37c6ba1c7374f86a85568e1efbece15cd82c
+2024-01-15 00:39:51,816 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000001B237C553A0>
+2024-01-15 00:39:51,816 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240114T163951Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240114/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=ada7035142458f644d0a325d65ae37c6ba1c7374f86a85568e1efbece15cd82c', 'amz-sdk-invocation-id': b'a7f8dbdf-4146-456f-8247-e63467d2c9b9', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 00:39:51,817 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-15 00:39:51,841 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 584
+2024-01-15 00:39:51,842 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '584', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA44325232D388', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 14 Jan 2024 16:39:51 GMT'}
+2024-01-15 00:39:51,842 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>test.txt</Key><LastModified>2024-01-11T15:44:30.772Z</LastModified><ETag>&#34;ee90faa12f3ea46ccdfbbb4510706016&#34;</ETag><Size>267</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-15 00:39:51,843 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000001B248DAD9D0>
+2024-01-15 00:39:51,844 - DEBUG - No retry needed.
+2024-01-15 00:39:51,844 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B248DADA90>>
+2024-01-15 00:39:51,844 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000001B237C54940>
+2024-01-15 01:33:48,842 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:34:48,780 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:34:56,836 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:38:37,582 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:38:43,392 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:38:53,820 - INFO - [admin]: Welocime
+2024-01-15 01:38:53,821 - INFO - [admin]: Build the conn for MinIO
+2024-01-15 01:38:53,822 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-15 01:38:53,824 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-15 01:38:53,825 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-15 01:38:53,826 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-15 01:38:53,826 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-15 01:38:53,827 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-15 01:38:53,827 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-15 01:38:53,829 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-15 01:38:53,829 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-15 01:38:53,829 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-15 01:38:53,830 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-15 01:38:53,834 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-15 01:38:53,847 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-15 01:38:53,848 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001D4FA2D3430>
+2024-01-15 01:38:53,934 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-15 01:38:54,022 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-15 01:38:54,025 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-15 01:38:54,028 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001D4FA243160>
+2024-01-15 01:38:54,028 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001D48AB21790>
+2024-01-15 01:38:54,053 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001D4FA23BEE0>
+2024-01-15 01:38:54,056 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-15 01:38:54,107 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-15 01:38:54,108 - DEBUG - Registering retry handlers for service: s3
+2024-01-15 01:38:54,108 - DEBUG - Registering S3 region redirector handler
+2024-01-15 01:38:54,108 - DEBUG - Registering S3Express Identity Resolver
+2024-01-15 01:38:54,109 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000001D4FA2F2E50>
+2024-01-15 01:38:54,109 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000001D4FA2EEB80>
+2024-01-15 01:38:54,109 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001D4FA2F49D0>
+2024-01-15 01:38:54,109 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001D48B5B05B0>>
+2024-01-15 01:38:54,109 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001D48B5B0580>>
+2024-01-15 01:38:54,109 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000001D4FA2EE9D0>
+2024-01-15 01:38:54,109 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001D4FA2F4B80>
+2024-01-15 01:38:54,109 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001D48B5B05B0>>
+2024-01-15 01:38:54,109 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 01:38:54,110 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 01:38:54,110 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 01:38:54,110 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 01:38:54,110 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000001D4FA2EEEE0>
+2024-01-15 01:38:54,110 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001D48B5B0580>>
+2024-01-15 01:38:54,111 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000001D4FA2EE670>
+2024-01-15 01:38:54,111 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000001D4FA2F4280>
+2024-01-15 01:38:54,111 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001D48B2AC640>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 01:38:54,111 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001D48B2AC280>>
+2024-01-15 01:38:54,111 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001D48AB375B0>>
+2024-01-15 01:38:54,111 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000001D4FA2EE8B0>
+2024-01-15 01:38:54,111 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000001D4FA2F4AF0>
+2024-01-15 01:38:54,112 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001D48B5B0580>>
+2024-01-15 01:38:54,112 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 01:38:54,112 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240114T173854Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 01:38:54,112 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240114T173854Z
+20240114/us-east-1/s3/aws4_request
+f4d4b330ba780c84ebc570fa88da22652be4c4f17221139f5ae04c883e76d450
+2024-01-15 01:38:54,112 - DEBUG - Signature:
+40bf5c9cdf49bf668f11162f3e76e76db561c703fb30050b515a19528856e072
+2024-01-15 01:38:54,112 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000001D4FA2F4940>
+2024-01-15 01:38:54,112 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240114T173854Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240114/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=40bf5c9cdf49bf668f11162f3e76e76db561c703fb30050b515a19528856e072', 'amz-sdk-invocation-id': b'b99ed767-dc8e-4ea5-9258-5d2c130b4251', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 01:38:54,113 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-15 01:38:54,134 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 584
+2024-01-15 01:38:54,136 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '584', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA476B12D8DE9B', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 14 Jan 2024 17:38:54 GMT'}
+2024-01-15 01:38:54,136 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>test.txt</Key><LastModified>2024-01-11T15:44:30.772Z</LastModified><ETag>&#34;ee90faa12f3ea46ccdfbbb4510706016&#34;</ETag><Size>267</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-15 01:38:54,137 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000001D48B5B04F0>
+2024-01-15 01:38:54,137 - DEBUG - No retry needed.
+2024-01-15 01:38:54,137 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001D48B5B05B0>>
+2024-01-15 01:38:54,137 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000001D4FA2F2EE0>
+2024-01-15 01:39:13,947 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:39:34,689 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:39:37,569 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:39:40,565 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:39:47,948 - INFO - [admin]: Welocime
+2024-01-15 01:39:47,949 - INFO - [admin]: Build the conn for MinIO
+2024-01-15 01:39:47,949 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-15 01:39:47,952 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-15 01:39:47,953 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-15 01:39:47,955 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-15 01:39:47,955 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-15 01:39:47,956 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-15 01:39:47,956 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-15 01:39:47,959 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-15 01:39:47,959 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-15 01:39:47,959 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-15 01:39:47,959 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-15 01:39:47,962 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-15 01:39:47,979 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-15 01:39:47,980 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000023B3C8C44C0>
+2024-01-15 01:39:48,058 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-15 01:39:48,139 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-15 01:39:48,142 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-15 01:39:48,144 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000023B3C8311F0>
+2024-01-15 01:39:48,144 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000023B4CFC2820>
+2024-01-15 01:39:48,168 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000023B3C82BF70>
+2024-01-15 01:39:48,171 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-15 01:39:48,216 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-15 01:39:48,216 - DEBUG - Registering retry handlers for service: s3
+2024-01-15 01:39:48,217 - DEBUG - Registering S3 region redirector handler
+2024-01-15 01:39:48,217 - DEBUG - Registering S3Express Identity Resolver
+2024-01-15 01:39:48,218 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x0000023B3C8E2EE0>
+2024-01-15 01:39:48,218 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x0000023B3C8DEC10>
+2024-01-15 01:39:48,218 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x0000023B3C8E4A60>
+2024-01-15 01:39:48,218 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000023B4DA51580>>
+2024-01-15 01:39:48,218 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000023B4DA51550>>
+2024-01-15 01:39:48,218 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x0000023B3C8DEA60>
+2024-01-15 01:39:48,218 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x0000023B3C8E4C10>
+2024-01-15 01:39:48,218 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000023B4DA51580>>
+2024-01-15 01:39:48,219 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 01:39:48,219 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 01:39:48,219 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 01:39:48,219 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 01:39:48,220 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x0000023B3C8DEF70>
+2024-01-15 01:39:48,220 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000023B4DA51550>>
+2024-01-15 01:39:48,220 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x0000023B3C8DE700>
+2024-01-15 01:39:48,220 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x0000023B3C8E4310>
+2024-01-15 01:39:48,220 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000023B4D74B610>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 01:39:48,220 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000023B4D74B250>>
+2024-01-15 01:39:48,220 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000023B4CFD6580>>
+2024-01-15 01:39:48,220 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x0000023B3C8DE940>
+2024-01-15 01:39:48,220 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x0000023B3C8E4B80>
+2024-01-15 01:39:48,221 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000023B4DA51550>>
+2024-01-15 01:39:48,221 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 01:39:48,221 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240114T173948Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 01:39:48,221 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240114T173948Z
+20240114/us-east-1/s3/aws4_request
+880caa35038e0e01a69cf9909257681e29681de20e1dfe64fe26a43f8f6ec93a
+2024-01-15 01:39:48,221 - DEBUG - Signature:
+7b0259dff7ee8a58503ba6020c8296efa0b849c309df6d7d5cdabfb8e2e1e8a6
+2024-01-15 01:39:48,221 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x0000023B3C8E49D0>
+2024-01-15 01:39:48,221 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240114T173948Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240114/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=7b0259dff7ee8a58503ba6020c8296efa0b849c309df6d7d5cdabfb8e2e1e8a6', 'amz-sdk-invocation-id': b'1ae49905-fffc-443a-9028-c94ba19a3477', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 01:39:48,222 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-15 01:39:48,242 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 403 397
+2024-01-15 01:39:48,242 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '397', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA4777ACEE4202', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 14 Jan 2024 17:39:48 GMT'}
+2024-01-15 01:39:48,242 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>SignatureDoesNotMatch</Code><Message>The request signature we calculated does not match the signature you provided. Check your key and signing method.</Message><BucketName>yylui</BucketName><Resource>/yylui</Resource><RequestId>17AA4777ACEE4202</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>'
+2024-01-15 01:39:48,244 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x0000023B4DA514C0>
+2024-01-15 01:39:48,244 - DEBUG - No retry needed.
+2024-01-15 01:39:48,244 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000023B4DA51580>>
+2024-01-15 01:39:48,244 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x0000023B3C8E2F70>
+2024-01-15 01:39:56,609 - INFO - [admin]: Welocime
+2024-01-15 01:39:56,609 - INFO - [admin]: Build the conn for MinIO
+2024-01-15 01:39:56,610 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000023B3C8C44C0>
+2024-01-15 01:39:56,611 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000023B3C8311F0>
+2024-01-15 01:39:56,611 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000023B4CFC2820>
+2024-01-15 01:39:56,611 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000023B3C82BF70>
+2024-01-15 01:39:56,613 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-15 01:39:56,616 - DEBUG - Registering retry handlers for service: s3
+2024-01-15 01:39:56,616 - DEBUG - Registering S3 region redirector handler
+2024-01-15 01:39:56,616 - DEBUG - Registering S3Express Identity Resolver
+2024-01-15 01:39:56,617 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x0000023B3C8E2EE0>
+2024-01-15 01:39:56,617 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x0000023B3C8DEC10>
+2024-01-15 01:39:56,617 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x0000023B3C8E4A60>
+2024-01-15 01:39:56,617 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000023B4DB1E340>>
+2024-01-15 01:39:56,617 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000023B4DB1E310>>
+2024-01-15 01:39:56,617 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x0000023B3C8DEA60>
+2024-01-15 01:39:56,618 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x0000023B3C8E4C10>
+2024-01-15 01:39:56,618 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000023B4DB1E340>>
+2024-01-15 01:39:56,618 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 01:39:56,618 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 01:39:56,618 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 01:39:56,619 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 01:39:56,619 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x0000023B3C8DEF70>
+2024-01-15 01:39:56,619 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000023B4DB1E310>>
+2024-01-15 01:39:56,619 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x0000023B3C8DE700>
+2024-01-15 01:39:56,619 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x0000023B3C8E4310>
+2024-01-15 01:39:56,619 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000023B4DAE6CD0>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 01:39:56,620 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000023B4DAE6C40>>
+2024-01-15 01:39:56,620 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000023B4DA84DF0>>
+2024-01-15 01:39:56,620 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x0000023B3C8DE940>
+2024-01-15 01:39:56,620 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x0000023B3C8E4B80>
+2024-01-15 01:39:56,620 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000023B4DB1E310>>
+2024-01-15 01:39:56,621 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 01:39:56,621 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240114T173956Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 01:39:56,621 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240114T173956Z
+20240114/us-east-1/s3/aws4_request
+8af476506a702ce6a3d7655f294254d37c8ae85b7561e5acbc251324f15beca6
+2024-01-15 01:39:56,621 - DEBUG - Signature:
+f741672388ce6bbf17233ef49f033db696415058f84cf350e9cbd16cf7c4cd02
+2024-01-15 01:39:56,622 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x0000023B3C8E49D0>
+2024-01-15 01:39:56,622 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240114T173956Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240114/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=f741672388ce6bbf17233ef49f033db696415058f84cf350e9cbd16cf7c4cd02', 'amz-sdk-invocation-id': b'2ce5024d-186a-45b0-ab3c-f786f13178a8', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 01:39:56,623 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-15 01:39:56,650 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 584
+2024-01-15 01:39:56,651 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '584', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA4779A16426D2', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 14 Jan 2024 17:39:56 GMT'}
+2024-01-15 01:39:56,651 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>test.txt</Key><LastModified>2024-01-11T15:44:30.772Z</LastModified><ETag>&#34;ee90faa12f3ea46ccdfbbb4510706016&#34;</ETag><Size>267</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-15 01:39:56,651 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x0000023B4DB1E280>
+2024-01-15 01:39:56,652 - DEBUG - No retry needed.
+2024-01-15 01:39:56,652 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000023B4DB1E340>>
+2024-01-15 01:39:56,652 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x0000023B3C8E2F70>
+2024-01-15 01:40:37,314 - DEBUG - Using selector: SelectSelector
+2024-01-15 01:40:48,515 - INFO - [admin]: Welocime
+2024-01-15 01:40:48,515 - INFO - [admin]: Build the conn for MinIO
+2024-01-15 01:40:48,517 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-15 01:40:48,521 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-15 01:40:48,522 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-15 01:40:48,525 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-15 01:40:48,525 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-15 01:40:48,525 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-15 01:40:48,527 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-15 01:40:48,529 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-15 01:40:48,529 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-15 01:40:48,529 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-15 01:40:48,530 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-15 01:40:48,535 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-15 01:40:48,557 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-15 01:40:48,558 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001F3A74744C0>
+2024-01-15 01:40:48,656 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-15 01:40:48,743 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-15 01:40:48,747 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-15 01:40:48,749 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001F3A73E11F0>
+2024-01-15 01:40:48,749 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001F3B7B92D30>
+2024-01-15 01:40:48,767 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001F3A73DBF70>
+2024-01-15 01:40:48,807 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-15 01:40:48,811 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-15 01:40:48,811 - DEBUG - Registering retry handlers for service: s3
+2024-01-15 01:40:48,812 - DEBUG - Registering S3 region redirector handler
+2024-01-15 01:40:48,812 - DEBUG - Registering S3Express Identity Resolver
+2024-01-15 01:40:48,812 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2024-01-15 01:40:48,812 - DEBUG - Using default client. pid: 14424, thread: 14884
+2024-01-15 01:40:48,813 - DEBUG - Acquiring 0
+2024-01-15 01:40:48,813 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001F3B8625430>}) about to wait for the following futures []
+2024-01-15 01:40:48,813 - DEBUG - DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001F3B8625430>}) done waiting for dependent futures
+2024-01-15 01:40:48,813 - DEBUG - Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001F3B8625430>}) with kwargs {'client': <botocore.client.S3 object at 0x000001F3B831D130>, 'config': <boto3.s3.transfer.TransferConfig object at 0x000001F3B831D4F0>, 'osutil': <s3transfer.utils.OSUtils object at 0x000001F3B8621520>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x000001F3B8621760>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001F3B8625430>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x000001F3B8621820>}
+2024-01-15 01:40:48,814 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x000001F3A748ECA0>
+2024-01-15 01:40:48,814 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x000001F3A748EC10>
+2024-01-15 01:40:48,814 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001F3A7494A60>
+2024-01-15 01:40:48,814 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86213D0>>
+2024-01-15 01:40:48,814 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86213A0>>
+2024-01-15 01:40:48,814 - DEBUG - Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x000001F3A748EA60>
+2024-01-15 01:40:48,814 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001F3A7494C10>
+2024-01-15 01:40:48,815 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86213D0>>
+2024-01-15 01:40:48,815 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'test.txt', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 01:40:48,816 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 01:40:48,816 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 01:40:48,816 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 01:40:48,816 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x000001F3A748EF70>
+2024-01-15 01:40:48,816 - DEBUG - Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86213A0>>
+2024-01-15 01:40:48,816 - DEBUG - Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x000001F3A748E700>
+2024-01-15 01:40:48,816 - DEBUG - Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x000001F3A7494310>
+2024-01-15 01:40:48,817 - DEBUG - Making request for OperationModel(name=HeadObject) with params: {'url_path': '/test.txt', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/test.txt', 'url': 'http://127.0.0.1:9000/yylui/test.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001F3A36FAEB0>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'Key': 'test.txt'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 01:40:48,817 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x000001F3B839F040>
+2024-01-15 01:40:48,817 - DEBUG - Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001F3A36FA9D0>>
+2024-01-15 01:40:48,817 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001F3B7B7D400>>
+2024-01-15 01:40:48,817 - DEBUG - Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x000001F3A748E940>
+2024-01-15 01:40:48,817 - DEBUG - Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x000001F3A7494B80>
+2024-01-15 01:40:48,817 - DEBUG - Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86213A0>>
+2024-01-15 01:40:48,818 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 01:40:48,818 - DEBUG - CanonicalRequest:
+HEAD
+/yylui/test.txt
+
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240114T174048Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 01:40:48,818 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240114T174048Z
+20240114/us-east-1/s3/aws4_request
+a443d0eaf27304aa2ffbae374a4d496ed07cc40d74a185c249ddb88f6c3d6bef
+2024-01-15 01:40:48,818 - DEBUG - Signature:
+75b74241fe9e610a585d581b4fae3423813fe027aead9ca179a4d5da9fa73ffa
+2024-01-15 01:40:48,818 - DEBUG - Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x000001F3B839F0D0>
+2024-01-15 01:40:48,818 - DEBUG - Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x000001F3A74949D0>
+2024-01-15 01:40:48,818 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://127.0.0.1:9000/yylui/test.txt, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240114T174048Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240114/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=75b74241fe9e610a585d581b4fae3423813fe027aead9ca179a4d5da9fa73ffa', 'amz-sdk-invocation-id': b'a9651c0a-d0cb-4a13-92f2-2560dafae406', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 01:40:48,819 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-15 01:40:48,843 - DEBUG - http://127.0.0.1:9000 "HEAD /yylui/test.txt HTTP/1.1" 200 0
+2024-01-15 01:40:48,844 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '267', 'Content-Type': 'text/plain', 'ETag': '"ee90faa12f3ea46ccdfbbb4510706016"', 'Last-Modified': 'Thu, 11 Jan 2024 15:44:30 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA4785C8D578E7', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 14 Jan 2024 17:40:48 GMT'}
+2024-01-15 01:40:48,844 - DEBUG - Response body:
+b''
+2024-01-15 01:40:48,845 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001F3B8621310>
+2024-01-15 01:40:48,845 - DEBUG - No retry needed.
+2024-01-15 01:40:48,845 - DEBUG - Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86213D0>>
+2024-01-15 01:40:48,845 - DEBUG - Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'yylui', 'key': 'test.txt', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x000001F3B8621760> for transfer request: 0.
+2024-01-15 01:40:48,845 - DEBUG - Acquiring 0
+2024-01-15 01:40:48,845 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'yylui', 'key': 'test.txt', 'extra_args': {}}) about to wait for the following futures []
+2024-01-15 01:40:48,845 - DEBUG - ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'yylui', 'key': 'test.txt', 'extra_args': {}}) done waiting for dependent futures
+2024-01-15 01:40:48,846 - DEBUG - Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'yylui', 'key': 'test.txt', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x000001F3B831D130>, 'bucket': 'yylui', 'key': 'test.txt', 'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000001F3B864BAF0>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadFilenameOutputManager object at 0x000001F3B86258E0>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+2024-01-15 01:40:48,846 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001F3A748ECA0>
+2024-01-15 01:40:48,846 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001F3A748EC10>
+2024-01-15 01:40:48,846 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001F3A7494A60>
+2024-01-15 01:40:48,846 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86213D0>>
+2024-01-15 01:40:48,846 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86213A0>>
+2024-01-15 01:40:48,846 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001F3A748EA60>
+2024-01-15 01:40:48,846 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001F3A7494C10>
+2024-01-15 01:40:48,846 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86213D0>>
+2024-01-15 01:40:48,847 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'test.txt', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 01:40:48,847 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 01:40:48,847 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 01:40:48,847 - DEBUG - Releasing acquire 0/None
+2024-01-15 01:40:48,847 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 01:40:48,847 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000001F3A748EF70>
+2024-01-15 01:40:48,847 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86213A0>>
+2024-01-15 01:40:48,847 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x000001F3A748E700>
+2024-01-15 01:40:48,847 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000001F3A7494310>
+2024-01-15 01:40:48,847 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/test.txt', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/test.txt', 'url': 'http://127.0.0.1:9000/yylui/test.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001F3A36FAEB0>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'Key': 'test.txt'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 01:40:48,848 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x000001F3B839F040>
+2024-01-15 01:40:48,848 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001F3A36FA9D0>>
+2024-01-15 01:40:48,848 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001F3B7B7D400>>
+2024-01-15 01:40:48,848 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000001F3A748E940>
+2024-01-15 01:40:48,848 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x000001F3A7494B80>
+2024-01-15 01:40:48,848 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86213A0>>
+2024-01-15 01:40:48,849 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 01:40:48,849 - DEBUG - CanonicalRequest:
+GET
+/yylui/test.txt
+
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240114T174048Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 01:40:48,849 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240114T174048Z
+20240114/us-east-1/s3/aws4_request
+f90b11775f58d6ddeb1807fa7aa83d5e57c47706ebed68c13383dfd32439afb5
+2024-01-15 01:40:48,849 - DEBUG - Signature:
+7a8e8e4c8a81e6bd08a498e2c08623f8e34a92c2cc6c1bca233617102e4b60bb
+2024-01-15 01:40:48,849 - DEBUG - Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x000001F3B839F0D0>
+2024-01-15 01:40:48,849 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x000001F3A74949D0>
+2024-01-15 01:40:48,849 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://127.0.0.1:9000/yylui/test.txt, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240114T174048Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240114/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=7a8e8e4c8a81e6bd08a498e2c08623f8e34a92c2cc6c1bca233617102e4b60bb', 'amz-sdk-invocation-id': b'ed1ad3da-0fac-438e-9cd0-b3516458fd80', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 01:40:48,857 - DEBUG - http://127.0.0.1:9000 "GET /yylui/test.txt HTTP/1.1" 200 267
+2024-01-15 01:40:48,858 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '267', 'Content-Type': 'text/plain', 'ETag': '"ee90faa12f3ea46ccdfbbb4510706016"', 'Last-Modified': 'Thu, 11 Jan 2024 15:44:30 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA4785C99DEA47', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 14 Jan 2024 17:40:48 GMT'}
+2024-01-15 01:40:48,858 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x000001F3B869C0D0>
+2024-01-15 01:40:48,858 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001F3B8621310>
+2024-01-15 01:40:48,858 - DEBUG - No retry needed.
+2024-01-15 01:40:48,859 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86213D0>>
+2024-01-15 01:40:48,859 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+2024-01-15 01:40:48,859 - DEBUG - IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+2024-01-15 01:40:48,859 - DEBUG - Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000001F3B864BAF0>, 'offset': 0}
+2024-01-15 01:40:48,859 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': './test.txt'}) about to wait for the following futures []
+2024-01-15 01:40:48,859 - DEBUG - IORenameFileTask(transfer_id=0, {'final_filename': './test.txt'}) done waiting for dependent futures
+2024-01-15 01:40:48,860 - DEBUG - Executing task IORenameFileTask(transfer_id=0, {'final_filename': './test.txt'}) with kwargs {'fileobj': <s3transfer.utils.DeferredOpenFile object at 0x000001F3B864BAF0>, 'final_filename': './test.txt', 'osutil': <s3transfer.utils.OSUtils object at 0x000001F3B8621520>}
+2024-01-15 01:40:48,860 - DEBUG - Releasing acquire 0/None
+2024-01-15 01:41:44,110 - INFO - [admin]: Welocime
+2024-01-15 01:41:44,111 - INFO - [admin]: Build the conn for MinIO
+2024-01-15 01:41:44,111 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001F3A74744C0>
+2024-01-15 01:41:44,112 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001F3A73E11F0>
+2024-01-15 01:41:44,113 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001F3B7B92D30>
+2024-01-15 01:41:44,113 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001F3A73DBF70>
+2024-01-15 01:41:44,115 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-15 01:41:44,118 - DEBUG - Registering retry handlers for service: s3
+2024-01-15 01:41:44,118 - DEBUG - Registering S3 region redirector handler
+2024-01-15 01:41:44,119 - DEBUG - Registering S3Express Identity Resolver
+2024-01-15 01:41:44,120 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000001F3A7492EE0>
+2024-01-15 01:41:44,120 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000001F3A748EC10>
+2024-01-15 01:41:44,120 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001F3A7494A60>
+2024-01-15 01:41:44,120 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86C40D0>>
+2024-01-15 01:41:44,120 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86C40A0>>
+2024-01-15 01:41:44,120 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000001F3A748EA60>
+2024-01-15 01:41:44,120 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001F3A7494C10>
+2024-01-15 01:41:44,120 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86C40D0>>
+2024-01-15 01:41:44,120 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 01:41:44,121 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 01:41:44,121 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 01:41:44,121 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 01:41:44,121 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000001F3A748EF70>
+2024-01-15 01:41:44,122 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86C40A0>>
+2024-01-15 01:41:44,122 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000001F3A748E700>
+2024-01-15 01:41:44,122 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000001F3A7494310>
+2024-01-15 01:41:44,122 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001F3B83EDA60>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 01:41:44,122 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001F3B83ED9D0>>
+2024-01-15 01:41:44,123 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001F3B8411040>>
+2024-01-15 01:41:44,123 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000001F3A748E940>
+2024-01-15 01:41:44,123 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000001F3A7494B80>
+2024-01-15 01:41:44,123 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001F3B86C40A0>>
+2024-01-15 01:41:44,123 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 01:41:44,123 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240114T174144Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 01:41:44,123 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240114T174144Z
+20240114/us-east-1/s3/aws4_request
+214bc92964b09b12b328a460f8c1bc6f935db57576626e93f122d8ac539cdd0d
+2024-01-15 01:41:44,123 - DEBUG - Signature:
+3d07a436c1ebb9bb57e1de491011ea00f5d5644a79e20940563f750d7e142d7f
+2024-01-15 01:41:44,124 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000001F3A74949D0>
+2024-01-15 01:41:44,124 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240114T174144Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240114/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=3d07a436c1ebb9bb57e1de491011ea00f5d5644a79e20940563f750d7e142d7f', 'amz-sdk-invocation-id': b'5417968d-84a9-490b-ae0b-8f81274f7f7f', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 01:41:44,124 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-15 01:41:44,144 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 908
+2024-01-15 01:41:44,145 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '908', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA4792A86107D4', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 14 Jan 2024 17:41:44 GMT'}
+2024-01-15 01:41:44,145 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>loger.log</Key><LastModified>2024-01-14T17:41:31.236Z</LastModified><ETag>&#34;264ea97904b40c194c3644f8f5463789&#34;</ETag><Size>86272</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>test.txt</Key><LastModified>2024-01-11T15:44:30.772Z</LastModified><ETag>&#34;ee90faa12f3ea46ccdfbbb4510706016&#34;</ETag><Size>267</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-15 01:41:44,146 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000001F3B86C1FD0>
+2024-01-15 01:41:44,146 - DEBUG - No retry needed.
+2024-01-15 01:41:44,146 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86C40D0>>
+2024-01-15 01:41:44,146 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000001F3A7492F70>
