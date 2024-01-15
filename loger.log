@@ -665,3 +665,150 @@ b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.ama
 2024-01-15 01:41:44,146 - DEBUG - No retry needed.
 2024-01-15 01:41:44,146 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001F3B86C40D0>>
 2024-01-15 01:41:44,146 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000001F3A7492F70>
+2024-01-15 22:37:52,550 - DEBUG - Using selector: SelectSelector
+2024-01-15 22:38:34,328 - INFO - [admin]: Welocime
+2024-01-15 22:38:34,329 - INFO - [admin]: Build the conn for MinIO
+2024-01-15 22:38:34,329 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-15 22:38:34,331 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-15 22:38:34,332 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-15 22:38:34,333 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-15 22:38:34,333 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-15 22:38:34,334 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-15 22:38:34,335 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-15 22:38:34,337 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-15 22:38:34,338 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-15 22:38:34,338 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-15 22:38:34,338 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-15 22:38:34,342 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-15 22:38:34,365 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-15 22:38:34,365 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001E12E4034C0>
+2024-01-15 22:38:34,466 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-15 22:38:34,576 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-15 22:38:34,581 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-15 22:38:34,583 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001E12E3711F0>
+2024-01-15 22:38:34,583 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001E13EB22D30>
+2024-01-15 22:38:34,617 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001E12E369F70>
+2024-01-15 22:38:34,667 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-15 22:38:34,685 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-15 22:38:34,686 - DEBUG - Registering retry handlers for service: s3
+2024-01-15 22:38:34,686 - DEBUG - Registering S3 region redirector handler
+2024-01-15 22:38:34,687 - DEBUG - Registering S3Express Identity Resolver
+2024-01-15 22:38:34,689 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000001E12E422EE0>
+2024-01-15 22:38:34,689 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000001E12E41EC10>
+2024-01-15 22:38:34,689 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001E12E424A60>
+2024-01-15 22:38:34,689 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E13F5B1310>>
+2024-01-15 22:38:34,690 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E13F5B12E0>>
+2024-01-15 22:38:34,690 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000001E12E41EA60>
+2024-01-15 22:38:34,690 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001E12E424C10>
+2024-01-15 22:38:34,690 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E13F5B1310>>
+2024-01-15 22:38:34,691 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-15 22:38:34,692 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-15 22:38:34,692 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-15 22:38:34,692 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-15 22:38:34,693 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000001E12E41EF70>
+2024-01-15 22:38:34,693 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E13F5B12E0>>
+2024-01-15 22:38:34,693 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000001E12E41E700>
+2024-01-15 22:38:34,693 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000001E12E424310>
+2024-01-15 22:38:34,693 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E12A66A9D0>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-15 22:38:34,695 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E12A6730D0>>
+2024-01-15 22:38:34,696 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E13EB0E730>>
+2024-01-15 22:38:34,697 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000001E12E41E940>
+2024-01-15 22:38:34,698 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000001E12E424B80>
+2024-01-15 22:38:34,698 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E13F5B12E0>>
+2024-01-15 22:38:34,699 - DEBUG - Calculating signature using v4 auth.
+2024-01-15 22:38:34,699 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240115T143834Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-15 22:38:34,700 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240115T143834Z
+20240115/us-east-1/s3/aws4_request
+aa0d090e58b90d0dbe19ed015af6eca1b63dda31859606afbe36d2576cf2ccff
+2024-01-15 22:38:34,700 - DEBUG - Signature:
+bb54e867dcaa8feceebfa0c05adc193424da33897a5d549ff207999a9608964d
+2024-01-15 22:38:34,700 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000001E12E4249D0>
+2024-01-15 22:38:34,700 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240115T143834Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=admin/20240115/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=bb54e867dcaa8feceebfa0c05adc193424da33897a5d549ff207999a9608964d', 'amz-sdk-invocation-id': b'0c4c2dc9-35a6-46d3-9b82-73b6148bea50', 'amz-sdk-request': b'attempt=1'}>
+2024-01-15 22:38:34,701 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-15 22:38:34,723 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 584
+2024-01-15 22:38:34,724 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '584', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17AA8C288D1487E0', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Mon, 15 Jan 2024 14:38:34 GMT'}
+2024-01-15 22:38:34,724 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>test.txt</Key><LastModified>2024-01-15T14:36:39.366Z</LastModified><ETag>&#34;ee90faa12f3ea46ccdfbbb4510706016&#34;</ETag><Size>267</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-15 22:38:34,728 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E13F5B1250>
+2024-01-15 22:38:34,728 - DEBUG - No retry needed.
+2024-01-15 22:38:34,728 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E13F5B1310>>
+2024-01-15 22:38:34,728 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000001E12E422F70>
+2024-01-15 23:19:50,183 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:21:57,687 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:22:19,907 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:22:32,858 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:24:46,790 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:31:32,114 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:34:49,996 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:36:17,943 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:40:12,789 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:40:28,869 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:40:33,340 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:41:56,018 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:42:20,602 - INFO - [admin]: Welocime
+2024-01-15 23:42:20,603 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:43:27,749 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:43:27,815 - INFO - [admin]: Welocime
+2024-01-15 23:43:27,816 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:43:34,544 - INFO - [admin]: Welocime
+2024-01-15 23:43:34,544 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:44:15,547 - INFO - [admin]: Welocime
+2024-01-15 23:44:15,548 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:44:30,615 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:44:30,694 - INFO - [admin]: Welocime
+2024-01-15 23:44:30,694 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:44:48,913 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:44:52,170 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:44:53,351 - INFO - [admin]: Welocime
+2024-01-15 23:44:53,351 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:44:56,867 - INFO - [admin]: Welocime
+2024-01-15 23:44:56,867 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:45:21,550 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:45:21,621 - INFO - [admin]: Welocime
+2024-01-15 23:45:21,621 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:46:13,370 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:46:14,159 - INFO - [admin]: Welocime
+2024-01-15 23:46:14,159 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:47:50,991 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:47:53,684 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:48:00,712 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:48:03,496 - INFO - [admin]: Welocime
+2024-01-15 23:48:03,497 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:48:56,252 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:48:59,029 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:49:02,237 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:53:08,295 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:54:29,141 - INFO - [admin]: Welocime
+2024-01-15 23:54:29,141 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:54:41,903 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:55:03,012 - INFO - [admin]: Welocime
+2024-01-15 23:55:03,013 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:55:03,031 - INFO - [admin]: Connect with MariaDB
+2024-01-15 23:55:22,595 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:55:28,580 - INFO - [admin]: Welocime
+2024-01-15 23:55:28,580 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:55:28,604 - INFO - [admin]: Connect with MariaDB
+2024-01-15 23:55:48,789 - INFO - [admin]: Welocime
+2024-01-15 23:55:48,790 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:55:48,797 - INFO - [admin]: Connect with MariaDB
+2024-01-15 23:56:36,417 - INFO - [admin]: Welocime
+2024-01-15 23:56:36,418 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:56:36,425 - INFO - [admin]: Connect with MariaDB
+2024-01-15 23:57:27,887 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:57:59,070 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:58:28,975 - DEBUG - Using selector: SelectSelector
+2024-01-15 23:58:32,777 - INFO - [admin]: Welocime
+2024-01-15 23:58:32,778 - INFO - [admin]: Build the conn for MariaDB
+2024-01-15 23:58:32,799 - INFO - [admin]: Connect with MariaDB
+2024-01-15 23:59:08,253 - DEBUG - Using selector: SelectSelector

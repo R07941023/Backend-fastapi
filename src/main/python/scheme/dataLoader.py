@@ -1,5 +1,12 @@
 from pydantic import BaseModel, Field
 
+class sqlCommand(BaseModel):
+    host: str = Field(default='localhost')
+    user: str = Field(default='root')
+    password: str = Field(default='admin')
+    database: str = Field(default='machine_learning')
+    sql: str = Field(default='Select * from hyperparameter')
+
 class GetUserID(BaseModel):
     name: str = Field(default='user123')
 

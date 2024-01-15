@@ -2,26 +2,6 @@ import boto3
 import logging
 from func_timeout import func_set_timeout
 
-# # 替换为你的 MinIO 信息
-# minio_endpoint = 'http://127.0.0.1:9000'
-# access_key = 'yylui'
-# secret_key = 'applezxcv1234567890-'
-# bucket_name = 'yylui'
-# object_key = 'test.txt'
-
-# # 创建 S3 客户端
-
-
-# # 列出存储桶中的所有对象
-
-
-# # 下载文件
-# download_path = 'D:/Users/yenying/Downloads/test.txt'
-# # s3.download_file(bucket_name, object_key, download_path)
-
-# print(f'文件已下载到 {download_path}')
-
-
 @func_set_timeout(1800)
 def findListFromMinIO(item):
     uid = item['uid']

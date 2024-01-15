@@ -2,6 +2,7 @@ from fastapi import APIRouter, Depends, Header
 from src.main.python.scheme.dataLoader import *
 from src.main.python.errorHandle.handler import registerUID, handle_exceptions
 from src.main.python.dataLoader.minIO import *
+from src.main.python.dataLoader.db import *
 import logging
 
 # build the logger
@@ -39,4 +40,20 @@ def getDataMinIOObj(item: GetDataMinIOObj, uid: str = Depends(get_uid)):
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
     res = downloadObjFromMinIO(item)
+    return res
+
+@appTest.post("/get/data/mariadb/query")
+@handle_exceptions
+def getDataMariadbQuery(item: sqlCommand, uid: str = Depends(get_uid)): 
+    logging.info(f'[{uid}]: Welocime')
+    item = registerUID(item, uid)
+    res = mariadbQuery(item)
+    return res
+
+@appTest.post("/get/data/mariadb/nonquery")
+@handle_exceptions
+def getDataMariadbNonquery(item: sqlCommand, uid: str = Depends(get_uid)): 
+    logging.info(f'[{uid}]: Welocime')
+    item = registerUID(item, uid)
+    res = mariadbNonquery(item)
     return res
