@@ -5,6 +5,11 @@
 
 A brief description of your FastAPI backend project.
 
+## API
+
+- MinIO
+- MariaDB
+
 ## Features
 
 - UID

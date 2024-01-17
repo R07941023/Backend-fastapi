@@ -39,6 +39,14 @@ def getDataMinIOObjKeys(item: GetDataMinIOObjKeys, uid: str = Depends(get_uid)):
 def getDataMinIOObj(item: GetDataMinIOObj, uid: str = Depends(get_uid)): 
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
+    res = getObjFromMinIO(item)
+    return res
+
+@appTest.post("/get/data/minIO/obj/download")
+@handle_exceptions
+def getDataMinIOObjDownload(item: GetDataMinIOObjDownload, uid: str = Depends(get_uid)): 
+    logging.info(f'[{uid}]: Welocime')
+    item = registerUID(item, uid)
     res = downloadObjFromMinIO(item)
     return res
 

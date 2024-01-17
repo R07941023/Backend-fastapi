@@ -15,7 +15,14 @@ class GetDataMinIOObjKeys(BaseModel):
     access_key: str = Field(default='yylui')
     secret_key: str = Field(default='passwd')
     bucket_name: str = Field(default='yylui')
-    
+
+class GetDataMinIOObjDownload(BaseModel):
+    endpoint_url: str = Field(default='http://127.0.0.1:9000')
+    access_key: str = Field(default='yylui')
+    secret_key: str = Field(default='passwd')
+    bucket_name: str = Field(default='yylui')
+    object_key: str = Field(default='test.txt')
+    download_path: str = Field(default='./test.txt')
 
 class GetDataMinIOObj(BaseModel):
     endpoint_url: str = Field(default='http://127.0.0.1:9000')
@@ -23,7 +30,6 @@ class GetDataMinIOObj(BaseModel):
     secret_key: str = Field(default='passwd')
     bucket_name: str = Field(default='yylui')
     object_key: str = Field(default='test.txt')
-    download_path: str = Field(default='./test.txt')
 
 class tickerGetDataFormat(BaseModel):
     ticker: str = Field(default='2330.TW')
