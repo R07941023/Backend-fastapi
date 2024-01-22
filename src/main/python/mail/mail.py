@@ -1,23 +1,47 @@
-import smtplib
+import smtplib, ssl
 from email.mime.text import MIMEText
+from func_timeout import func_set_timeout
+import logging
+from src.main.python.InfraAPI.InfraAPI import *
 
-account = 'a5822358@gmail.com'
-password = 'a840702B851129'
- 
-# 收信寄信人的資料
-to_email = "a5822358business@gmail.com"
-from_email = "a5822358@gmail.com"
- 
-# MIME text
-message = "mail內容"
-msg = MIMEText(message, "html")
-msg["Subject"] = "mail主旨"
-msg["To"] = to_email
-msg["From"] = from_email
- 
-# 指定伺服器
-server = smtplib.SMTP("smtp.gmail.com", 587)
-server.starttls()
-server.login(account, password)
-server.send_message(msg)
-server.quit()
+def readConnMailRelaySite(site):
+    sql = f"""Select * from account where project = 'MailRelay' and site = '{site}'"""
+    dbConn = {}
+    dbConn['site'] = site
+    dbConn['database'] = 'backend'
+    dbConn['sql'] = sql        
+    response = API_getDataSiteMariadbQuery(dbConn)
+    logging.info(str(response))
+    res = {}
+    res['account'] = response['data'][0]['account']
+    res['password'] = response['data'][0]['password']
+    return res
+
+
+@func_set_timeout(180)
+def mailSiteSender(item):
+    uid = item['uid']
+    connInfo = readConnMailRelaySite(item['site'])
+    connInfo['recevies'] = item['recevies']
+    connInfo['Subject'] = item['Subject']
+    connInfo['message'] = item['message']
+    res = API_mailSenderSystem(connInfo)
+    return res
+
+@func_set_timeout(180)
+def mailSender(item):
+    res = {'statusCode': 200, "data": 'Pass', "info": ''}
+    uid = item['uid']
+    msg = MIMEText(item['message'], "html")
+    msg["Subject"] = item['Subject']
+    msg["To"] = ", ".join(item['recevies'])
+    logging.info(f'[{uid}]: Build the conn for MailRelay')
+    server = smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context())
+    server.login(item['account'], item['password'])
+    logging.info(f'[{uid}]: Send the message')
+    server.send_message(msg)
+    server.quit()
+    return res
+
+
+

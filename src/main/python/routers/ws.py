@@ -3,10 +3,9 @@ from src.main.python.scheme.dataLoader import *
 from src.main.python.errorHandle.handler import registerUID, handle_exceptions
 from src.main.python.dataLoader.minIO import *
 from src.main.python.dataLoader.db import *
-import logging
-
-# build the logger
-logger = logging.getLogger('myLoger')
+from src.main.python.mail.mail import *
+from src.main.python.log.logger import Logger as logger
+logging = logger()
 
 # get UID
 def get_uid(uid: str = Header('admin')):
@@ -26,42 +25,19 @@ def read_user(item: GetUserID, uid: str = Depends(get_uid)):
     return res
 
 
-@appTest.post("/get/data/minIO/objKeys")
+
+@appTest.post("/mail/sender")
 @handle_exceptions
-def getDataMinIOObjKeys(item: GetDataMinIOObjKeys, uid: str = Depends(get_uid)): 
+def mailSenderSystem(item: mailSenderFormat, uid: str = Depends(get_uid)): 
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
-    res = findListFromMinIO(item)
+    res = mailSender(item)
     return res
 
-@appTest.post("/get/data/minIO/obj")
+@appTest.post("/mail/site/sender")
 @handle_exceptions
-def getDataMinIOObj(item: GetDataMinIOObj, uid: str = Depends(get_uid)): 
+def mailSiteSenderSystem(item: mailSiteSenderFormat, uid: str = Depends(get_uid)): 
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
-    res = getObjFromMinIO(item)
-    return res
-
-@appTest.post("/get/data/minIO/obj/download")
-@handle_exceptions
-def getDataMinIOObjDownload(item: GetDataMinIOObjDownload, uid: str = Depends(get_uid)): 
-    logging.info(f'[{uid}]: Welocime')
-    item = registerUID(item, uid)
-    res = downloadObjFromMinIO(item)
-    return res
-
-@appTest.post("/get/data/mariadb/query")
-@handle_exceptions
-def getDataMariadbQuery(item: sqlCommand, uid: str = Depends(get_uid)): 
-    logging.info(f'[{uid}]: Welocime')
-    item = registerUID(item, uid)
-    res = mariadbQuery(item)
-    return res
-
-@appTest.post("/get/data/mariadb/nonquery")
-@handle_exceptions
-def getDataMariadbNonquery(item: sqlCommand, uid: str = Depends(get_uid)): 
-    logging.info(f'[{uid}]: Welocime')
-    item = registerUID(item, uid)
-    res = mariadbNonquery(item)
+    res = mailSiteSender(item)
     return res

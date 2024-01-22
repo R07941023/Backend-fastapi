@@ -1,14 +1,13 @@
 import uvicorn
 from fastapi import FastAPI
 from src.main.python.routers.ws import appTest
-from src.main.python.routers.quanTrading import appQuant
-import logging
+from src.main.python.routers.dataAccess import dataAccess
 import asyncio
-logging.basicConfig(level=logging.DEBUG, filename='loger.log', format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 app = FastAPI() # build Fast API application
-app.include_router(appTest, prefix="/appTest")
-app.include_router(appQuant, prefix="/appQuant")
+app.include_router(appTest, prefix="")
+app.include_router(dataAccess, prefix="/dataAccess")
 
 
 

@@ -9,6 +9,7 @@ A brief description of your FastAPI backend project.
 
 - MinIO
 - MariaDB
+- MailRelay
 
 ## Features
 

@@ -2090,3 +2090,1090 @@ AWS4-HMAC-SHA256
 2024-01-17 22:35:59,508 - DEBUG - No retry needed.
 2024-01-17 22:35:59,508 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002B2C8746610>>
 2024-01-17 22:36:20,962 - DEBUG - Using selector: SelectSelector
+2024-01-17 22:50:05,660 - DEBUG - Using selector: SelectSelector
+2024-01-17 22:51:21,851 - DEBUG - Using selector: SelectSelector
+2024-01-17 22:53:25,146 - DEBUG - Using selector: SelectSelector
+2024-01-17 22:56:37,826 - DEBUG - Using selector: SelectSelector
+2024-01-17 23:23:19,649 - DEBUG - Using selector: SelectSelector
+2024-01-17 23:23:50,723 - DEBUG - Using selector: SelectSelector
+2024-01-17 23:24:52,337 - DEBUG - Using selector: SelectSelector
+2024-01-17 23:28:38,175 - DEBUG - Using selector: SelectSelector
+2024-01-17 23:31:50,727 - DEBUG - Using selector: SelectSelector
+2024-01-17 23:32:16,624 - INFO - [admin]: Welocime
+2024-01-17 23:32:16,625 - INFO - [admin]: Build the conn for MinIO
+2024-01-17 23:34:00,693 - DEBUG - Using selector: SelectSelector
+2024-01-17 23:36:23,360 - DEBUG - Using selector: SelectSelector
+2024-01-17 23:36:33,500 - INFO - [admin]: Welocime
+2024-01-17 23:36:33,501 - INFO - [admin]: Build the conn for MinIO
+2024-01-22 21:34:52,873 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:40:47,151 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:41:43,594 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:42:27,426 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:49:00,829 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:49:25,210 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:49:39,397 - INFO - [admin]: Welocime
+2024-01-22 21:49:44,736 - INFO - [admin]: Welocime
+2024-01-22 21:50:46,910 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:50:53,909 - INFO - [admin]: Welocime
+2024-01-22 21:51:05,418 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:51:05,486 - INFO - [admin]: Welocime
+2024-01-22 21:51:24,633 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:51:35,340 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:51:43,038 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:53:51,714 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:53:56,621 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:54:00,385 - INFO - [admin]: Welocime
+2024-01-22 21:56:58,173 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:57:15,915 - DEBUG - Using selector: SelectSelector
+2024-01-22 21:57:48,643 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:01:49,382 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:12:08,517 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:13:25,852 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:13:40,442 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:13:44,661 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:13:59,745 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:14:12,604 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:14:33,213 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:14:40,376 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:14:50,163 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:15:11,842 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:15:28,273 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:21:40,543 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:22:15,506 - INFO - [admin]: Welocime
+2024-01-22 22:23:14,594 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:23:14,667 - INFO - [admin]: Welocime
+2024-01-22 22:24:12,155 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:24:15,182 - INFO - [admin]: Welocime
+2024-01-22 22:24:15,188 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:80
+2024-01-22 22:24:30,441 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:24:37,334 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:24:47,158 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:24:47,234 - INFO - [admin]: Welocime
+2024-01-22 22:24:47,241 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:80
+2024-01-22 22:25:18,256 - INFO - [admin]: Welocime
+2024-01-22 22:25:18,257 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:26:40,429 - INFO - [admin]: Welocime
+2024-01-22 22:26:40,430 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:26:40,447 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:26:40,476 - INFO - [admin]: dataframe to json
+2024-01-22 22:27:01,479 - INFO - [admin]: Welocime
+2024-01-22 22:27:01,482 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:80
+2024-01-22 22:27:24,963 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:27:27,135 - INFO - [admin]: Welocime
+2024-01-22 22:27:27,140 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:27:27,145 - DEBUG - http://127.0.0.1:8001 "POST /get/data/mariadb/query HTTP/1.1" 404 22
+2024-01-22 22:27:40,914 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:27:40,994 - INFO - [admin]: Welocime
+2024-01-22 22:27:41,001 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:27:41,005 - DEBUG - http://127.0.0.1:8001 "POST /get/data/mariadb/query HTTP/1.1" 404 22
+2024-01-22 22:28:11,524 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:28:11,593 - INFO - [admin]: Welocime
+2024-01-22 22:28:11,597 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:28:11,600 - INFO - [admin]: Welocime
+2024-01-22 22:28:11,602 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:28:11,619 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:28:11,627 - INFO - [admin]: dataframe to json
+2024-01-22 22:28:11,629 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:29:30,290 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:29:30,362 - INFO - [admin]: Welocime
+2024-01-22 22:29:30,367 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:29:30,370 - INFO - [admin]: Welocime
+2024-01-22 22:29:30,371 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:29:30,389 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:29:30,396 - INFO - [admin]: dataframe to json
+2024-01-22 22:29:30,399 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:29:49,375 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:29:49,446 - INFO - [admin]: Welocime
+2024-01-22 22:29:49,452 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:29:49,455 - INFO - [admin]: Welocime
+2024-01-22 22:29:49,456 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:29:49,474 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:29:49,480 - INFO - [admin]: dataframe to json
+2024-01-22 22:29:49,483 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:29:59,459 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:29:59,527 - INFO - [admin]: Welocime
+2024-01-22 22:29:59,533 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:29:59,537 - INFO - [admin]: Welocime
+2024-01-22 22:29:59,538 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:29:59,553 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:29:59,559 - INFO - [admin]: dataframe to json
+2024-01-22 22:29:59,561 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:30:24,776 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:30:24,846 - INFO - [admin]: Welocime
+2024-01-22 22:30:24,851 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:30:24,856 - INFO - [admin]: Welocime
+2024-01-22 22:30:24,857 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:30:24,874 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:30:24,880 - INFO - [admin]: dataframe to json
+2024-01-22 22:30:24,883 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:30:41,028 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:30:41,097 - INFO - [admin]: Welocime
+2024-01-22 22:30:41,104 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:30:41,107 - INFO - [admin]: Welocime
+2024-01-22 22:30:41,108 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:30:41,125 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:30:41,132 - INFO - [admin]: dataframe to json
+2024-01-22 22:30:41,135 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:30:50,784 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:30:50,868 - INFO - [admin]: Welocime
+2024-01-22 22:30:50,873 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:30:50,878 - INFO - [admin]: Welocime
+2024-01-22 22:30:50,880 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:30:50,898 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:30:50,904 - INFO - [admin]: dataframe to json
+2024-01-22 22:30:50,907 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:31:21,280 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:31:22,816 - INFO - [admin]: Welocime
+2024-01-22 22:31:22,826 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:31:22,830 - INFO - [admin]: Welocime
+2024-01-22 22:31:22,831 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:31:22,849 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:31:22,857 - INFO - [admin]: dataframe to json
+2024-01-22 22:31:22,859 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:31:42,884 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:31:42,951 - INFO - [admin]: Welocime
+2024-01-22 22:31:42,957 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:31:42,961 - INFO - [admin]: Welocime
+2024-01-22 22:31:42,961 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:31:42,979 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:31:42,986 - INFO - [admin]: dataframe to json
+2024-01-22 22:31:42,989 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 22:31:55,442 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:31:58,955 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:32:14,765 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:33:04,084 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:33:31,316 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:34:15,274 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:35:16,973 - INFO - [admin]: Welocime
+2024-01-22 22:36:06,618 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:36:06,691 - INFO - [admin]: Welocime
+2024-01-22 22:36:06,695 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:36:06,698 - INFO - [admin]: Welocime
+2024-01-22 22:36:06,699 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:36:06,719 - INFO - [admin]: Connect with MariaDB
+2024-01-22 22:36:06,753 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/nonquery HTTP/1.1" 200 42
+2024-01-22 22:36:59,336 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:38:48,580 - INFO - [admin]: Welocime
+2024-01-22 22:38:48,587 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:38:48,590 - INFO - [admin]: Welocime
+2024-01-22 22:38:48,591 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:38:48,613 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 1937
+2024-01-22 22:39:35,025 - INFO - [admin]: Welocime
+2024-01-22 22:39:35,031 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:39:35,039 - INFO - [admin]: Welocime
+2024-01-22 22:39:35,041 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 22:39:35,050 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 1937
+2024-01-22 22:40:41,396 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:40:41,464 - INFO - [admin]: Welocime
+2024-01-22 22:40:41,470 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:40:41,474 - INFO - [admin]: Welocime
+2024-01-22 22:40:41,476 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 469
+2024-01-22 22:41:18,010 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:41:18,078 - INFO - [admin]: Welocime
+2024-01-22 22:41:18,083 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:41:18,087 - INFO - [admin]: Welocime
+2024-01-22 22:41:18,089 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 464
+2024-01-22 22:41:58,791 - DEBUG - Using selector: SelectSelector
+2024-01-22 22:41:58,862 - INFO - [admin]: Welocime
+2024-01-22 22:41:58,867 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:41:58,872 - INFO - [admin]: Welocime
+2024-01-22 22:41:58,874 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 464
+2024-01-22 22:43:10,572 - INFO - [admin]: Welocime
+2024-01-22 22:43:10,578 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:43:10,588 - INFO - [admin]: Welocime
+2024-01-22 22:43:10,591 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 464
+2024-01-22 22:43:15,092 - INFO - [admin]: Welocime
+2024-01-22 22:43:15,095 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:43:15,099 - INFO - [admin]: Welocime
+2024-01-22 22:43:15,101 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 464
+2024-01-22 22:44:16,940 - INFO - [admin]: Welocime
+2024-01-22 22:44:16,944 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:44:16,950 - INFO - [admin]: Welocime
+2024-01-22 22:44:16,952 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 464
+2024-01-22 22:45:00,199 - INFO - [admin]: Welocime
+2024-01-22 22:45:00,202 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:45:00,206 - INFO - [admin]: Welocime
+2024-01-22 22:45:00,209 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 464
+2024-01-22 22:45:52,143 - INFO - [admin]: Welocime
+2024-01-22 22:45:52,146 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 22:45:52,149 - INFO - [admin]: Welocime
+2024-01-22 22:45:52,152 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 464
+2024-01-22 23:08:23,757 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:08:29,163 - INFO - [admin]: Welocime
+2024-01-22 23:08:29,167 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:08:29,171 - INFO - [admin]: Welocime
+2024-01-22 23:08:29,175 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/nonquery HTTP/1.1" 500 470
+2024-01-22 23:09:09,118 - INFO - [admin]: Welocime
+2024-01-22 23:09:18,885 - INFO - [admin]: Welocime
+2024-01-22 23:09:27,143 - INFO - [admin]: Welocime
+2024-01-22 23:09:40,256 - INFO - [admin]: Welocime
+2024-01-22 23:09:41,390 - INFO - [admin]: Welocime
+2024-01-22 23:09:42,257 - INFO - [admin]: Welocime
+2024-01-22 23:09:55,734 - INFO - [admin]: Welocime
+2024-01-22 23:10:13,884 - INFO - [admin]: Welocime
+2024-01-22 23:10:52,907 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:10:52,978 - INFO - [admin]: Welocime
+2024-01-22 23:10:52,979 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:10:53,001 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:10:53,115 - INFO - [admin]: dataframe to json
+2024-01-22 23:11:21,214 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:11:21,286 - INFO - [admin]: Welocime
+2024-01-22 23:11:21,286 - INFO - [START] getDataMariadbQuery: {'host': 'localhost', 'user': 'root', 'password': '840702870217', 'database': 'machine_learning', 'sql': 'Select * from hyperparameter', 'uid': 'admin'}
+2024-01-22 23:11:21,287 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:11:21,306 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:11:21,313 - INFO - [admin]: dataframe to json
+2024-01-22 23:11:35,546 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:11:44,963 - INFO - [admin]: Welocime
+2024-01-22 23:11:44,969 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:11:44,972 - INFO - [admin]: Welocime
+2024-01-22 23:11:44,973 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'machine_learning', 'sql': 'Select * from hyperparameter', 'uid': 'admin'}
+2024-01-22 23:11:44,974 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:11:44,994 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:11:45,003 - INFO - [admin]: dataframe to json
+2024-01-22 23:11:45,006 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 23:12:16,957 - INFO - [admin]: Welocime
+2024-01-22 23:12:16,961 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:12:16,964 - INFO - [admin]: Welocime
+2024-01-22 23:12:16,965 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': 'Select * from account', 'uid': 'admin'}
+2024-01-22 23:12:16,966 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:12:16,975 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:12:16,983 - INFO - [admin]: dataframe to json
+2024-01-22 23:12:16,984 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 167
+2024-01-22 23:13:02,924 - INFO - [admin]: Welocime
+2024-01-22 23:13:02,927 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:13:02,930 - INFO - [admin]: Welocime
+2024-01-22 23:13:02,930 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': 'Select * from account', 'uid': 'admin'}
+2024-01-22 23:13:02,931 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:13:02,943 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:13:02,949 - INFO - [admin]: dataframe to json
+2024-01-22 23:13:02,953 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 167
+2024-01-22 23:17:56,629 - INFO - [admin]: Welocime
+2024-01-22 23:17:56,636 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:17:56,642 - INFO - [admin]: Welocime
+2024-01-22 23:17:56,643 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': 'Select * from account', 'uid': 'admin'}
+2024-01-22 23:17:56,647 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:17:56,661 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:17:56,672 - INFO - [admin]: dataframe to json
+2024-01-22 23:17:56,674 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 145
+2024-01-22 23:19:12,171 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:19:26,721 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:19:42,421 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:19:48,271 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:20:07,648 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:20:22,342 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:21:01,564 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:21:38,177 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:22:05,756 - INFO - [admin]: Welocime
+2024-01-22 23:22:05,762 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:22:05,768 - INFO - [admin]: Welocime
+2024-01-22 23:22:05,768 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'machine_learning', 'sql': 'Select * from hyperparameter', 'uid': 'admin'}
+2024-01-22 23:22:05,769 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:22:05,791 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:22:05,799 - INFO - [admin]: dataframe to json
+2024-01-22 23:22:05,803 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-22 23:24:15,451 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:24:32,417 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:25:00,129 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:26:12,010 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:26:18,889 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:33:05,622 - INFO - [admin]: Welocime
+2024-01-22 23:33:05,627 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:33:05,631 - INFO - [admin]: Welocime
+2024-01-22 23:33:05,631 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': 'Select * from account where project = minIO and site', 'uid': 'admin'}
+2024-01-22 23:33:05,632 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:33:05,651 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:33:05,661 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 1751
+2024-01-22 23:33:19,521 - INFO - [admin]: Welocime
+2024-01-22 23:33:19,525 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:33:19,530 - INFO - [admin]: Welocime
+2024-01-22 23:33:19,530 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': 'Select * from account', 'uid': 'admin'}
+2024-01-22 23:33:19,531 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:33:19,541 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:33:19,551 - INFO - [admin]: dataframe to json
+2024-01-22 23:33:19,553 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 249
+2024-01-22 23:33:42,688 - INFO - [admin]: Welocime
+2024-01-22 23:33:42,692 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:33:42,696 - INFO - [admin]: Welocime
+2024-01-22 23:33:42,696 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': 'Select * from account where project = minIO and site = SIT', 'uid': 'admin'}
+2024-01-22 23:33:42,697 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:33:42,707 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:33:42,718 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 500 1757
+2024-01-22 23:33:50,496 - INFO - [admin]: Welocime
+2024-01-22 23:33:50,500 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:33:50,503 - INFO - [admin]: Welocime
+2024-01-22 23:33:50,504 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:33:50,505 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:33:50,515 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:33:50,524 - INFO - [admin]: dataframe to json
+2024-01-22 23:33:50,527 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 128
+2024-01-22 23:35:38,541 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:35:50,691 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:43:46,517 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:43:55,865 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:44:21,633 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:44:22,172 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:44:22,238 - INFO - [admin]: Welocime
+2024-01-22 23:44:22,243 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:44:22,246 - INFO - [admin]: Welocime
+2024-01-22 23:44:22,246 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:44:22,247 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:44:22,262 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:44:22,268 - INFO - [admin]: dataframe to json
+2024-01-22 23:44:22,269 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 128
+2024-01-22 23:44:22,272 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 128
+2024-01-22 23:44:22,273 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': ''}], 'info': ''}
+2024-01-22 23:44:56,729 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:44:56,733 - INFO - [admin]: Welocime
+2024-01-22 23:44:56,735 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:44:56,738 - INFO - [admin]: Welocime
+2024-01-22 23:44:56,739 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:44:56,739 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:44:56,747 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:44:56,752 - INFO - [admin]: dataframe to json
+2024-01-22 23:44:56,754 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 128
+2024-01-22 23:44:56,757 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 128
+2024-01-22 23:44:56,758 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': ''}], 'info': ''}
+2024-01-22 23:45:12,694 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:45:21,134 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:45:21,144 - INFO - [admin]: Welocime
+2024-01-22 23:45:21,148 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:45:21,151 - INFO - [admin]: Welocime
+2024-01-22 23:45:21,151 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:45:21,152 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:45:21,168 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:45:21,174 - INFO - [admin]: dataframe to json
+2024-01-22 23:45:21,177 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:45:21,178 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:45:21,179 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:46:35,830 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:46:36,650 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:46:36,740 - INFO - [admin]: Welocime
+2024-01-22 23:46:36,745 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:46:36,749 - INFO - [admin]: Welocime
+2024-01-22 23:46:36,750 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:46:36,750 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:46:36,767 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:46:36,774 - INFO - [admin]: dataframe to json
+2024-01-22 23:46:36,776 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:46:36,780 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:46:36,781 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:46:51,790 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:46:52,400 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:46:52,475 - INFO - [admin]: Welocime
+2024-01-22 23:46:52,480 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:46:52,483 - INFO - [admin]: Welocime
+2024-01-22 23:46:52,484 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:46:52,484 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:46:52,500 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:46:52,507 - INFO - [admin]: dataframe to json
+2024-01-22 23:46:52,509 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:46:52,511 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:46:52,512 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:47:27,509 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:47:27,891 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:47:27,960 - INFO - [admin]: Welocime
+2024-01-22 23:47:27,965 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:47:27,970 - INFO - [admin]: Welocime
+2024-01-22 23:47:27,970 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:47:27,971 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:47:27,986 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:47:27,992 - INFO - [admin]: dataframe to json
+2024-01-22 23:47:27,995 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:47:27,998 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:47:27,999 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:47:35,367 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:47:36,043 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:47:36,114 - INFO - [admin]: Welocime
+2024-01-22 23:47:36,118 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:47:36,122 - INFO - [admin]: Welocime
+2024-01-22 23:47:36,122 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:47:36,123 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:47:36,138 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:47:36,144 - INFO - [admin]: dataframe to json
+2024-01-22 23:47:36,146 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:47:36,148 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:47:36,149 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:47:55,535 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:47:56,592 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:47:56,667 - INFO - [admin]: Welocime
+2024-01-22 23:47:56,674 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:47:56,678 - INFO - [admin]: Welocime
+2024-01-22 23:47:56,678 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:47:56,679 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:47:56,699 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:47:56,708 - INFO - [admin]: dataframe to json
+2024-01-22 23:47:56,710 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:47:56,714 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:47:56,715 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:48:11,552 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:48:11,935 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:48:12,004 - INFO - [admin]: Welocime
+2024-01-22 23:48:12,009 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:48:12,013 - INFO - [admin]: Welocime
+2024-01-22 23:48:12,014 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:48:12,014 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:48:12,030 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:48:12,037 - INFO - [admin]: dataframe to json
+2024-01-22 23:48:12,039 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:48:12,041 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:48:12,043 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:48:28,511 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:48:29,489 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:48:29,558 - INFO - [admin]: Welocime
+2024-01-22 23:48:29,563 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:48:29,566 - INFO - [admin]: Welocime
+2024-01-22 23:48:29,567 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:48:29,568 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:48:29,583 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:48:29,589 - INFO - [admin]: dataframe to json
+2024-01-22 23:48:29,592 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:48:29,593 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:48:29,594 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:48:43,162 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:48:43,859 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:48:43,930 - INFO - [admin]: Welocime
+2024-01-22 23:48:43,934 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:48:43,937 - INFO - [admin]: Welocime
+2024-01-22 23:48:43,938 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:48:43,938 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:48:43,952 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:48:43,958 - INFO - [admin]: dataframe to json
+2024-01-22 23:48:43,960 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:48:43,962 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:48:43,963 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:50:09,447 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:53:48,853 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:53:55,712 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:54:47,141 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:56:27,322 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:57:09,946 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:57:58,671 - INFO - [admin]: Welocime
+2024-01-22 23:57:58,676 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:57:58,679 - INFO - [admin]: Welocime
+2024-01-22 23:57:58,682 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:57:58,685 - INFO - [admin]: Welocime
+2024-01-22 23:57:58,686 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:57:58,687 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:57:58,703 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:57:58,710 - INFO - [admin]: dataframe to json
+2024-01-22 23:57:58,713 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:57:58,715 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:57:58,717 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-22 23:59:07,584 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:59:23,505 - DEBUG - Using selector: SelectSelector
+2024-01-22 23:59:23,576 - INFO - [admin]: Welocime
+2024-01-22 23:59:23,582 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:59:23,585 - INFO - [admin]: Welocime
+2024-01-22 23:59:23,589 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-22 23:59:23,592 - INFO - [admin]: Welocime
+2024-01-22 23:59:23,593 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-22 23:59:23,594 - INFO - [admin]: Build the conn for MariaDB
+2024-01-22 23:59:23,611 - INFO - [admin]: Connect with MariaDB
+2024-01-22 23:59:23,618 - INFO - [admin]: dataframe to json
+2024-01-22 23:59:23,620 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:59:23,623 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-22 23:59:23,624 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-23 00:00:04,978 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:00:09,508 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:00:09,586 - INFO - [admin]: Welocime
+2024-01-23 00:00:09,590 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:09,593 - INFO - [admin]: Welocime
+2024-01-23 00:00:09,596 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:09,599 - INFO - [admin]: Welocime
+2024-01-23 00:00:09,600 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:00:09,602 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:00:09,623 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:00:09,629 - INFO - [admin]: dataframe to json
+2024-01-23 00:00:09,632 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:00:09,634 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:00:09,637 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-23 00:00:09,639 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:09,642 - INFO - [admin]: Welocime
+2024-01-23 00:00:09,642 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'http://127.0.0.1:9000', 'access_key': 'yylui', 'secret_key': 'F416S45DF65SD4F6', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-01-23 00:00:09,643 - INFO - [admin]: Build the conn for MinIO
+2024-01-23 00:00:09,644 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-23 00:00:09,645 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-23 00:00:09,646 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-23 00:00:09,648 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-23 00:00:09,648 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-23 00:00:09,648 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-23 00:00:09,649 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-23 00:00:09,654 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-23 00:00:09,654 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-23 00:00:09,654 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-23 00:00:09,654 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-23 00:00:09,662 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-23 00:00:09,731 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-23 00:00:09,731 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001B9FCA3E1F0>
+2024-01-23 00:00:09,932 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-23 00:00:10,038 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-23 00:00:10,043 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-23 00:00:10,045 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001B9FC99EEE0>
+2024-01-23 00:00:10,046 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001B98D55E550>
+2024-01-23 00:00:10,080 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001B9FC99ECA0>
+2024-01-23 00:00:10,083 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-23 00:00:10,088 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-23 00:00:10,088 - DEBUG - Registering retry handlers for service: s3
+2024-01-23 00:00:10,090 - DEBUG - Registering S3 region redirector handler
+2024-01-23 00:00:10,090 - DEBUG - Registering S3Express Identity Resolver
+2024-01-23 00:00:10,091 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000001B9FCA51C10>
+2024-01-23 00:00:10,091 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000001B9FCA4E940>
+2024-01-23 00:00:10,091 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001B9FCA53790>
+2024-01-23 00:00:10,091 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B98EF92D00>>
+2024-01-23 00:00:10,091 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B98EF92CD0>>
+2024-01-23 00:00:10,091 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000001B9FCA4E790>
+2024-01-23 00:00:10,091 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001B9FCA53940>
+2024-01-23 00:00:10,091 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B98EF92D00>>
+2024-01-23 00:00:10,092 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-23 00:00:10,093 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-23 00:00:10,093 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-23 00:00:10,093 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-23 00:00:10,093 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000001B9FCA4ECA0>
+2024-01-23 00:00:10,093 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B98EF92CD0>>
+2024-01-23 00:00:10,093 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000001B9FCA4E430>
+2024-01-23 00:00:10,093 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000001B9FCA53040>
+2024-01-23 00:00:10,093 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001B98EC7DB50>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-23 00:00:10,094 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001B98EC7D790>>
+2024-01-23 00:00:10,094 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001B98D4F3FA0>>
+2024-01-23 00:00:10,094 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000001B9FCA4E670>
+2024-01-23 00:00:10,094 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000001B9FCA538B0>
+2024-01-23 00:00:10,094 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B98EF92CD0>>
+2024-01-23 00:00:10,094 - DEBUG - Calculating signature using v4 auth.
+2024-01-23 00:00:10,094 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240122T160010Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-23 00:00:10,095 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240122T160010Z
+20240122/us-east-1/s3/aws4_request
+d8dd02221195fe51e87e3ec011964f0b3f72a455eb1546067d12b52c0c30e4ec
+2024-01-23 00:00:10,095 - DEBUG - Signature:
+e46e9a57f9f6a34465a230f7c799f64d4864a18d39b1c241e86e08c7cfa8283b
+2024-01-23 00:00:10,095 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000001B9FCA53700>
+2024-01-23 00:00:10,095 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240122T160010Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240122/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=e46e9a57f9f6a34465a230f7c799f64d4864a18d39b1c241e86e08c7cfa8283b', 'amz-sdk-invocation-id': b'd47d1f71-1fb9-408e-93fe-7b94e3a72515', 'amz-sdk-request': b'attempt=1'}>
+2024-01-23 00:00:10,096 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-23 00:00:10,117 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 945
+2024-01-23 00:00:10,118 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '945', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17ACB6AC526AE844', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Mon, 22 Jan 2024 16:00:10 GMT'}
+2024-01-23 00:00:10,118 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>chillerFn3_F15P12_202401.csv</Key><LastModified>2024-01-17T14:10:45.699Z</LastModified><ETag>&#34;fbd138a8a0c2c8b4aab781f79da3bdea&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>chillerFn3_F15P12_202402.csv</Key><LastModified>2024-01-17T14:11:17.051Z</LastModified><ETag>&#34;b1814dd53d3e07ea5875b566396a757e&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-23 00:00:10,120 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000001B98EF92C40>
+2024-01-23 00:00:10,121 - DEBUG - No retry needed.
+2024-01-23 00:00:10,121 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B98EF92D00>>
+2024-01-23 00:00:10,121 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000001B9FCA51CA0>
+2024-01-23 00:00:10,123 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/minIO/objKeys HTTP/1.1" 200 99
+2024-01-23 00:00:27,609 - INFO - [admin]: Welocime
+2024-01-23 00:00:27,611 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:27,616 - INFO - [admin]: Welocime
+2024-01-23 00:00:27,621 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:27,626 - INFO - [admin]: Welocime
+2024-01-23 00:00:27,627 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:00:27,629 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:00:27,640 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:00:27,646 - INFO - [admin]: dataframe to json
+2024-01-23 00:00:27,649 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:00:27,654 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:00:27,656 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-23 00:00:27,658 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:27,662 - INFO - [admin]: Welocime
+2024-01-23 00:00:27,663 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'http://127.0.0.1:9000', 'access_key': 'yylui', 'secret_key': 'F416S45DF65SD4F6', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-01-23 00:00:27,663 - INFO - [admin]: Build the conn for MinIO
+2024-01-23 00:00:27,664 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001B9FCA3E1F0>
+2024-01-23 00:00:27,665 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001B9FC99EEE0>
+2024-01-23 00:00:27,665 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001B98D55E550>
+2024-01-23 00:00:27,665 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001B9FC99ECA0>
+2024-01-23 00:00:27,668 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-23 00:00:27,675 - DEBUG - Registering retry handlers for service: s3
+2024-01-23 00:00:27,675 - DEBUG - Registering S3 region redirector handler
+2024-01-23 00:00:27,676 - DEBUG - Registering S3Express Identity Resolver
+2024-01-23 00:00:27,677 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000001B9FCA51C10>
+2024-01-23 00:00:27,677 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000001B9FCA4E940>
+2024-01-23 00:00:27,677 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001B9FCA53790>
+2024-01-23 00:00:27,678 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B98F0002E0>>
+2024-01-23 00:00:27,678 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B98F0002B0>>
+2024-01-23 00:00:27,686 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000001B9FCA4E790>
+2024-01-23 00:00:27,686 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001B9FCA53940>
+2024-01-23 00:00:27,687 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B98F0002E0>>
+2024-01-23 00:00:27,687 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-23 00:00:27,688 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-23 00:00:27,688 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-23 00:00:27,688 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-23 00:00:27,688 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000001B9FCA4ECA0>
+2024-01-23 00:00:27,689 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B98F0002B0>>
+2024-01-23 00:00:27,689 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000001B9FCA4E430>
+2024-01-23 00:00:27,689 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000001B9FCA53040>
+2024-01-23 00:00:27,689 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001B98EF67C70>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-23 00:00:27,690 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001B98EF67BE0>>
+2024-01-23 00:00:27,690 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001B98D57A370>>
+2024-01-23 00:00:27,690 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000001B9FCA4E670>
+2024-01-23 00:00:27,690 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000001B9FCA538B0>
+2024-01-23 00:00:27,690 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001B98F0002B0>>
+2024-01-23 00:00:27,691 - DEBUG - Calculating signature using v4 auth.
+2024-01-23 00:00:27,691 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240122T160027Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-23 00:00:27,691 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240122T160027Z
+20240122/us-east-1/s3/aws4_request
+209c4e82f1416952219199c6a56757b6445e47d573c173a279f03333415963e4
+2024-01-23 00:00:27,691 - DEBUG - Signature:
+e62bdc71ab6228453b4feb716884f72636b46313fa30b61069e10b80d696c260
+2024-01-23 00:00:27,691 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000001B9FCA53700>
+2024-01-23 00:00:27,691 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240122T160027Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240122/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=e62bdc71ab6228453b4feb716884f72636b46313fa30b61069e10b80d696c260', 'amz-sdk-invocation-id': b'c4312610-9876-47a3-ac3d-fe48f9356efa', 'amz-sdk-request': b'attempt=1'}>
+2024-01-23 00:00:27,692 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-23 00:00:27,723 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 945
+2024-01-23 00:00:27,724 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '945', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17ACB6B06B2BD583', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Mon, 22 Jan 2024 16:00:27 GMT'}
+2024-01-23 00:00:27,724 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>chillerFn3_F15P12_202401.csv</Key><LastModified>2024-01-17T14:10:45.699Z</LastModified><ETag>&#34;fbd138a8a0c2c8b4aab781f79da3bdea&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>chillerFn3_F15P12_202402.csv</Key><LastModified>2024-01-17T14:11:17.051Z</LastModified><ETag>&#34;b1814dd53d3e07ea5875b566396a757e&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-23 00:00:27,727 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000001B98F000220>
+2024-01-23 00:00:27,727 - DEBUG - No retry needed.
+2024-01-23 00:00:27,727 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001B98F0002E0>>
+2024-01-23 00:00:27,727 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000001B9FCA51CA0>
+2024-01-23 00:00:27,730 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/minIO/objKeys HTTP/1.1" 200 99
+2024-01-23 00:00:37,784 - INFO - [admin]: Welocime
+2024-01-23 00:00:37,787 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:37,790 - INFO - [admin]: Welocime
+2024-01-23 00:00:37,795 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:37,799 - INFO - [admin]: Welocime
+2024-01-23 00:00:37,799 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:00:37,800 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:00:37,807 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:00:37,814 - INFO - [admin]: dataframe to json
+2024-01-23 00:00:37,816 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:00:37,819 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:00:37,820 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-23 00:00:37,823 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:37,828 - DEBUG - http://127.0.0.1:8001 "POST /get/data/minIO/obj HTTP/1.1" 404 22
+2024-01-23 00:00:46,645 - INFO - [admin]: Welocime
+2024-01-23 00:00:46,647 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:46,651 - INFO - [admin]: Welocime
+2024-01-23 00:00:46,655 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:46,658 - INFO - [admin]: Welocime
+2024-01-23 00:00:46,658 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:00:46,660 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:00:46,671 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:00:46,677 - INFO - [admin]: dataframe to json
+2024-01-23 00:00:46,680 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:00:46,683 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:00:46,684 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-23 00:00:46,686 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:00:46,689 - DEBUG - http://127.0.0.1:8001 "POST /get/data/minIO/obj HTTP/1.1" 404 22
+2024-01-23 00:01:09,503 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:01:09,577 - INFO - [admin]: Welocime
+2024-01-23 00:01:09,581 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:01:09,584 - INFO - [admin]: Welocime
+2024-01-23 00:01:09,588 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:01:09,591 - INFO - [admin]: Welocime
+2024-01-23 00:01:09,592 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:01:09,593 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:01:09,611 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:01:09,619 - INFO - [admin]: dataframe to json
+2024-01-23 00:01:09,623 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:01:09,626 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:01:09,627 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-23 00:01:09,629 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:01:09,632 - INFO - [admin]: Welocime
+2024-01-23 00:01:09,632 - INFO - [START] getDataMinIOObj: {'endpoint_url': 'http://127.0.0.1:9000', 'access_key': 'yylui', 'secret_key': 'F416S45DF65SD4F6', 'bucket_name': 'yylui', 'object_key': 'chillerFn3_F15P12_202401.csv', 'uid': 'admin'}
+2024-01-23 00:01:09,634 - INFO - [admin]: Build the conn for MinIO
+2024-01-23 00:01:09,635 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-23 00:01:09,638 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-23 00:01:09,639 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-23 00:01:09,641 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-23 00:01:09,641 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-23 00:01:09,642 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-23 00:01:09,643 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-23 00:01:09,646 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-23 00:01:09,646 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-23 00:01:09,646 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-23 00:01:09,646 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-23 00:01:09,650 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-23 00:01:09,724 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-23 00:01:09,724 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000276B69FF1F0>
+2024-01-23 00:01:09,808 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-23 00:01:09,909 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-23 00:01:09,914 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-23 00:01:09,917 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x00000276B695DEE0>
+2024-01-23 00:01:09,918 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x00000276C73BD5E0>
+2024-01-23 00:01:09,940 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x00000276B695DCA0>
+2024-01-23 00:01:09,943 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-23 00:01:09,947 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-23 00:01:09,948 - DEBUG - Registering retry handlers for service: s3
+2024-01-23 00:01:09,949 - DEBUG - Registering S3 region redirector handler
+2024-01-23 00:01:09,950 - DEBUG - Registering S3Express Identity Resolver
+2024-01-23 00:01:09,950 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x00000276B6A0E9D0>
+2024-01-23 00:01:09,950 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x00000276B6A0E940>
+2024-01-23 00:01:09,950 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000276B6A13790>
+2024-01-23 00:01:09,950 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000276C8DE3BE0>>
+2024-01-23 00:01:09,950 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000276C8DE3BB0>>
+2024-01-23 00:01:09,950 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x00000276B6A0E790>
+2024-01-23 00:01:09,951 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000276B6A13940>
+2024-01-23 00:01:09,951 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000276C8DE3BE0>>
+2024-01-23 00:01:09,951 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'chillerFn3_F15P12_202401.csv', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-23 00:01:09,952 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-23 00:01:09,952 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-23 00:01:09,952 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-23 00:01:09,952 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x00000276B6A0ECA0>
+2024-01-23 00:01:09,952 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000276C8DE3BB0>>
+2024-01-23 00:01:09,953 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x00000276B6A0E430>
+2024-01-23 00:01:09,953 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x00000276B6A13040>
+2024-01-23 00:01:09,953 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/chillerFn3_F15P12_202401.csv', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/chillerFn3_F15P12_202401.csv', 'url': 'http://127.0.0.1:9000/yylui/chillerFn3_F15P12_202401.csv', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x00000276C8ADEA30>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'Key': 'chillerFn3_F15P12_202401.csv'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-23 00:01:09,953 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000276C8ADE670>>
+2024-01-23 00:01:09,953 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000276C7380BB0>>
+2024-01-23 00:01:09,953 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x00000276B6A0E670>
+2024-01-23 00:01:09,954 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x00000276B6A138B0>
+2024-01-23 00:01:09,954 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000276C8DE3BB0>>
+2024-01-23 00:01:09,954 - DEBUG - Calculating signature using v4 auth.
+2024-01-23 00:01:09,954 - DEBUG - CanonicalRequest:
+GET
+/yylui/chillerFn3_F15P12_202401.csv
+
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240122T160109Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-23 00:01:09,954 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240122T160109Z
+20240122/us-east-1/s3/aws4_request
+0fc2bfbb129da610c2d92fbbd2ff1c345d3e4d2ee282ae00da946e6131e61315
+2024-01-23 00:01:09,954 - DEBUG - Signature:
+55c0c01e18aada45d0995230dd2a0020a97cf8a95e4264ebaf313d16b6f3104e
+2024-01-23 00:01:09,955 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x00000276B6A13700>
+2024-01-23 00:01:09,955 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://127.0.0.1:9000/yylui/chillerFn3_F15P12_202401.csv, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240122T160109Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240122/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=55c0c01e18aada45d0995230dd2a0020a97cf8a95e4264ebaf313d16b6f3104e', 'amz-sdk-invocation-id': b'83e4cbf2-43bd-48bb-8966-4e7d89ef6adc', 'amz-sdk-request': b'attempt=1'}>
+2024-01-23 00:01:09,956 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-23 00:01:09,965 - DEBUG - http://127.0.0.1:9000 "GET /yylui/chillerFn3_F15P12_202401.csv HTTP/1.1" 200 100
+2024-01-23 00:01:09,965 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '100', 'Content-Type': 'text/csv', 'ETag': '"fbd138a8a0c2c8b4aab781f79da3bdea"', 'Last-Modified': 'Wed, 17 Jan 2024 14:10:45 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17ACB6BA424B1AD7', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Mon, 22 Jan 2024 16:01:09 GMT'}
+2024-01-23 00:01:09,965 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x00000276C8E29400>
+2024-01-23 00:01:09,966 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000276C8DE3B20>
+2024-01-23 00:01:09,966 - DEBUG - No retry needed.
+2024-01-23 00:01:09,966 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000276C8DE3BE0>>
+2024-01-23 00:01:09,976 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/minIO/obj HTTP/1.1" 200 229
+2024-01-23 00:03:44,596 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:05:29,893 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:06:27,240 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:08:31,266 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:09:05,065 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:09:35,524 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:12:43,742 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:13:37,323 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:14:22,756 - INFO - [admin]: Welocime
+2024-01-23 00:14:22,762 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:14:22,764 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/mariadb/query HTTP/1.1" 404 22
+2024-01-23 00:14:44,174 - INFO - [admin]: Welocime
+2024-01-23 00:14:44,177 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:14:44,181 - DEBUG - http://127.0.0.1:8001 "POST /appTest/get/data/site/mariadb/query HTTP/1.1" 404 22
+2024-01-23 00:14:44,183 - INFO - {'detail': 'Not Found'}
+2024-01-23 00:14:58,756 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:15:21,777 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:15:28,505 - INFO - [admin]: Welocime
+2024-01-23 00:15:28,511 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:15:28,514 - INFO - [admin]: Welocime
+2024-01-23 00:15:28,516 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'machine_learning', 'sql': 'Select * from hyperparameter', 'uid': 'admin'}
+2024-01-23 00:15:28,518 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:15:28,541 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:15:28,562 - INFO - [admin]: dataframe to json
+2024-01-23 00:15:28,567 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-23 00:15:34,929 - INFO - [admin]: Welocime
+2024-01-23 00:15:34,931 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:15:34,934 - INFO - [admin]: Welocime
+2024-01-23 00:15:34,940 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:15:34,943 - INFO - [admin]: Welocime
+2024-01-23 00:15:34,944 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:15:34,945 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:15:34,954 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:15:34,961 - INFO - [admin]: dataframe to json
+2024-01-23 00:15:34,963 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:15:34,966 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:15:34,967 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-23 00:15:34,969 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:15:34,974 - INFO - [admin]: Welocime
+2024-01-23 00:15:34,974 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'http://127.0.0.1:9000', 'access_key': 'yylui', 'secret_key': 'F416S45DF65SD4F6', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-01-23 00:15:34,975 - INFO - [admin]: Build the conn for MinIO
+2024-01-23 00:15:34,976 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-01-23 00:15:34,978 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-01-23 00:15:34,979 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-01-23 00:15:34,981 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-01-23 00:15:34,981 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-01-23 00:15:34,982 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-01-23 00:15:34,982 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-01-23 00:15:34,985 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-01-23 00:15:34,985 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-01-23 00:15:34,985 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-01-23 00:15:34,985 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-01-23 00:15:34,991 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\endpoints.json
+2024-01-23 00:15:35,012 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-01-23 00:15:35,013 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001E79F05D1F0>
+2024-01-23 00:15:35,108 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-01-23 00:15:35,210 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-01-23 00:15:35,216 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\partitions.json
+2024-01-23 00:15:35,218 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001E79EFBAEE0>
+2024-01-23 00:15:35,219 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001E7AF5B2AF0>
+2024-01-23 00:15:35,244 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001E79EFBACA0>
+2024-01-23 00:15:35,247 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-23 00:15:35,251 - DEBUG - Loading JSON file: C:\Users\yenying\anaconda3\envs\backend\lib\site-packages\botocore\data\_retry.json
+2024-01-23 00:15:35,251 - DEBUG - Registering retry handlers for service: s3
+2024-01-23 00:15:35,253 - DEBUG - Registering S3 region redirector handler
+2024-01-23 00:15:35,254 - DEBUG - Registering S3Express Identity Resolver
+2024-01-23 00:15:35,254 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x000001E79F06FC10>
+2024-01-23 00:15:35,255 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x000001E79F06C940>
+2024-01-23 00:15:35,255 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001E79F070790>
+2024-01-23 00:15:35,255 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E7B003B0A0>>
+2024-01-23 00:15:35,255 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E7B003B070>>
+2024-01-23 00:15:35,255 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x000001E79F06C790>
+2024-01-23 00:15:35,255 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001E79F070940>
+2024-01-23 00:15:35,255 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E7B003B0A0>>
+2024-01-23 00:15:35,255 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-23 00:15:35,256 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-23 00:15:35,256 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-23 00:15:35,257 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-23 00:15:35,257 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x000001E79F06CCA0>
+2024-01-23 00:15:35,257 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E7B003B070>>
+2024-01-23 00:15:35,257 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x000001E79F06C430>
+2024-01-23 00:15:35,257 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x000001E79F070040>
+2024-01-23 00:15:35,257 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://127.0.0.1:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E7AFD29EB0>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-23 00:15:35,258 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E7AFD29AF0>>
+2024-01-23 00:15:35,258 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E7AF63BB50>>
+2024-01-23 00:15:35,258 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x000001E79F06C670>
+2024-01-23 00:15:35,258 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x000001E79F0708B0>
+2024-01-23 00:15:35,258 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E7B003B070>>
+2024-01-23 00:15:35,258 - DEBUG - Calculating signature using v4 auth.
+2024-01-23 00:15:35,258 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240122T161535Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-23 00:15:35,258 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240122T161535Z
+20240122/us-east-1/s3/aws4_request
+fbfd7dcc54e6f9f5c5fce160fd1ac6dd4b6887c8a0f389d38647583d7e4d38a6
+2024-01-23 00:15:35,259 - DEBUG - Signature:
+88d172f0a84fe564ba911d018e3480d16674bb8c542572d21b7ae77b302bb4dc
+2024-01-23 00:15:35,259 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x000001E79F070700>
+2024-01-23 00:15:35,259 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://127.0.0.1:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240122T161535Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240122/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=88d172f0a84fe564ba911d018e3480d16674bb8c542572d21b7ae77b302bb4dc', 'amz-sdk-invocation-id': b'044c9756-0639-4827-ad5a-7cfbdf75134b', 'amz-sdk-request': b'attempt=1'}>
+2024-01-23 00:15:35,259 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-23 00:15:35,304 - DEBUG - http://127.0.0.1:9000 "GET /yylui?encoding-type=url HTTP/1.1" 200 945
+2024-01-23 00:15:35,305 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '945', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17ACB783BBC4B0ED', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Mon, 22 Jan 2024 16:15:35 GMT'}
+2024-01-23 00:15:35,305 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>chillerFn3_F15P12_202401.csv</Key><LastModified>2024-01-17T14:10:45.699Z</LastModified><ETag>&#34;fbd138a8a0c2c8b4aab781f79da3bdea&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>chillerFn3_F15P12_202402.csv</Key><LastModified>2024-01-17T14:11:17.051Z</LastModified><ETag>&#34;b1814dd53d3e07ea5875b566396a757e&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-01-23 00:15:35,307 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E7B002BFA0>
+2024-01-23 00:15:35,307 - DEBUG - No retry needed.
+2024-01-23 00:15:35,307 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E7B003B0A0>>
+2024-01-23 00:15:35,307 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x000001E79F06FCA0>
+2024-01-23 00:15:35,309 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/minIO/objKeys HTTP/1.1" 200 99
+2024-01-23 00:15:49,208 - INFO - [admin]: Welocime
+2024-01-23 00:15:49,210 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:15:49,213 - INFO - [admin]: Welocime
+2024-01-23 00:15:49,218 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:15:49,222 - INFO - [admin]: Welocime
+2024-01-23 00:15:49,223 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:15:49,224 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:15:49,232 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:15:49,239 - INFO - [admin]: dataframe to json
+2024-01-23 00:15:49,241 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:15:49,245 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/query HTTP/1.1" 200 173
+2024-01-23 00:15:49,246 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://127.0.0.1:9000"}'}], 'info': ''}
+2024-01-23 00:15:49,248 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:15:49,253 - INFO - [admin]: Welocime
+2024-01-23 00:15:49,254 - INFO - [START] getDataMinIOObj: {'endpoint_url': 'http://127.0.0.1:9000', 'access_key': 'yylui', 'secret_key': 'F416S45DF65SD4F6', 'bucket_name': 'yylui', 'object_key': 'test.txt', 'uid': 'admin'}
+2024-01-23 00:15:49,255 - INFO - [admin]: Build the conn for MinIO
+2024-01-23 00:15:49,255 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001E79F05D1F0>
+2024-01-23 00:15:49,257 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001E79EFBAEE0>
+2024-01-23 00:15:49,257 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001E7AF5B2AF0>
+2024-01-23 00:15:49,257 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001E79EFBACA0>
+2024-01-23 00:15:49,260 - DEBUG - Setting s3 timeout as (60, 60)
+2024-01-23 00:15:49,262 - DEBUG - Registering retry handlers for service: s3
+2024-01-23 00:15:49,262 - DEBUG - Registering S3 region redirector handler
+2024-01-23 00:15:49,263 - DEBUG - Registering S3Express Identity Resolver
+2024-01-23 00:15:49,263 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E79F06C9D0>
+2024-01-23 00:15:49,263 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E79F06C940>
+2024-01-23 00:15:49,263 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001E79F070790>
+2024-01-23 00:15:49,263 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E7B00996D0>>
+2024-01-23 00:15:49,263 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E7B00996A0>>
+2024-01-23 00:15:49,263 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E79F06C790>
+2024-01-23 00:15:49,264 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001E79F070940>
+2024-01-23 00:15:49,264 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E7B00996D0>>
+2024-01-23 00:15:49,264 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://127.0.0.1:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'test.txt', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-01-23 00:15:49,265 - DEBUG - Endpoint provider result: http://127.0.0.1:9000/yylui
+2024-01-23 00:15:49,265 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-01-23 00:15:49,265 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-01-23 00:15:49,266 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000001E79F06CCA0>
+2024-01-23 00:15:49,266 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E7B00996A0>>
+2024-01-23 00:15:49,267 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x000001E79F06C430>
+2024-01-23 00:15:49,267 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000001E79F070040>
+2024-01-23 00:15:49,267 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/test.txt', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19'}, 'body': b'', 'auth_path': '/yylui/test.txt', 'url': 'http://127.0.0.1:9000/yylui/test.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E7B005C0A0>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'Key': 'test.txt'}}, 'S3Express': {'bucket_name': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-01-23 00:15:49,268 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E7AFE00FD0>>
+2024-01-23 00:15:49,269 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E7B003B9A0>>
+2024-01-23 00:15:49,269 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000001E79F06C670>
+2024-01-23 00:15:49,269 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x000001E79F0708B0>
+2024-01-23 00:15:49,269 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001E7B00996A0>>
+2024-01-23 00:15:49,269 - DEBUG - Calculating signature using v4 auth.
+2024-01-23 00:15:49,269 - DEBUG - CanonicalRequest:
+GET
+/yylui/test.txt
+
+host:127.0.0.1:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240122T161549Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-01-23 00:15:49,269 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240122T161549Z
+20240122/us-east-1/s3/aws4_request
+ceb2069aa09d52439d260bd865086aec650ced5ee07c2db50acb7053fa463d3a
+2024-01-23 00:15:49,269 - DEBUG - Signature:
+eedc1c15b35c41c46cae64acc8e6944480ef1b1595705d4754b390660d5e7dea
+2024-01-23 00:15:49,269 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x000001E79F070700>
+2024-01-23 00:15:49,270 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://127.0.0.1:9000/yylui/test.txt, headers={'User-Agent': b'Boto3/1.34.19 md/Botocore#1.34.19 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.9.18 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.19', 'X-Amz-Date': b'20240122T161549Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240122/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=eedc1c15b35c41c46cae64acc8e6944480ef1b1595705d4754b390660d5e7dea', 'amz-sdk-invocation-id': b'a9728f25-83d2-4272-a881-45c5ab5c8fc2', 'amz-sdk-request': b'attempt=1'}>
+2024-01-23 00:15:49,270 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:9000
+2024-01-23 00:15:49,278 - DEBUG - http://127.0.0.1:9000 "GET /yylui/test.txt HTTP/1.1" 404 333
+2024-01-23 00:15:49,278 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '333', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17ACB786FD8AF631', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Mon, 22 Jan 2024 16:15:49 GMT'}
+2024-01-23 00:15:49,278 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>test.txt</Key><BucketName>yylui</BucketName><Resource>/yylui/test.txt</Resource><RequestId>17ACB786FD8AF631</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>'
+2024-01-23 00:15:49,281 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '333', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17ACB786FD8AF631', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Mon, 22 Jan 2024 16:15:49 GMT'}
+2024-01-23 00:15:49,281 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>test.txt</Key><BucketName>yylui</BucketName><Resource>/yylui/test.txt</Resource><RequestId>17ACB786FD8AF631</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>'
+2024-01-23 00:15:49,281 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E7B0099610>
+2024-01-23 00:15:49,282 - DEBUG - No retry needed.
+2024-01-23 00:15:49,282 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001E7B00996D0>>
+2024-01-23 00:15:49,289 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/minIO/obj HTTP/1.1" 500 1673
+2024-01-23 00:17:25,888 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:17:29,367 - INFO - [admin]: Welocime
+2024-01-23 00:17:29,373 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:17:29,377 - INFO - [admin]: Welocime
+2024-01-23 00:17:29,377 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'machine_learning', 'sql': 'Select * from hyperparameter', 'uid': 'admin'}
+2024-01-23 00:17:29,378 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:17:29,396 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:17:29,410 - INFO - [admin]: dataframe to json
+2024-01-23 00:17:29,412 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 102
+2024-01-23 00:17:51,352 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:18:35,848 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:19:04,054 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:19:38,858 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:19:45,886 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:26:42,487 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:26:57,679 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:27:55,562 - INFO - [admin]: Welocime
+2024-01-23 00:27:55,563 - INFO - [admin]: Build the conn for MailRelay
+2024-01-23 00:27:56,893 - INFO - [admin]: Send the message
+2024-01-23 00:30:02,144 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:30:20,544 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:31:44,740 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:32:06,518 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:32:13,225 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:32:42,780 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:32:56,073 - INFO - [admin]: Welocime
+2024-01-23 00:33:13,522 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:33:29,010 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:33:44,433 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:33:48,815 - INFO - [admin]: Welocime
+2024-01-23 00:33:48,819 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:33:48,823 - INFO - [admin]: Welocime
+2024-01-23 00:33:48,828 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:33:48,831 - INFO - [admin]: Welocime
+2024-01-23 00:33:48,832 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:33:48,833 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:33:48,849 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:33:48,862 - INFO - [admin]: dataframe to json
+2024-01-23 00:33:48,865 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:33:48,868 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:33:48,869 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-01-23 00:35:09,481 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:35:09,555 - INFO - [admin]: Welocime
+2024-01-23 00:35:09,558 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:35:09,563 - INFO - [admin]: Welocime
+2024-01-23 00:35:09,566 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:35:09,569 - INFO - [admin]: Welocime
+2024-01-23 00:35:09,569 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:35:09,570 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:35:09,586 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:35:09,598 - INFO - [admin]: dataframe to json
+2024-01-23 00:35:09,601 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:35:09,603 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:35:09,603 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-01-23 00:35:22,107 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:35:22,181 - INFO - [admin]: Welocime
+2024-01-23 00:35:22,184 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:35:22,188 - INFO - [admin]: Welocime
+2024-01-23 00:35:22,192 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:35:22,196 - INFO - [admin]: Welocime
+2024-01-23 00:35:22,196 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:35:22,197 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:35:22,213 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:35:22,226 - INFO - [admin]: dataframe to json
+2024-01-23 00:35:22,228 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:35:22,230 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:35:22,232 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-01-23 00:35:43,199 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:35:43,294 - INFO - [admin]: Welocime
+2024-01-23 00:35:43,299 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:35:43,303 - INFO - [admin]: Welocime
+2024-01-23 00:35:43,306 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:35:43,312 - INFO - [admin]: Welocime
+2024-01-23 00:35:43,313 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:35:43,313 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:35:43,332 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:35:43,347 - INFO - [admin]: dataframe to json
+2024-01-23 00:35:43,350 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:35:43,353 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:35:43,354 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-01-23 00:35:59,711 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:36:04,735 - INFO - [admin]: Welocime
+2024-01-23 00:36:04,739 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:36:04,743 - INFO - [admin]: Welocime
+2024-01-23 00:36:04,748 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:36:04,752 - INFO - [admin]: Welocime
+2024-01-23 00:36:04,753 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:36:04,754 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:36:04,769 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:36:04,783 - INFO - [admin]: dataframe to json
+2024-01-23 00:36:04,785 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:36:04,787 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:36:04,788 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-01-23 00:36:04,791 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:36:04,798 - INFO - [admin]: Welocime
+2024-01-23 00:36:04,799 - INFO - [admin]: Build the conn for MailRelay
+2024-01-23 00:36:06,772 - INFO - [admin]: Send the message
+2024-01-23 00:36:07,699 - DEBUG - http://127.0.0.1:8001 "POST /mail/sender HTTP/1.1" 200 42
+2024-01-23 00:36:20,335 - DEBUG - Using selector: SelectSelector
+2024-01-23 00:36:43,962 - INFO - [admin]: Welocime
+2024-01-23 00:36:43,966 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:36:43,970 - INFO - [admin]: Welocime
+2024-01-23 00:36:43,974 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:36:43,979 - INFO - [admin]: Welocime
+2024-01-23 00:36:43,980 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-01-23 00:36:43,981 - INFO - [admin]: Build the conn for MariaDB
+2024-01-23 00:36:43,996 - INFO - [admin]: Connect with MariaDB
+2024-01-23 00:36:44,008 - INFO - [admin]: dataframe to json
+2024-01-23 00:36:44,011 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:36:44,015 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/query HTTP/1.1" 200 156
+2024-01-23 00:36:44,017 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-01-23 00:36:44,019 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-23 00:36:44,021 - INFO - [admin]: Welocime
+2024-01-23 00:36:44,021 - INFO - [admin]: Build the conn for MailRelay
+2024-01-23 00:36:45,060 - INFO - [admin]: Send the message
+2024-01-23 00:36:45,930 - DEBUG - http://127.0.0.1:8001 "POST /mail/sender HTTP/1.1" 200 42
