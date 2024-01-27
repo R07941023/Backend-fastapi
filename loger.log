@@ -3177,3 +3177,333 @@ b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>NoSuchKey</Code><Message>
 2024-01-23 00:36:44,021 - INFO - [admin]: Build the conn for MailRelay
 2024-01-23 00:36:45,060 - INFO - [admin]: Send the message
 2024-01-23 00:36:45,930 - DEBUG - http://127.0.0.1:8001 "POST /mail/sender HTTP/1.1" 200 42
+2024-01-24 23:06:45,639 - DEBUG - Using selector: SelectSelector
+2024-01-24 23:09:18,180 - DEBUG - Using selector: SelectSelector
+2024-01-24 23:12:42,305 - DEBUG - Using selector: SelectSelector
+2024-01-24 23:22:54,989 - DEBUG - Using selector: SelectSelector
+2024-01-24 23:23:08,368 - DEBUG - Using selector: SelectSelector
+2024-01-27 21:27:59,274 - DEBUG - Using selector: SelectSelector
+2024-01-27 21:28:37,264 - DEBUG - Using selector: SelectSelector
+2024-01-27 21:28:53,461 - DEBUG - Using selector: SelectSelector
+2024-01-27 21:29:23,007 - DEBUG - Using selector: SelectSelector
+2024-01-27 21:29:37,202 - DEBUG - Using selector: SelectSelector
+2024-01-27 21:29:51,591 - DEBUG - Using selector: SelectSelector
+2024-01-27 21:35:20,067 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:01:47,095 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:01:52,019 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:02:12,859 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:03:08,034 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:06:20,116 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:16:07,616 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:17:35,791 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:18:58,869 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:27:35,390 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:31:56,274 - INFO - [admin]: Welocime
+2024-01-27 23:31:56,280 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:31:56,285 - INFO - [admin]: Welocime
+2024-01-27 23:31:56,296 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:31:56,299 - INFO - [admin]: Welocime
+2024-01-27 23:31:56,300 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawData where tag = 'KRON' AND dateTime BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:31:56,301 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:31:56,324 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:31:56,342 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1823
+2024-01-27 23:31:56,344 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:32:53,631 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:32:57,340 - INFO - [admin]: Welocime
+2024-01-27 23:32:57,345 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:32:57,348 - INFO - [admin]: Welocime
+2024-01-27 23:32:57,350 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:32:57,354 - INFO - [admin]: Welocime
+2024-01-27 23:32:57,355 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawdata where tag = 'KRON' AND dateTime BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:32:57,356 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:32:57,373 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:32:57,392 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1823
+2024-01-27 23:32:57,396 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:35:22,048 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:35:25,450 - INFO - [admin]: Welocime
+2024-01-27 23:35:25,455 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:35:25,459 - INFO - [admin]: Welocime
+2024-01-27 23:35:25,464 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:35:25,467 - INFO - [admin]: Welocime
+2024-01-27 23:35:25,468 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawdata where tag = 'KRON'", 'uid': 'admin'}
+2024-01-27 23:35:25,468 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:35:25,490 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:35:25,509 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1754
+2024-01-27 23:35:25,512 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:36:29,712 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:36:29,778 - INFO - [admin]: Welocime
+2024-01-27 23:36:29,782 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:36:29,785 - INFO - [admin]: Welocime
+2024-01-27 23:36:29,788 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:36:29,790 - INFO - [admin]: Welocime
+2024-01-27 23:36:29,790 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawdata where tag = 'KRON'", 'uid': 'admin'}
+2024-01-27 23:36:29,791 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:36:29,807 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:36:29,824 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1754
+2024-01-27 23:36:29,827 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:36:42,953 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:37:08,793 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:37:08,861 - INFO - [admin]: Welocime
+2024-01-27 23:37:08,866 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:37:08,869 - INFO - [admin]: Welocime
+2024-01-27 23:37:08,872 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:37:08,875 - INFO - [admin]: Welocime
+2024-01-27 23:37:08,876 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawdata where tag = 'KRON'", 'uid': 'admin'}
+2024-01-27 23:37:08,877 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:37:08,899 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1953
+2024-01-27 23:37:08,902 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:37:25,611 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:37:39,557 - INFO - [admin]: Welocime
+2024-01-27 23:37:39,561 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:37:39,565 - INFO - [admin]: Welocime
+2024-01-27 23:37:39,569 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:37:39,574 - INFO - [admin]: Welocime
+2024-01-27 23:37:39,574 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawdata where tag = 'KRON'", 'uid': 'admin'}
+2024-01-27 23:37:39,576 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:37:39,593 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:37:39,609 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1754
+2024-01-27 23:37:39,611 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:38:51,470 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:38:54,760 - INFO - [admin]: Welocime
+2024-01-27 23:38:54,765 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:38:54,769 - INFO - [admin]: Welocime
+2024-01-27 23:38:54,774 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:38:54,777 - INFO - [admin]: Welocime
+2024-01-27 23:38:54,777 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from 'rawdata' where tag = 'KRON'", 'uid': 'admin'}
+2024-01-27 23:38:54,778 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:38:54,794 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:38:54,810 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1894
+2024-01-27 23:38:54,813 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:39:39,223 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:39:40,274 - INFO - [admin]: Welocime
+2024-01-27 23:39:40,278 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:39:40,283 - INFO - [admin]: Welocime
+2024-01-27 23:39:40,286 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:39:40,290 - INFO - [admin]: Welocime
+2024-01-27 23:39:40,290 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "SELECT * FROM 'rawdaTA'", 'uid': 'admin'}
+2024-01-27 23:39:40,291 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:39:40,309 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:39:40,330 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1853
+2024-01-27 23:39:40,334 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:39:51,553 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:39:51,623 - INFO - [admin]: Welocime
+2024-01-27 23:39:51,629 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:39:51,633 - INFO - [admin]: Welocime
+2024-01-27 23:39:51,637 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:39:51,642 - INFO - [admin]: Welocime
+2024-01-27 23:39:51,643 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "SELECT * FROM 'rawdata'", 'uid': 'admin'}
+2024-01-27 23:39:51,644 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:39:51,659 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:39:51,673 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1853
+2024-01-27 23:39:51,677 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:40:32,228 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:40:32,296 - INFO - [admin]: Welocime
+2024-01-27 23:40:32,299 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:40:32,302 - INFO - [admin]: Welocime
+2024-01-27 23:40:32,304 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:40:32,307 - INFO - [admin]: Welocime
+2024-01-27 23:40:32,308 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "SELECT * FROM 'rawdata'", 'uid': 'admin'}
+2024-01-27 23:40:32,309 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:40:32,327 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:40:32,345 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1853
+2024-01-27 23:40:32,349 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:40:47,757 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:42:51,185 - INFO - [admin]: Welocime
+2024-01-27 23:42:51,191 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:42:51,194 - INFO - [admin]: Welocime
+2024-01-27 23:42:51,195 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': 'SELECT * FROM rawdata', 'uid': 'admin'}
+2024-01-27 23:42:51,196 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:42:51,213 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:42:51,240 - INFO - [admin]: dataframe to json
+2024-01-27 23:42:51,242 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 369
+2024-01-27 23:43:05,509 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:43:14,419 - INFO - [admin]: Welocime
+2024-01-27 23:43:14,423 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:43:14,427 - INFO - [admin]: Welocime
+2024-01-27 23:43:14,432 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:43:14,437 - INFO - [admin]: Welocime
+2024-01-27 23:43:14,438 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': 'SELECT * FROM rawdata', 'uid': 'admin'}
+2024-01-27 23:43:14,439 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:43:14,457 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:43:14,468 - INFO - [admin]: dataframe to json
+2024-01-27 23:43:14,472 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 369
+2024-01-27 23:43:14,474 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 369
+2024-01-27 23:43:30,477 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:43:30,545 - INFO - [admin]: Welocime
+2024-01-27 23:43:30,551 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:43:30,554 - INFO - [admin]: Welocime
+2024-01-27 23:43:30,557 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:43:30,559 - INFO - [admin]: Welocime
+2024-01-27 23:43:30,560 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': 'Select Open from rawdata where tag = KRON', 'uid': 'admin'}
+2024-01-27 23:43:30,560 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:43:30,576 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:43:30,591 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1752
+2024-01-27 23:43:30,593 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:43:41,744 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:44:15,685 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:44:16,916 - INFO - [admin]: Welocime
+2024-01-27 23:44:16,920 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:44:16,925 - INFO - [admin]: Welocime
+2024-01-27 23:44:16,929 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:44:16,933 - INFO - [admin]: Welocime
+2024-01-27 23:44:16,933 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': 'Select Open from rawdata where tag = KRON', 'uid': 'admin'}
+2024-01-27 23:44:16,934 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:44:16,954 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:44:16,971 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1753
+2024-01-27 23:44:16,973 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:44:18,591 - INFO - [admin]: Welocime
+2024-01-27 23:44:18,593 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:44:18,596 - INFO - [admin]: Welocime
+2024-01-27 23:44:18,600 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:44:18,603 - INFO - [admin]: Welocime
+2024-01-27 23:44:18,604 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': 'Select Open from rawdata where tag = KRON', 'uid': 'admin'}
+2024-01-27 23:44:18,605 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:44:18,615 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:44:18,622 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1753
+2024-01-27 23:44:18,624 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:44:37,718 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:44:38,508 - INFO - [admin]: Welocime
+2024-01-27 23:44:38,513 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:44:38,516 - INFO - [admin]: Welocime
+2024-01-27 23:44:38,520 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:44:38,524 - INFO - [admin]: Welocime
+2024-01-27 23:44:38,524 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': 'Select Open from rawdata', 'uid': 'admin'}
+2024-01-27 23:44:38,525 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:44:38,543 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:44:38,557 - INFO - [admin]: dataframe to json
+2024-01-27 23:44:38,559 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 89
+2024-01-27 23:44:38,563 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 89
+2024-01-27 23:44:45,838 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:44:45,906 - INFO - [admin]: Welocime
+2024-01-27 23:44:45,909 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:44:45,912 - INFO - [admin]: Welocime
+2024-01-27 23:44:45,915 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:44:45,918 - INFO - [admin]: Welocime
+2024-01-27 23:44:45,919 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawdata where tag = 'KRON'", 'uid': 'admin'}
+2024-01-27 23:44:45,920 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:44:45,937 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:44:45,951 - INFO - [admin]: dataframe to json
+2024-01-27 23:44:45,955 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 89
+2024-01-27 23:44:45,958 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 89
+2024-01-27 23:45:42,631 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:45:42,695 - INFO - [admin]: Welocime
+2024-01-27 23:45:42,698 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:45:42,702 - INFO - [admin]: Welocime
+2024-01-27 23:45:42,705 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:45:42,708 - INFO - [admin]: Welocime
+2024-01-27 23:45:42,709 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawdata where tag = 'KRON' BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:45:42,709 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:45:42,726 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:45:42,739 - INFO - [admin]: dataframe to json
+2024-01-27 23:45:42,741 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 89
+2024-01-27 23:45:42,744 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 89
+2024-01-27 23:46:23,010 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:46:23,082 - INFO - [admin]: Welocime
+2024-01-27 23:46:23,086 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:46:23,091 - INFO - [admin]: Welocime
+2024-01-27 23:46:23,094 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:46:23,097 - INFO - [admin]: Welocime
+2024-01-27 23:46:23,097 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Open from rawdata where tag = 'KRON' BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:46:23,098 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:46:23,118 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:46:23,143 - INFO - [admin]: dataframe to json
+2024-01-27 23:46:23,145 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 89
+2024-01-27 23:46:23,148 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 89
+2024-01-27 23:47:01,127 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:47:05,453 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:47:05,521 - INFO - [admin]: Welocime
+2024-01-27 23:47:05,525 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:47:05,529 - INFO - [admin]: Welocime
+2024-01-27 23:47:05,532 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:47:05,534 - INFO - [admin]: Welocime
+2024-01-27 23:47:05,535 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:47:05,535 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:47:05,553 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:47:05,567 - INFO - [admin]: dataframe to json
+2024-01-27 23:47:05,569 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:47:05,571 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:48:17,370 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:48:19,434 - INFO - [admin]: Welocime
+2024-01-27 23:48:19,442 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:48:19,446 - INFO - [admin]: Welocime
+2024-01-27 23:48:19,449 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:48:19,453 - INFO - [admin]: Welocime
+2024-01-27 23:48:19,454 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:48:19,455 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:48:19,472 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:48:19,486 - INFO - [admin]: dataframe to json
+2024-01-27 23:48:19,489 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:48:19,493 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:50:30,498 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:50:32,514 - INFO - [admin]: Welocime
+2024-01-27 23:50:32,519 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:50:32,523 - INFO - [admin]: Welocime
+2024-01-27 23:50:32,528 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:50:32,532 - INFO - [admin]: Welocime
+2024-01-27 23:50:32,533 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' BETWEEN 2024-01-27 10:00:00 AND 2024-01-27 11:00:00", 'uid': 'admin'}
+2024-01-27 23:50:32,533 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:50:32,551 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:50:32,570 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1954
+2024-01-27 23:50:32,572 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 425
+2024-01-27 23:50:39,005 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:50:58,535 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:50:58,602 - INFO - [admin]: Welocime
+2024-01-27 23:50:58,607 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:50:58,609 - INFO - [admin]: Welocime
+2024-01-27 23:50:58,611 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:50:58,615 - INFO - [admin]: Welocime
+2024-01-27 23:50:58,616 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:50:58,617 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:50:58,632 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:50:58,655 - INFO - [admin]: dataframe to json
+2024-01-27 23:50:58,658 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:50:58,665 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:51:39,932 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:51:42,647 - INFO - [admin]: Welocime
+2024-01-27 23:51:42,652 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:51:42,656 - INFO - [admin]: Welocime
+2024-01-27 23:51:42,660 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:51:42,665 - INFO - [admin]: Welocime
+2024-01-27 23:51:42,666 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:51:42,667 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:51:42,682 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:51:42,693 - INFO - [admin]: dataframe to json
+2024-01-27 23:51:42,695 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:51:42,696 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:52:30,606 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:52:32,329 - INFO - [admin]: Welocime
+2024-01-27 23:52:32,335 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:52:32,339 - INFO - [admin]: Welocime
+2024-01-27 23:52:32,344 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:52:32,350 - INFO - [admin]: Welocime
+2024-01-27 23:52:32,352 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:52:32,353 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:52:32,372 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:52:32,386 - INFO - [admin]: dataframe to json
+2024-01-27 23:52:32,388 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:52:32,391 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:53:05,502 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:53:05,566 - INFO - [admin]: Welocime
+2024-01-27 23:53:05,572 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:53:05,577 - INFO - [admin]: Welocime
+2024-01-27 23:53:05,580 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:53:05,583 - INFO - [admin]: Welocime
+2024-01-27 23:53:05,584 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:53:05,585 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:53:05,602 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:53:05,622 - INFO - [admin]: dataframe to json
+2024-01-27 23:53:05,625 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:53:05,628 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 173
+2024-01-27 23:55:23,890 - DEBUG - Using selector: SelectSelector
+2024-01-27 23:55:31,845 - INFO - [admin]: Welocime
+2024-01-27 23:55:31,850 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:55:31,854 - INFO - [admin]: Welocime
+2024-01-27 23:55:31,860 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8001
+2024-01-27 23:55:31,863 - INFO - [admin]: Welocime
+2024-01-27 23:55:31,864 - INFO - [START] getDataMariadbQuery: {'host': '127.0.0.1', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-01-27 23:55:31,865 - INFO - [admin]: Build the conn for MariaDB
+2024-01-27 23:55:31,884 - INFO - [admin]: Connect with MariaDB
+2024-01-27 23:55:31,903 - INFO - [admin]: dataframe to json
+2024-01-27 23:55:31,906 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 105
+2024-01-27 23:55:31,910 - DEBUG - http://127.0.0.1:8001 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 105
+2024-01-27 23:55:46,606 - DEBUG - Using selector: SelectSelector

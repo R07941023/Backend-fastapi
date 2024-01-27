@@ -14,20 +14,28 @@ def get_uid(uid: str = Header('admin')):
 dataAccess = APIRouter()
 
 
-@dataAccess.post("/get/data/site/mariadb/query", tags=["Data"])
+@dataAccess.post("/get/data/site/mariadb/table/query", tags=["Data"])
+@handle_exceptions
+def getDataSiteMariadbTableQuery(item: GetDataSiteMariadbTableQuery, uid: str = Depends(get_uid)): 
+    logging.info(f'[{uid}]: Welocime')
+    item = registerUID(item, uid)
+    res = mariadbSiteTableQuery(item)
+    return res
+
+@dataAccess.post("/get/data/site/mariadb/sql/query", tags=["Data"])
 @handle_exceptions
 def getDataSiteMariadbQuery(item: connSQLSite, uid: str = Depends(get_uid)): 
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
-    res = mariadbSiteQuery(item)
+    res = mariadbSiteSqlQuery(item)
     return res
 
-@dataAccess.post("/get/data/site/mariadb/nonquery", tags=["Data"])
+@dataAccess.post("/get/data/site/mariadb/sql/nonquery", tags=["Data"])
 @handle_exceptions
 def getDataSiteMariadbNonquery(item: connSQLSite, uid: str = Depends(get_uid)): 
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
-    res = mariadbSiteNonquery(item)
+    res = mariadbSiteSqlNonquery(item)
     return res
 
 
@@ -47,22 +55,22 @@ def getDataSiteMinIOObj(item: GetDataSiteMinIOObj, uid: str = Depends(get_uid)):
     res = getObjFromSiteMinIO(item)
     return res
 
-@dataAccess.post("/get/data/mariadb/query", tags=["Infra"])
+@dataAccess.post("/get/data/mariadb/sql/query", tags=["Infra"])
 @handle_exceptions
 def getDataMariadbQuery(item: connSQLInfra, uid: str = Depends(get_uid)): 
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
     logging.info('[START] getDataMariadbQuery: ' + str(item))
-    res = mariadbQuery(item)
+    res = mariadbSqlQuery(item)
     return res
 
-@dataAccess.post("/get/data/mariadb/nonquery", tags=["Infra"])
+@dataAccess.post("/get/data/mariadb/sql/nonquery", tags=["Infra"])
 @handle_exceptions
 def getDataMariadbNonquery(item: connSQLInfra, uid: str = Depends(get_uid)): 
     logging.info(f'[{uid}]: Welocime')
     item = registerUID(item, uid)
     logging.info('[START] getDataMariadbNonquery: ' + str(item))
-    res = mariadbNonquery(item)
+    res = mariadbSqlNonquery(item)
     return res
 
 @dataAccess.post("/get/data/minIO/objKeys", tags=["Infra"])

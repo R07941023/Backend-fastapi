@@ -6,10 +6,29 @@ import json
 import configparser
 from func_timeout import func_set_timeout
 from src.main.python.InfraAPI.InfraAPI import *
+from datetime import datetime
 
-    
+
+def tableToSql(tag, col, table, startTime, endTime):
+    startTime = datetime.strptime(startTime, "%Y-%m-%d %H:%M:%S")
+    endTime = datetime.strptime(endTime, "%Y-%m-%d %H:%M:%S")
+    sql = f"""Select Date, {col} from {table} where tag = '{tag}' AND Date BETWEEN '{startTime}' AND '{endTime}'"""
+    return sql
+
+
 @func_set_timeout(180)
-def mariadbSiteQuery(item):
+def mariadbSiteTableQuery(item):
+    res = {'statusCode': 200, "data": 'Pass', "info": ''}
+    dbConn = {}
+    dbConn['site'] = item['site']
+    dbConn['database'] = item['database']
+    dbConn['sql'] = tableToSql(item['tag'], item['column'], item['table'], item['startTime'], item['endTime'])
+    print(dbConn)
+    res = API_getDataSiteMariadbQuery(dbConn)
+    return res
+
+@func_set_timeout(180)
+def mariadbSiteSqlQuery(item):
     uid = item['uid']
     res = {'statusCode': 200, "data": 'Pass', "info": ''}
     connInfo = readConnMariadbSite(item['site'])
@@ -24,7 +43,7 @@ def mariadbSiteQuery(item):
     return res
 
 @func_set_timeout(180)
-def mariadbSiteNonquery(item):
+def mariadbSiteSqlNonquery(item):
     uid = item['uid']
     res = {'statusCode': 200, "data": 'Pass', "info": ''}
     connInfo = readConnMariadbSite(item['site'])
@@ -38,7 +57,7 @@ def mariadbSiteNonquery(item):
     return res
 
 @func_set_timeout(180)
-def mariadbQuery(item):
+def mariadbSqlQuery(item):
     uid = item['uid']
     res = {'statusCode': 200, "data": 'Pass', "info": ''}
     db_config = {
@@ -58,7 +77,7 @@ def mariadbQuery(item):
     return res
 
 @func_set_timeout(180)
-def mariadbNonquery(item):
+def mariadbSqlNonquery(item):
     uid = item['uid']
     res = {'statusCode': 200, "data": 'Pass', "info": ''}
     db_config = {

@@ -21,26 +21,33 @@ def API_getDataMinIOObj(query):
     response = json.loads(response)
     return response
 
+
 def API_getDataSiteMariadbQuery(query):
-    url = host + '/dataAccess/get/data/site/mariadb/query'
+    url = host + '/dataAccess/get/data/site/mariadb/sql/query'
+    response = requests.post(url, json=query).content
+    response = json.loads(response)
+    return response
+
+def API_getDataSiteMariadbQuery(query):
+    url = host + '/dataAccess/get/data/site/mariadb/sql/query'
     response = requests.post(url, json=query).content
     response = json.loads(response)
     return response
 
 def API_getDataSiteMariadbNonquery(query):
-    url = host + '/dataAccess/get/data/site/mariadb/nonquery'
+    url = host + '/dataAccess/get/data/site/mariadb/sql/nonquery'
     response = requests.post(url, json=query).content
     response = json.loads(response)
     return response
 
 def API_getDataMariadbQuery(query):
-    url = host + '/dataAccess/get/data/mariadb/query'
+    url = host + '/dataAccess/get/data/mariadb/sql/query'
     response = requests.post(url, json=query).content
     response = json.loads(response)
     return response
 
 def API_getDataMariadbNonquery(query):
-    url = host + '/dataAccess/get/data/mariadb/nonquery'
+    url = host + '/dataAccess/get/data/mariadb/sql/nonquery'
     response = requests.post(url, json=query).content
     response = json.loads(response)
     return response
