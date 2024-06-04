@@ -1,7 +1,7 @@
 import json
 import requests
 
-host = 'http://127.0.0.1:8090'
+host = 'http://127.0.0.1:8091'
 
 def API_mailSenderSystem(query):
     url = host + '/mail/sender'

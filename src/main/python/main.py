@@ -12,7 +12,7 @@ app.include_router(dataAccess, prefix="/dataAccess")
 
 
 if __name__ == '__main__':
-    port = 8090
+    port = 8091
     workers = 2
     try:
         uvicorn.run("src.main.python.main:app", host="0.0.0.0", port=port, workers=workers, reload=True)
