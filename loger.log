@@ -3685,3 +3685,1393 @@ b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.ama
 2024-06-04 02:06:50,800 - INFO - [admin]: dataframe to json
 2024-06-04 02:06:50,828 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 105
 2024-06-04 02:06:50,832 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 105
+2024-06-16 13:02:36,012 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:02:54,094 - INFO - [admin]: Welocime
+2024-06-16 13:02:54,102 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:02:54,106 - INFO - [admin]: Welocime
+2024-06-16 13:02:54,110 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:02:54,114 - INFO - [admin]: Welocime
+2024-06-16 13:02:54,115 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-06-16 13:02:54,121 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1198
+2024-06-16 13:02:54,123 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 444
+2024-06-16 13:03:19,121 - INFO - [admin]: Welocime
+2024-06-16 13:03:19,124 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:03:19,129 - INFO - [admin]: Welocime
+2024-06-16 13:03:19,131 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:03:19,136 - INFO - [admin]: Welocime
+2024-06-16 13:03:19,136 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-06-16 13:03:19,139 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1198
+2024-06-16 13:03:19,142 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 444
+2024-06-16 13:03:52,477 - INFO - [admin]: Welocime
+2024-06-16 13:03:52,480 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:03:52,485 - INFO - [admin]: Welocime
+2024-06-16 13:03:52,488 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:03:52,493 - INFO - [admin]: Welocime
+2024-06-16 13:03:52,494 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-06-16 13:03:52,497 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1198
+2024-06-16 13:03:52,501 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 444
+2024-06-16 13:05:35,350 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:05:37,779 - INFO - [admin]: Welocime
+2024-06-16 13:05:37,786 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:05:37,790 - INFO - [admin]: Welocime
+2024-06-16 13:05:37,792 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:05:37,796 - INFO - [admin]: Welocime
+2024-06-16 13:05:37,796 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-06-16 13:05:37,799 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 1198
+2024-06-16 13:05:37,803 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 444
+2024-06-16 13:13:09,481 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:13:15,311 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:13:22,912 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:13:27,377 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:14:18,996 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:14:29,187 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:14:43,729 - INFO - [admin]: Welocime
+2024-06-16 13:14:43,729 - INFO - [START] getDataMariadbQuery: {'host': 'localhost', 'port': 30307, 'user': 'root', 'password': 'admin', 'database': 'machine_learning', 'sql': 'Select * from hyperparameter', 'uid': 'admin'}
+2024-06-16 13:14:43,729 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:14:58,600 - INFO - [admin]: Welocime
+2024-06-16 13:14:58,608 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:14:58,615 - INFO - [admin]: Welocime
+2024-06-16 13:14:58,622 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:14:58,627 - INFO - [admin]: Welocime
+2024-06-16 13:14:58,627 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30307, 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-06-16 13:14:58,628 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:14:58,641 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 2161
+2024-06-16 13:14:58,644 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 500 444
+2024-06-16 13:17:08,488 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:17:10,208 - INFO - [admin]: Welocime
+2024-06-16 13:17:10,211 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:17:10,214 - INFO - [admin]: Welocime
+2024-06-16 13:17:10,216 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:17:10,220 - INFO - [admin]: Welocime
+2024-06-16 13:17:10,220 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-06-16 13:17:10,220 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:17:10,234 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:17:10,338 - INFO - [admin]: dataframe to json
+2024-06-16 13:17:10,341 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 105
+2024-06-16 13:17:10,345 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 105
+2024-06-16 13:20:27,236 - INFO - [admin]: Welocime
+2024-06-16 13:20:27,240 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:20:27,246 - INFO - [admin]: Welocime
+2024-06-16 13:20:27,247 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'machine_learning', 'sql': 'Select * from hyperparameter', 'uid': 'admin'}
+2024-06-16 13:20:27,247 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:20:27,267 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 2312
+2024-06-16 13:20:37,398 - INFO - [admin]: Welocime
+2024-06-16 13:20:37,402 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:20:37,407 - INFO - [admin]: Welocime
+2024-06-16 13:20:37,413 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:20:37,419 - INFO - [admin]: Welocime
+2024-06-16 13:20:37,420 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-06-16 13:20:37,421 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:20:37,437 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:20:37,447 - INFO - [admin]: dataframe to json
+2024-06-16 13:20:37,449 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 105
+2024-06-16 13:20:37,451 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 105
+2024-06-16 13:21:13,834 - INFO - [admin]: Welocime
+2024-06-16 13:21:13,838 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:21:13,842 - INFO - [admin]: Welocime
+2024-06-16 13:21:13,842 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'machine_learning', 'sql': 'Select * from hyperparameter', 'uid': 'admin'}
+2024-06-16 13:21:13,843 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:21:13,853 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 500 2312
+2024-06-16 13:23:00,384 - INFO - [admin]: Welocime
+2024-06-16 13:23:00,389 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:23:00,395 - INFO - [admin]: Welocime
+2024-06-16 13:23:00,396 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': 'Select * from rawdata', 'uid': 'admin'}
+2024-06-16 13:23:00,396 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:23:00,414 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:23:00,425 - INFO - [admin]: dataframe to json
+2024-06-16 13:23:00,428 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 414
+2024-06-16 13:23:13,925 - INFO - [admin]: Welocime
+2024-06-16 13:23:13,928 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:23:13,935 - INFO - [admin]: Welocime
+2024-06-16 13:23:13,938 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:23:13,945 - INFO - [admin]: Welocime
+2024-06-16 13:23:13,945 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:23:13,946 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:23:13,963 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:23:13,974 - INFO - [admin]: dataframe to json
+2024-06-16 13:23:13,977 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 169
+2024-06-16 13:23:13,981 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 169
+2024-06-16 13:23:13,983 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "http://minio:9000"}'}], 'info': ''}
+2024-06-16 13:23:13,985 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:23:13,988 - INFO - [admin]: Welocime
+2024-06-16 13:23:13,988 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'http://minio:9000', 'access_key': 'yylui', 'secret_key': 'F416S45DF65SD4F6', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-06-16 13:23:13,989 - INFO - [admin]: Build the conn for MinIO
+2024-06-16 13:23:13,990 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-06-16 13:23:13,992 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-06-16 13:23:13,993 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-06-16 13:23:13,994 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-06-16 13:23:13,994 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-06-16 13:23:13,994 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-06-16 13:23:13,995 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-06-16 13:23:13,997 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-06-16 13:23:13,997 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-06-16 13:23:13,997 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-06-16 13:23:13,998 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-06-16 13:23:14,003 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/endpoints.json
+2024-06-16 13:23:14,017 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/sdk-default-configuration.json
+2024-06-16 13:23:14,018 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fafbbe3dda0>
+2024-06-16 13:23:14,242 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2024-06-16 13:23:14,265 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2024-06-16 13:23:14,270 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/partitions.json
+2024-06-16 13:23:14,272 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fafbbd7e200>
+2024-06-16 13:23:14,272 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7faf865c4d60>
+2024-06-16 13:23:14,291 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fafbbd7df80>
+2024-06-16 13:23:14,293 - DEBUG - Setting s3 timeout as (60, 60)
+2024-06-16 13:23:14,296 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/_retry.json
+2024-06-16 13:23:14,297 - DEBUG - Registering retry handlers for service: s3
+2024-06-16 13:23:14,298 - DEBUG - Registering S3 region redirector handler
+2024-06-16 13:23:14,299 - DEBUG - Registering S3Express Identity Resolver
+2024-06-16 13:23:14,300 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x7fafbbc68cc0>
+2024-06-16 13:23:14,301 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x7fafbbe3f7e0>
+2024-06-16 13:23:14,301 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x7fafbbc69940>
+2024-06-16 13:23:14,301 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76cb39d0>>
+2024-06-16 13:23:14,301 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7faf866daa50>>
+2024-06-16 13:23:14,301 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x7fafbbe3f600>
+2024-06-16 13:23:14,302 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7fafbbc69b20>
+2024-06-16 13:23:14,302 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76cb39d0>>
+2024-06-16 13:23:14,303 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://minio:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-06-16 13:23:14,305 - DEBUG - Endpoint provider result: http://minio:9000/yylui
+2024-06-16 13:23:14,305 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-06-16 13:23:14,305 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-06-16 13:23:14,306 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x7fafbbe3fba0>
+2024-06-16 13:23:14,306 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76cc4590>>
+2024-06-16 13:23:14,306 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x7fafbbe3dee0>
+2024-06-16 13:23:14,306 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x7fafbbc69120>
+2024-06-16 13:23:14,306 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://minio:9000/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7faf76c9d790>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-06-16 13:23:14,307 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf76c9d750>>
+2024-06-16 13:23:14,307 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf866daa50>>
+2024-06-16 13:23:14,308 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:23:14,308 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:23:14,308 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76cc4590>>
+2024-06-16 13:23:14,308 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:23:14,309 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:minio:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132314Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:23:14,309 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132314Z
+20240616/us-east-1/s3/aws4_request
+1cd0205766689ef9b887507d19fda5f37ed28581fe3bcd484cc8cebc8ae063da
+2024-06-16 13:23:14,309 - DEBUG - Signature:
+9ab794db572111f168cb1f1dff31ee228fd25bb26e717c410671fbe938b339d9
+2024-06-16 13:23:14,309 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:23:14,309 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://minio:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132314Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=9ab794db572111f168cb1f1dff31ee228fd25bb26e717c410671fbe938b339d9', 'amz-sdk-invocation-id': b'4b0c7da5-1a0d-4944-89e1-c11498faddd5', 'amz-sdk-request': b'attempt=1'}>
+2024-06-16 13:23:14,311 - DEBUG - Starting new HTTP connection (1): minio:9000
+2024-06-16 13:23:22,315 - DEBUG - Exception received when sending HTTP request.
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf76da9650>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:22,328 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf76cc4410>
+2024-06-16 13:23:22,328 - DEBUG - retry needed, retryable exception caught: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf76da9650>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 307, in _should_retry
+    return self._checker(
+           ^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 363, in __call__
+    checker_response = checker(
+                       ^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 247, in __call__
+    return self._check_caught_exception(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 416, in _check_caught_exception
+    raise caught_exception
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:22,332 - DEBUG - Retry needed, action of: 0.4895395188288094
+2024-06-16 13:23:22,332 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76cb39d0>>
+2024-06-16 13:23:22,332 - DEBUG - Response received to retry, sleeping for 0.4895395188288094 seconds
+2024-06-16 13:23:22,822 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf76c9d750>>
+2024-06-16 13:23:22,822 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf866daa50>>
+2024-06-16 13:23:22,822 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:23:22,822 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:23:22,822 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76cc4590>>
+2024-06-16 13:23:22,823 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:23:22,823 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:minio:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132322Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:23:22,823 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132322Z
+20240616/us-east-1/s3/aws4_request
+a9b56132945ccb336608676339f40bb687b6cd654aaaa3921245db904358f50c
+2024-06-16 13:23:22,824 - DEBUG - Signature:
+6fbde6c4d6fba7f8c97111ec1dbb079a43e4a52224d2ed2b87ba1f62e82a67d4
+2024-06-16 13:23:22,824 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:23:22,824 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://minio:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132322Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=6fbde6c4d6fba7f8c97111ec1dbb079a43e4a52224d2ed2b87ba1f62e82a67d4', 'amz-sdk-invocation-id': b'4b0c7da5-1a0d-4944-89e1-c11498faddd5', 'amz-sdk-request': b'attempt=2; max=5'}>
+2024-06-16 13:23:22,825 - DEBUG - Starting new HTTP connection (2): minio:9000
+2024-06-16 13:23:30,830 - DEBUG - Exception received when sending HTTP request.
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf866214d0>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:30,834 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf76cc4410>
+2024-06-16 13:23:30,835 - DEBUG - retry needed, retryable exception caught: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf866214d0>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 307, in _should_retry
+    return self._checker(
+           ^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 363, in __call__
+    checker_response = checker(
+                       ^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 247, in __call__
+    return self._check_caught_exception(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 416, in _check_caught_exception
+    raise caught_exception
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:30,838 - DEBUG - Retry needed, action of: 1.548043715941554
+2024-06-16 13:23:30,838 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76cb39d0>>
+2024-06-16 13:23:30,838 - DEBUG - Response received to retry, sleeping for 1.548043715941554 seconds
+2024-06-16 13:23:32,387 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf76c9d750>>
+2024-06-16 13:23:32,387 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf866daa50>>
+2024-06-16 13:23:32,388 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:23:32,388 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:23:32,388 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76cc4590>>
+2024-06-16 13:23:32,388 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:23:32,388 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:minio:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132332Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:23:32,389 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132332Z
+20240616/us-east-1/s3/aws4_request
+5ae690e2d5acbffa8e5acff09a9537682c07b043a26b8fba0ae05a3f7dffebb9
+2024-06-16 13:23:32,389 - DEBUG - Signature:
+d9325a40fb878283743875335d30476af4885f202f09202c3731f3cc63cf6b7a
+2024-06-16 13:23:32,389 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:23:32,390 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://minio:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132332Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=d9325a40fb878283743875335d30476af4885f202f09202c3731f3cc63cf6b7a', 'amz-sdk-invocation-id': b'4b0c7da5-1a0d-4944-89e1-c11498faddd5', 'amz-sdk-request': b'attempt=3; max=5'}>
+2024-06-16 13:23:32,390 - DEBUG - Starting new HTTP connection (3): minio:9000
+2024-06-16 13:23:40,395 - DEBUG - Exception received when sending HTTP request.
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf768945d0>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:40,400 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf76cc4410>
+2024-06-16 13:23:40,400 - DEBUG - retry needed, retryable exception caught: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf768945d0>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 307, in _should_retry
+    return self._checker(
+           ^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 363, in __call__
+    checker_response = checker(
+                       ^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 247, in __call__
+    return self._check_caught_exception(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 416, in _check_caught_exception
+    raise caught_exception
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:40,404 - DEBUG - Retry needed, action of: 0.8320395234502898
+2024-06-16 13:23:40,404 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76cb39d0>>
+2024-06-16 13:23:40,404 - DEBUG - Response received to retry, sleeping for 0.8320395234502898 seconds
+2024-06-16 13:23:41,236 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf76c9d750>>
+2024-06-16 13:23:41,237 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf866daa50>>
+2024-06-16 13:23:41,237 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:23:41,238 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:23:41,238 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76cc4590>>
+2024-06-16 13:23:41,238 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:23:41,239 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:minio:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132341Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:23:41,239 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132341Z
+20240616/us-east-1/s3/aws4_request
+48fa6b5a446f6de8d7d0cdd97c47f26ac1d00342e5c7f696d929b5468ab796ca
+2024-06-16 13:23:41,239 - DEBUG - Signature:
+439997e1bd81f7fef682deddb9f29f03a1b5b85f641eb2f182f4e2ac0cb761de
+2024-06-16 13:23:41,239 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:23:41,240 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://minio:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132341Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=439997e1bd81f7fef682deddb9f29f03a1b5b85f641eb2f182f4e2ac0cb761de', 'amz-sdk-invocation-id': b'4b0c7da5-1a0d-4944-89e1-c11498faddd5', 'amz-sdk-request': b'attempt=4; max=5'}>
+2024-06-16 13:23:41,241 - DEBUG - Starting new HTTP connection (4): minio:9000
+2024-06-16 13:23:49,245 - DEBUG - Exception received when sending HTTP request.
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf76896010>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:49,249 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf76cc4410>
+2024-06-16 13:23:49,250 - DEBUG - retry needed, retryable exception caught: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf76896010>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 307, in _should_retry
+    return self._checker(
+           ^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 363, in __call__
+    checker_response = checker(
+                       ^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 247, in __call__
+    return self._check_caught_exception(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/retryhandler.py", line 416, in _check_caught_exception
+    raise caught_exception
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:49,255 - DEBUG - Retry needed, action of: 0.3336422032794113
+2024-06-16 13:23:49,255 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76cb39d0>>
+2024-06-16 13:23:49,255 - DEBUG - Response received to retry, sleeping for 0.3336422032794113 seconds
+2024-06-16 13:23:49,589 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf76c9d750>>
+2024-06-16 13:23:49,590 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf866daa50>>
+2024-06-16 13:23:49,590 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:23:49,590 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:23:49,590 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76cc4590>>
+2024-06-16 13:23:49,591 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:23:49,591 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:minio:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132349Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:23:49,591 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132349Z
+20240616/us-east-1/s3/aws4_request
+d353aa91ea489a1abb30d73390dc94ae2d86cad1e006d6ec753adcf486397c98
+2024-06-16 13:23:49,591 - DEBUG - Signature:
+667476b8638109a57846b24e2950127a55e465d1acb6574a5d1954dc2cb1e17e
+2024-06-16 13:23:49,592 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:23:49,592 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://minio:9000/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132349Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=yylui/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=667476b8638109a57846b24e2950127a55e465d1acb6574a5d1954dc2cb1e17e', 'amz-sdk-invocation-id': b'4b0c7da5-1a0d-4944-89e1-c11498faddd5', 'amz-sdk-request': b'attempt=5; max=5'}>
+2024-06-16 13:23:49,593 - DEBUG - Starting new HTTP connection (5): minio:9000
+2024-06-16 13:23:57,599 - DEBUG - Exception received when sending HTTP request.
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+                      ^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/retry.py", line 445, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 96, in request
+    rval = super().request(method, url, body, headers, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/lib/python3.11/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 123, in _send_output
+    self.send(msg)
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/awsrequest.py", line 223, in send
+    return super().send(str)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 975, in send
+    self.connect()
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7faf7687f0d0>: Failed to resolve 'minio' ([Errno -3] Temporary failure in name resolution)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 281, in _do_get_response
+    http_response = self._send(request)
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/endpoint.py", line 377, in _send
+    return self.http_session.send(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/.local/lib/python3.11/site-packages/botocore/httpsession.py", line 493, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://minio:9000/yylui?encoding-type=url"
+2024-06-16 13:23:57,602 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf76cc4410>
+2024-06-16 13:23:57,608 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/minIO/objKeys HTTP/1.1" 500 4979
+2024-06-16 13:24:59,752 - INFO - [admin]: Welocime
+2024-06-16 13:24:59,754 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:24:59,758 - INFO - [admin]: Welocime
+2024-06-16 13:24:59,760 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:24:59,764 - INFO - [admin]: Welocime
+2024-06-16 13:24:59,765 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:24:59,765 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:24:59,781 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:24:59,793 - INFO - [admin]: dataframe to json
+2024-06-16 13:24:59,796 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 178
+2024-06-16 13:24:59,799 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 178
+2024-06-16 13:24:59,800 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'yylui', 'password': 'F416S45DF65SD4F6', 'info': '{"endpoint_url": "host.docker.internal:30900"}'}], 'info': ''}
+2024-06-16 13:24:59,802 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:24:59,807 - INFO - [admin]: Welocime
+2024-06-16 13:24:59,807 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'host.docker.internal:30900', 'access_key': 'yylui', 'secret_key': 'F416S45DF65SD4F6', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-06-16 13:24:59,808 - INFO - [admin]: Build the conn for MinIO
+2024-06-16 13:24:59,808 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fafbbe3dda0>
+2024-06-16 13:24:59,810 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fafbbd7e200>
+2024-06-16 13:24:59,810 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7faf865c4d60>
+2024-06-16 13:24:59,810 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fafbbd7df80>
+2024-06-16 13:24:59,818 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/minIO/objKeys HTTP/1.1" 500 2861
+2024-06-16 13:27:01,179 - INFO - [admin]: Welocime
+2024-06-16 13:27:01,182 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:27:01,188 - INFO - [admin]: Welocime
+2024-06-16 13:27:01,192 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:27:01,198 - INFO - [admin]: Welocime
+2024-06-16 13:27:01,198 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:27:01,199 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:27:01,215 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:27:01,225 - INFO - [admin]: dataframe to json
+2024-06-16 13:27:01,227 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 173
+2024-06-16 13:27:01,230 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 173
+2024-06-16 13:27:01,231 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'admin', 'password': 'admin123456', 'info': '{"endpoint_url": "host.docker.internal:30900"}'}], 'info': ''}
+2024-06-16 13:27:01,232 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:27:01,235 - INFO - [admin]: Welocime
+2024-06-16 13:27:01,236 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'host.docker.internal:30900', 'access_key': 'admin', 'secret_key': 'admin123456', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-06-16 13:27:01,236 - INFO - [admin]: Build the conn for MinIO
+2024-06-16 13:27:01,236 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fafbbe3dda0>
+2024-06-16 13:27:01,237 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fafbbd7e200>
+2024-06-16 13:27:01,238 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7faf865c4d60>
+2024-06-16 13:27:01,238 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fafbbd7df80>
+2024-06-16 13:27:01,244 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/minIO/objKeys HTTP/1.1" 500 2861
+2024-06-16 13:29:03,261 - INFO - [admin]: Welocime
+2024-06-16 13:29:03,265 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:03,269 - INFO - [admin]: Welocime
+2024-06-16 13:29:03,273 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:03,279 - INFO - [admin]: Welocime
+2024-06-16 13:29:03,279 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:29:03,280 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:29:03,297 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:29:03,306 - INFO - [admin]: dataframe to json
+2024-06-16 13:29:03,308 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 180
+2024-06-16 13:29:03,311 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 180
+2024-06-16 13:29:03,312 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'admin', 'password': 'admin123456', 'info': '{"endpoint_url": "http://host.docker.internal:30900"}'}], 'info': ''}
+2024-06-16 13:29:03,313 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:03,315 - INFO - [admin]: Welocime
+2024-06-16 13:29:03,315 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'http://host.docker.internal:30900', 'access_key': 'admin', 'secret_key': 'admin123456', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-06-16 13:29:03,316 - INFO - [admin]: Build the conn for MinIO
+2024-06-16 13:29:03,316 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fafbbe3dda0>
+2024-06-16 13:29:03,317 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fafbbd7e200>
+2024-06-16 13:29:03,317 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7faf865c4d60>
+2024-06-16 13:29:03,317 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fafbbd7df80>
+2024-06-16 13:29:03,318 - DEBUG - Setting s3 timeout as (60, 60)
+2024-06-16 13:29:03,320 - DEBUG - Registering retry handlers for service: s3
+2024-06-16 13:29:03,321 - DEBUG - Registering S3 region redirector handler
+2024-06-16 13:29:03,321 - DEBUG - Registering S3Express Identity Resolver
+2024-06-16 13:29:03,321 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x7fafbbc68cc0>
+2024-06-16 13:29:03,321 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x7fafbbe3f7e0>
+2024-06-16 13:29:03,321 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x7fafbbc69940>
+2024-06-16 13:29:03,321 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76776850>>
+2024-06-16 13:29:03,321 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7faf768d3150>>
+2024-06-16 13:29:03,322 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x7fafbbe3f600>
+2024-06-16 13:29:03,322 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7fafbbc69b20>
+2024-06-16 13:29:03,322 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76776850>>
+2024-06-16 13:29:03,322 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://host.docker.internal:30900', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-06-16 13:29:03,322 - DEBUG - Endpoint provider result: http://host.docker.internal:30900/yylui
+2024-06-16 13:29:03,322 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-06-16 13:29:03,322 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-06-16 13:29:03,323 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x7fafbbe3fba0>
+2024-06-16 13:29:03,323 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76789c50>>
+2024-06-16 13:29:03,323 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x7fafbbe3dee0>
+2024-06-16 13:29:03,323 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x7fafbbc69120>
+2024-06-16 13:29:03,323 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://host.docker.internal:30900/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7faf76775850>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-06-16 13:29:03,323 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf76775810>>
+2024-06-16 13:29:03,323 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf768d3150>>
+2024-06-16 13:29:03,323 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:29:03,323 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:29:03,323 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76789c50>>
+2024-06-16 13:29:03,324 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:29:03,324 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:host.docker.internal:30900
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132903Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:29:03,324 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132903Z
+20240616/us-east-1/s3/aws4_request
+6e9e87f1a2f64903416136bbda40d91aae381996ba76a873d4b677405aacfd11
+2024-06-16 13:29:03,324 - DEBUG - Signature:
+b9a556b6c46acca60cd6d4702fefc0fdefaf7ae05766e9679bd775b5e3dcbb32
+2024-06-16 13:29:03,324 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:29:03,324 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://host.docker.internal:30900/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132903Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=admin/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=b9a556b6c46acca60cd6d4702fefc0fdefaf7ae05766e9679bd775b5e3dcbb32', 'amz-sdk-invocation-id': b'28376443-1df5-49e7-8b2a-a0d8942301e6', 'amz-sdk-request': b'attempt=1'}>
+2024-06-16 13:29:03,324 - DEBUG - Starting new HTTP connection (1): host.docker.internal:30900
+2024-06-16 13:29:03,341 - DEBUG - http://host.docker.internal:30900 "GET /yylui?encoding-type=url HTTP/1.1" 200 945
+2024-06-16 13:29:03,341 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '945', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17D97F282BEA12B6', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 16 Jun 2024 13:29:03 GMT'}
+2024-06-16 13:29:03,341 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>chillerFn3_F15P12_202401.csv</Key><LastModified>2024-01-17T14:10:45.699Z</LastModified><ETag>&#34;fbd138a8a0c2c8b4aab781f79da3bdea&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>chillerFn3_F15P12_202402.csv</Key><LastModified>2024-01-17T14:11:17.051Z</LastModified><ETag>&#34;b1814dd53d3e07ea5875b566396a757e&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-06-16 13:29:03,343 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf76789ad0>
+2024-06-16 13:29:03,343 - DEBUG - No retry needed.
+2024-06-16 13:29:03,343 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76776850>>
+2024-06-16 13:29:03,343 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x7fafbbc68d60>
+2024-06-16 13:29:03,345 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/minIO/objKeys HTTP/1.1" 200 99
+2024-06-16 13:29:13,374 - INFO - [admin]: Welocime
+2024-06-16 13:29:13,377 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:13,382 - INFO - [admin]: Welocime
+2024-06-16 13:29:13,386 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:13,392 - INFO - [admin]: Welocime
+2024-06-16 13:29:13,392 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:29:13,393 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:29:13,410 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:29:13,422 - INFO - [admin]: dataframe to json
+2024-06-16 13:29:13,424 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 180
+2024-06-16 13:29:13,427 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 180
+2024-06-16 13:29:13,429 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'admin', 'password': 'admin123456', 'info': '{"endpoint_url": "http://host.docker.internal:30900"}'}], 'info': ''}
+2024-06-16 13:29:13,430 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:13,434 - INFO - [admin]: Welocime
+2024-06-16 13:29:13,434 - INFO - [START] getDataMinIOObj: {'endpoint_url': 'http://host.docker.internal:30900', 'access_key': 'admin', 'secret_key': 'admin123456', 'bucket_name': 'yylui', 'object_key': 'test.txt', 'uid': 'admin'}
+2024-06-16 13:29:13,434 - INFO - [admin]: Build the conn for MinIO
+2024-06-16 13:29:13,435 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fafbbe3dda0>
+2024-06-16 13:29:13,436 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fafbbd7e200>
+2024-06-16 13:29:13,436 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7faf865c4d60>
+2024-06-16 13:29:13,436 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fafbbd7df80>
+2024-06-16 13:29:13,438 - DEBUG - Setting s3 timeout as (60, 60)
+2024-06-16 13:29:13,441 - DEBUG - Registering retry handlers for service: s3
+2024-06-16 13:29:13,441 - DEBUG - Registering S3 region redirector handler
+2024-06-16 13:29:13,442 - DEBUG - Registering S3Express Identity Resolver
+2024-06-16 13:29:13,442 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fafbbe3f880>
+2024-06-16 13:29:13,442 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fafbbe3f7e0>
+2024-06-16 13:29:13,442 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7fafbbc69940>
+2024-06-16 13:29:13,442 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf7678cc50>>
+2024-06-16 13:29:13,442 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7faf76770950>>
+2024-06-16 13:29:13,443 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fafbbe3f600>
+2024-06-16 13:29:13,443 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7fafbbc69b20>
+2024-06-16 13:29:13,443 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf7678cc50>>
+2024-06-16 13:29:13,443 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://host.docker.internal:30900', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'test.txt', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-06-16 13:29:13,444 - DEBUG - Endpoint provider result: http://host.docker.internal:30900/yylui
+2024-06-16 13:29:13,444 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-06-16 13:29:13,444 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-06-16 13:29:13,444 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7fafbbe3fba0>
+2024-06-16 13:29:13,444 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf767b7d50>>
+2024-06-16 13:29:13,444 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x7fafbbe3dee0>
+2024-06-16 13:29:13,444 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x7fafbbc69120>
+2024-06-16 13:29:13,445 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/test.txt', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91'}, 'body': b'', 'auth_path': '/yylui/test.txt', 'url': 'http://host.docker.internal:30900/yylui/test.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7faf767a6f10>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'Key': 'test.txt'}}, 'input_params': {'Bucket': 'yylui', 'Key': 'test.txt'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-06-16 13:29:13,445 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf767a6ed0>>
+2024-06-16 13:29:13,445 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf76770950>>
+2024-06-16 13:29:13,445 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:29:13,445 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:29:13,445 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf767b7d50>>
+2024-06-16 13:29:13,446 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:29:13,446 - DEBUG - CanonicalRequest:
+GET
+/yylui/test.txt
+
+host:host.docker.internal:30900
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132913Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:29:13,446 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132913Z
+20240616/us-east-1/s3/aws4_request
+5c9c7df5c8c21425de257613f339b1d4a3965066e1f5dfa0eb507afa5ed6ee0f
+2024-06-16 13:29:13,446 - DEBUG - Signature:
+73b042d94f77a9195c0a399108f824e44e90abbd256fb47f41127aafd2a6791b
+2024-06-16 13:29:13,446 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:29:13,446 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://host.docker.internal:30900/yylui/test.txt, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132913Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=admin/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=73b042d94f77a9195c0a399108f824e44e90abbd256fb47f41127aafd2a6791b', 'amz-sdk-invocation-id': b'a919da1f-0204-4a1e-873a-3bfce30ebeab', 'amz-sdk-request': b'attempt=1'}>
+2024-06-16 13:29:13,447 - DEBUG - Starting new HTTP connection (1): host.docker.internal:30900
+2024-06-16 13:29:13,456 - DEBUG - http://host.docker.internal:30900 "GET /yylui/test.txt HTTP/1.1" 404 333
+2024-06-16 13:29:13,456 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '333', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17D97F2A873CBF04', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 16 Jun 2024 13:29:13 GMT'}
+2024-06-16 13:29:13,456 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>test.txt</Key><BucketName>yylui</BucketName><Resource>/yylui/test.txt</Resource><RequestId>17D97F2A873CBF04</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>'
+2024-06-16 13:29:13,458 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '333', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17D97F2A873CBF04', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 16 Jun 2024 13:29:13 GMT'}
+2024-06-16 13:29:13,458 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>test.txt</Key><BucketName>yylui</BucketName><Resource>/yylui/test.txt</Resource><RequestId>17D97F2A873CBF04</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>'
+2024-06-16 13:29:13,458 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf767b7b10>
+2024-06-16 13:29:13,458 - DEBUG - No retry needed.
+2024-06-16 13:29:13,458 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf7678cc50>>
+2024-06-16 13:29:13,460 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/minIO/obj HTTP/1.1" 500 1810
+2024-06-16 13:29:25,171 - INFO - [admin]: Welocime
+2024-06-16 13:29:25,173 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:25,175 - INFO - [admin]: Welocime
+2024-06-16 13:29:25,176 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:25,179 - INFO - [admin]: Welocime
+2024-06-16 13:29:25,179 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:29:25,180 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:29:25,195 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:29:25,205 - INFO - [admin]: dataframe to json
+2024-06-16 13:29:25,207 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 180
+2024-06-16 13:29:25,209 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 180
+2024-06-16 13:29:25,210 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'admin', 'password': 'admin123456', 'info': '{"endpoint_url": "http://host.docker.internal:30900"}'}], 'info': ''}
+2024-06-16 13:29:25,211 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:25,214 - INFO - [admin]: Welocime
+2024-06-16 13:29:25,214 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'http://host.docker.internal:30900', 'access_key': 'admin', 'secret_key': 'admin123456', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-06-16 13:29:25,214 - INFO - [admin]: Build the conn for MinIO
+2024-06-16 13:29:25,215 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fafbbe3dda0>
+2024-06-16 13:29:25,216 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fafbbd7e200>
+2024-06-16 13:29:25,216 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7faf865c4d60>
+2024-06-16 13:29:25,216 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fafbbd7df80>
+2024-06-16 13:29:25,219 - DEBUG - Setting s3 timeout as (60, 60)
+2024-06-16 13:29:25,221 - DEBUG - Registering retry handlers for service: s3
+2024-06-16 13:29:25,222 - DEBUG - Registering S3 region redirector handler
+2024-06-16 13:29:25,222 - DEBUG - Registering S3Express Identity Resolver
+2024-06-16 13:29:25,222 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x7fafbbc68cc0>
+2024-06-16 13:29:25,222 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x7fafbbe3f7e0>
+2024-06-16 13:29:25,222 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x7fafbbc69940>
+2024-06-16 13:29:25,222 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf767bba50>>
+2024-06-16 13:29:25,223 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7faf76771310>>
+2024-06-16 13:29:25,223 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x7fafbbe3f600>
+2024-06-16 13:29:25,223 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7fafbbc69b20>
+2024-06-16 13:29:25,223 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf767bba50>>
+2024-06-16 13:29:25,223 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://host.docker.internal:30900', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-06-16 13:29:25,223 - DEBUG - Endpoint provider result: http://host.docker.internal:30900/yylui
+2024-06-16 13:29:25,223 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-06-16 13:29:25,223 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-06-16 13:29:25,224 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x7fafbbe3fba0>
+2024-06-16 13:29:25,224 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf767bb550>>
+2024-06-16 13:29:25,224 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x7fafbbe3dee0>
+2024-06-16 13:29:25,224 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x7fafbbc69120>
+2024-06-16 13:29:25,224 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://host.docker.internal:30900/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7faf767a8c10>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-06-16 13:29:25,224 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf767a8a50>>
+2024-06-16 13:29:25,224 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf76771310>>
+2024-06-16 13:29:25,224 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:29:25,224 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:29:25,225 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf767bb550>>
+2024-06-16 13:29:25,225 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:29:25,225 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:host.docker.internal:30900
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132925Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:29:25,225 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132925Z
+20240616/us-east-1/s3/aws4_request
+5587b18afcaf05a1e5330ecb3ab5f9792b831e6450f41e5f4094179f84e70e53
+2024-06-16 13:29:25,225 - DEBUG - Signature:
+7c60477ec6702d878d0b2725c8791ebddbc76cdca1f8cef3d4c1eabdd00659f5
+2024-06-16 13:29:25,225 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:29:25,225 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://host.docker.internal:30900/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132925Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=admin/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=7c60477ec6702d878d0b2725c8791ebddbc76cdca1f8cef3d4c1eabdd00659f5', 'amz-sdk-invocation-id': b'843c327a-e93a-4b37-ad8d-cceffa56207c', 'amz-sdk-request': b'attempt=1'}>
+2024-06-16 13:29:25,225 - DEBUG - Starting new HTTP connection (1): host.docker.internal:30900
+2024-06-16 13:29:25,238 - DEBUG - http://host.docker.internal:30900 "GET /yylui?encoding-type=url HTTP/1.1" 200 945
+2024-06-16 13:29:25,239 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '945', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17D97F2D45476CAA', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 16 Jun 2024 13:29:25 GMT'}
+2024-06-16 13:29:25,239 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>chillerFn3_F15P12_202401.csv</Key><LastModified>2024-01-17T14:10:45.699Z</LastModified><ETag>&#34;fbd138a8a0c2c8b4aab781f79da3bdea&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>chillerFn3_F15P12_202402.csv</Key><LastModified>2024-01-17T14:11:17.051Z</LastModified><ETag>&#34;b1814dd53d3e07ea5875b566396a757e&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-06-16 13:29:25,240 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf767bb610>
+2024-06-16 13:29:25,240 - DEBUG - No retry needed.
+2024-06-16 13:29:25,240 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf767bba50>>
+2024-06-16 13:29:25,240 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x7fafbbc68d60>
+2024-06-16 13:29:25,242 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/minIO/objKeys HTTP/1.1" 200 99
+2024-06-16 13:29:35,362 - INFO - [admin]: Welocime
+2024-06-16 13:29:35,365 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:35,373 - INFO - [admin]: Welocime
+2024-06-16 13:29:35,377 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:35,384 - INFO - [admin]: Welocime
+2024-06-16 13:29:35,385 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:29:35,385 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:29:35,404 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:29:35,414 - INFO - [admin]: dataframe to json
+2024-06-16 13:29:35,416 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 180
+2024-06-16 13:29:35,418 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 180
+2024-06-16 13:29:35,419 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'admin', 'password': 'admin123456', 'info': '{"endpoint_url": "http://host.docker.internal:30900"}'}], 'info': ''}
+2024-06-16 13:29:35,420 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:29:35,422 - INFO - [admin]: Welocime
+2024-06-16 13:29:35,423 - INFO - [START] getDataMinIOObj: {'endpoint_url': 'http://host.docker.internal:30900', 'access_key': 'admin', 'secret_key': 'admin123456', 'bucket_name': 'yylui', 'object_key': 'chillerFn3_F15P12_202402.csv', 'uid': 'admin'}
+2024-06-16 13:29:35,423 - INFO - [admin]: Build the conn for MinIO
+2024-06-16 13:29:35,423 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fafbbe3dda0>
+2024-06-16 13:29:35,424 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fafbbd7e200>
+2024-06-16 13:29:35,424 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7faf865c4d60>
+2024-06-16 13:29:35,425 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fafbbd7df80>
+2024-06-16 13:29:35,426 - DEBUG - Setting s3 timeout as (60, 60)
+2024-06-16 13:29:35,428 - DEBUG - Registering retry handlers for service: s3
+2024-06-16 13:29:35,428 - DEBUG - Registering S3 region redirector handler
+2024-06-16 13:29:35,429 - DEBUG - Registering S3Express Identity Resolver
+2024-06-16 13:29:35,429 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x7fafbbe3f880>
+2024-06-16 13:29:35,429 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x7fafbbe3f7e0>
+2024-06-16 13:29:35,429 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x7fafbbc69940>
+2024-06-16 13:29:35,429 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76776210>>
+2024-06-16 13:29:35,429 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7faf767a5550>>
+2024-06-16 13:29:35,429 - DEBUG - Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x7fafbbe3f600>
+2024-06-16 13:29:35,430 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7fafbbc69b20>
+2024-06-16 13:29:35,430 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76776210>>
+2024-06-16 13:29:35,430 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://host.docker.internal:30900', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'chillerFn3_F15P12_202402.csv', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-06-16 13:29:35,430 - DEBUG - Endpoint provider result: http://host.docker.internal:30900/yylui
+2024-06-16 13:29:35,430 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-06-16 13:29:35,430 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-06-16 13:29:35,431 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x7fafbbe3fba0>
+2024-06-16 13:29:35,431 - DEBUG - Event before-call.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76789550>>
+2024-06-16 13:29:35,431 - DEBUG - Event before-call.s3.GetObject: calling handler <function add_recursion_detection_header at 0x7fafbbe3dee0>
+2024-06-16 13:29:35,431 - DEBUG - Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x7fafbbc69120>
+2024-06-16 13:29:35,431 - DEBUG - Making request for OperationModel(name=GetObject) with params: {'url_path': '/chillerFn3_F15P12_202402.csv', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91'}, 'body': b'', 'auth_path': '/yylui/chillerFn3_F15P12_202402.csv', 'url': 'http://host.docker.internal:30900/yylui/chillerFn3_F15P12_202402.csv', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7faf7678d350>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'Key': 'chillerFn3_F15P12_202402.csv'}}, 'input_params': {'Bucket': 'yylui', 'Key': 'chillerFn3_F15P12_202402.csv'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-06-16 13:29:35,431 - DEBUG - Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7faf7678e410>>
+2024-06-16 13:29:35,431 - DEBUG - Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7faf767a5550>>
+2024-06-16 13:29:35,431 - DEBUG - Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x7fafbbe3f4c0>
+2024-06-16 13:29:35,431 - DEBUG - Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x7fafbbc69a80>
+2024-06-16 13:29:35,431 - DEBUG - Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7faf76789550>>
+2024-06-16 13:29:35,432 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 13:29:35,432 - DEBUG - CanonicalRequest:
+GET
+/yylui/chillerFn3_F15P12_202402.csv
+
+host:host.docker.internal:30900
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T132935Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 13:29:35,432 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T132935Z
+20240616/us-east-1/s3/aws4_request
+99e5b215b88d7e9eaf09cf063ccfdc941aaa613d6e9ec596513e11651fb161c0
+2024-06-16 13:29:35,432 - DEBUG - Signature:
+6daec94b07163a9d6fc203ce62b4c842b7aae29d13781479950ebf5bda7dea14
+2024-06-16 13:29:35,432 - DEBUG - Event request-created.s3.GetObject: calling handler <function add_retry_headers at 0x7fafbbc698a0>
+2024-06-16 13:29:35,432 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=http://host.docker.internal:30900/yylui/chillerFn3_F15P12_202402.csv, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T132935Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=admin/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=6daec94b07163a9d6fc203ce62b4c842b7aae29d13781479950ebf5bda7dea14', 'amz-sdk-invocation-id': b'f9f50db0-b0a8-4d6f-b110-0a31a2c1d015', 'amz-sdk-request': b'attempt=1'}>
+2024-06-16 13:29:35,432 - DEBUG - Starting new HTTP connection (1): host.docker.internal:30900
+2024-06-16 13:29:35,442 - DEBUG - http://host.docker.internal:30900 "GET /yylui/chillerFn3_F15P12_202402.csv HTTP/1.1" 200 100
+2024-06-16 13:29:35,443 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '100', 'Content-Type': 'text/csv', 'ETag': '"b1814dd53d3e07ea5875b566396a757e"', 'Last-Modified': 'Wed, 17 Jan 2024 14:11:17 GMT', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17D97F2FA5A39AC4', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 16 Jun 2024 13:29:35 GMT'}
+2024-06-16 13:29:35,443 - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x7faf76cadde0>
+2024-06-16 13:29:35,443 - DEBUG - Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x7faf76776a10>
+2024-06-16 13:29:35,443 - DEBUG - No retry needed.
+2024-06-16 13:29:35,444 - DEBUG - Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7faf76776210>>
+2024-06-16 13:29:35,449 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/minIO/obj HTTP/1.1" 200 229
+2024-06-16 13:29:49,382 - INFO - [admin]: Welocime
+2024-06-16 13:30:05,651 - INFO - [admin]: Welocime
+2024-06-16 13:30:05,652 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:30:05,655 - INFO - [admin]: Welocime
+2024-06-16 13:30:05,657 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:30:05,659 - INFO - [admin]: Welocime
+2024-06-16 13:30:05,660 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:30:05,660 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:30:05,671 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:30:05,678 - INFO - [admin]: dataframe to json
+2024-06-16 13:30:05,681 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:30:05,683 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:30:05,684 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-06-16 13:30:05,685 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:30:05,687 - INFO - [admin]: Welocime
+2024-06-16 13:30:05,687 - INFO - [admin]: Build the conn for MailRelay
+2024-06-16 13:30:06,990 - DEBUG - http://127.0.0.1:8091 "POST /mail/sender HTTP/1.1" 500 1704
+2024-06-16 13:30:46,099 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:30:47,776 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:30:52,920 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:30:53,986 - INFO - [admin]: Welocime
+2024-06-16 13:30:53,988 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:30:53,991 - INFO - [admin]: Welocime
+2024-06-16 13:30:53,993 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:30:53,996 - INFO - [admin]: Welocime
+2024-06-16 13:30:53,996 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:30:53,997 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:30:54,010 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:30:54,020 - INFO - [admin]: dataframe to json
+2024-06-16 13:30:54,023 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:30:54,027 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:30:54,028 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-06-16 13:30:54,030 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:30:54,033 - INFO - [admin]: Welocime
+2024-06-16 13:30:54,034 - INFO - [admin]: Build the conn for MailRelay
+2024-06-16 13:30:55,296 - DEBUG - http://127.0.0.1:8091 "POST /mail/sender HTTP/1.1" 500 1705
+2024-06-16 13:32:38,714 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:32:42,695 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:32:44,083 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:32:47,946 - INFO - [admin]: Welocime
+2024-06-16 13:32:47,950 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:32:47,956 - INFO - [admin]: Welocime
+2024-06-16 13:32:47,959 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:32:47,963 - INFO - [admin]: Welocime
+2024-06-16 13:32:47,964 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:32:47,964 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:32:47,981 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:32:48,002 - INFO - [admin]: dataframe to json
+2024-06-16 13:32:48,005 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:32:48,007 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:32:48,008 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-06-16 13:32:48,010 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:32:48,012 - INFO - [admin]: Welocime
+2024-06-16 13:32:48,013 - INFO - [admin]: Build the conn for MailRelay
+2024-06-16 13:32:48,902 - DEBUG - http://127.0.0.1:8091 "POST /mail/sender HTTP/1.1" 500 1705
+2024-06-16 13:33:01,369 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:33:10,693 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:34:28,025 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:34:30,011 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:34:37,336 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:34:42,361 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:34:46,140 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:34:47,340 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:34:50,346 - INFO - [admin]: Welocime
+2024-06-16 13:34:50,350 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:34:50,354 - INFO - [admin]: Welocime
+2024-06-16 13:34:50,357 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:34:50,361 - INFO - [admin]: Welocime
+2024-06-16 13:34:50,362 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:34:50,362 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:34:50,377 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:34:50,388 - INFO - [admin]: dataframe to json
+2024-06-16 13:34:50,390 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:34:50,393 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:34:50,394 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-06-16 13:34:50,396 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:34:50,399 - INFO - [admin]: Welocime
+2024-06-16 13:34:50,399 - INFO - [admin]: Build the conn for MailRelay
+2024-06-16 13:34:51,324 - DEBUG - http://127.0.0.1:8091 "POST /mail/sender HTTP/1.1" 500 1705
+2024-06-16 13:35:07,779 - DEBUG - Using selector: EpollSelector
+2024-06-16 13:35:08,297 - INFO - [admin]: Welocime
+2024-06-16 13:35:08,302 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:35:08,307 - INFO - [admin]: Welocime
+2024-06-16 13:35:08,309 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:35:08,312 - INFO - [admin]: Welocime
+2024-06-16 13:35:08,312 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:35:08,312 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:35:08,325 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:35:08,333 - INFO - [admin]: dataframe to json
+2024-06-16 13:35:08,335 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:35:08,337 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:35:08,338 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'bktx pehv aeni cyjr', 'info': ''}], 'info': ''}
+2024-06-16 13:35:08,339 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:35:08,340 - INFO - [admin]: Welocime
+2024-06-16 13:35:08,341 - INFO - [admin]: Build the conn for MailRelay
+2024-06-16 13:35:09,197 - DEBUG - http://127.0.0.1:8091 "POST /mail/sender HTTP/1.1" 500 1703
+2024-06-16 13:52:37,563 - INFO - [admin]: Welocime
+2024-06-16 13:52:37,566 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:52:37,571 - INFO - [admin]: Welocime
+2024-06-16 13:52:37,574 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:52:37,577 - INFO - [admin]: Welocime
+2024-06-16 13:52:37,578 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 13:52:37,580 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 13:52:37,592 - INFO - [admin]: Connect with MariaDB
+2024-06-16 13:52:37,598 - INFO - [admin]: dataframe to json
+2024-06-16 13:52:37,599 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:52:37,602 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 156
+2024-06-16 13:52:37,603 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'ncgy yoym szwt tsyj', 'info': ''}], 'info': ''}
+2024-06-16 13:52:37,604 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 13:52:37,607 - INFO - [admin]: Welocime
+2024-06-16 13:52:37,607 - INFO - [admin]: Build the conn for MailRelay
+2024-06-16 13:52:38,102 - INFO - [admin]: Send the message
+2024-06-16 13:52:39,094 - DEBUG - http://127.0.0.1:8091 "POST /mail/sender HTTP/1.1" 200 42

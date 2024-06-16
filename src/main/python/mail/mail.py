@@ -36,8 +36,11 @@ def mailSender(item):
     msg["Subject"] = item['Subject']
     msg["To"] = ", ".join(item['recevies'])
     logging.info(f'[{uid}]: Build the conn for MailRelay')
+    print('1')
     server = smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context())
+    print('2', item)
     server.login(item['account'], item['password'])
+    print('3')
     logging.info(f'[{uid}]: Send the message')
     server.send_message(msg)
     server.quit()
