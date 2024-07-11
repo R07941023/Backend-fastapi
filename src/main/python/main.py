@@ -5,7 +5,13 @@ from src.main.python.routers.dataAccess import dataAccess
 import asyncio
 
 
-app = FastAPI() # build Fast API application
+app = FastAPI(
+    servers=[
+        {"url": "http://127.0.0.1:10802/backend-dev", "description": "Staging environment"},
+        {"url": "https://prod.example.com", "description": "Production environment"},
+    ],
+    root_path="/api/v1",
+)
 app.include_router(appTest, prefix="")
 app.include_router(dataAccess, prefix="/dataAccess")
 

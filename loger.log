@@ -7451,3 +7451,86 @@ pip install python-multipart
 2024-07-11 08:21:21,721 - DEBUG - Calling on_part_end with no data
 2024-07-11 08:21:21,722 - DEBUG - Calling on_end with no data
 2024-07-11 08:21:21,724 - INFO - [apple]: Welocime
+2024-07-11 16:56:45,498 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:22:02,292 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:23:05,190 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:23:07,627 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:23:27,047 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:23:37,362 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:26:18,928 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:26:31,970 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:26:36,027 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:29:16,955 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:29:23,986 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:29:29,389 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:29:38,383 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:30:05,947 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:30:11,842 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:30:56,051 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:35:41,912 - DEBUG - Using selector: EpollSelector
+2024-07-11 17:36:10,904 - INFO - [admin]: Welocime
+2024-07-11 17:36:16,087 - WARNING - Did not find CR at end of boundary (40)
+2024-07-11 17:36:24,514 - DEBUG - Calling on_part_begin with no data
+2024-07-11 17:36:24,515 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 17:36:24,515 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 17:36:24,515 - DEBUG - Calling on_header_end with no data
+2024-07-11 17:36:24,515 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 17:36:24,515 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 17:36:24,515 - DEBUG - Calling on_header_end with no data
+2024-07-11 17:36:24,515 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 17:36:24,516 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 17:36:24,516 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 17:36:24,516 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 17:36:24,516 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 17:36:24,516 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 17:36:24,516 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 17:36:24,516 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 17:36:24,517 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 17:36:24,517 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 17:36:24,517 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 17:36:24,517 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 17:36:24,517 - DEBUG - Calling on_part_end with no data
+2024-07-11 17:36:24,517 - DEBUG - Calling on_end with no data
+2024-07-11 17:36:24,519 - INFO - [admin]: Welocime
+2024-07-11 17:36:31,602 - INFO - [admin]: Welocime
+2024-07-11 17:36:31,603 - INFO - [admin]: Build the conn for MailRelay
+2024-07-11 17:36:45,189 - INFO - [admin]: Welocime
+2024-07-11 17:36:45,195 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-07-11 17:36:45,199 - INFO - [admin]: Welocime
+2024-07-11 17:36:45,201 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-07-11 17:36:45,205 - INFO - [admin]: Welocime
+2024-07-11 17:36:45,205 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'MailRelay' and site = 'SIT'", 'uid': 'admin'}
+2024-07-11 17:36:45,206 - INFO - [admin]: Build the conn for MariaDB
+2024-07-11 17:36:45,221 - INFO - [admin]: Connect with MariaDB
+2024-07-11 17:36:45,251 - INFO - [admin]: dataframe to json
+2024-07-11 17:36:45,253 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 156
+2024-07-11 17:36:45,257 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 156
+2024-07-11 17:36:45,257 - INFO - {'statusCode': 200, 'data': [{'project': 'MailRelay', 'site': 'SIT', 'account': 'a5822358business@gmail.com', 'password': 'ncgy yoym szwt tsyj', 'info': ''}], 'info': ''}
+2024-07-11 17:36:45,259 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-07-11 17:36:45,262 - INFO - [admin]: Welocime
+2024-07-11 17:36:45,263 - INFO - [admin]: Build the conn for MailRelay
+2024-07-11 17:36:46,342 - INFO - [admin]: Send the message
+2024-07-11 17:36:47,321 - DEBUG - http://127.0.0.1:8091 "POST /mail/sender HTTP/1.1" 200 42
+2024-07-11 17:37:00,996 - INFO - [admin]: Welocime
+2024-07-11 17:37:00,999 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-07-11 17:37:01,002 - INFO - [admin]: Welocime
+2024-07-11 17:37:01,005 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-07-11 17:37:01,009 - INFO - [admin]: Welocime
+2024-07-11 17:37:01,010 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-07-11 17:37:01,010 - INFO - [admin]: Build the conn for MariaDB
+2024-07-11 17:37:01,021 - INFO - [admin]: Connect with MariaDB
+2024-07-11 17:37:01,033 - INFO - [admin]: dataframe to json
+2024-07-11 17:37:01,035 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 105
+2024-07-11 17:37:01,038 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 105
+2024-07-11 17:37:24,986 - INFO - [admin]: Welocime
+2024-07-11 17:37:34,578 - INFO - [admin]: Welocime
+2024-07-11 17:37:34,580 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-07-11 17:37:34,584 - INFO - [admin]: Welocime
+2024-07-11 17:37:34,586 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-07-11 17:37:34,590 - INFO - [admin]: Welocime
+2024-07-11 17:37:34,590 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-07-11 17:37:34,591 - INFO - [admin]: Build the conn for MariaDB
+2024-07-11 17:37:34,602 - INFO - [admin]: Connect with MariaDB
+2024-07-11 17:37:34,609 - INFO - [admin]: dataframe to json
+2024-07-11 17:37:34,612 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 105
+2024-07-11 17:37:34,614 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 105
