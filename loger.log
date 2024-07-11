@@ -5075,3 +5075,2379 @@ AWS4-HMAC-SHA256
 2024-06-16 13:52:37,607 - INFO - [admin]: Build the conn for MailRelay
 2024-06-16 13:52:38,102 - INFO - [admin]: Send the message
 2024-06-16 13:52:39,094 - DEBUG - http://127.0.0.1:8091 "POST /mail/sender HTTP/1.1" 200 42
+2024-06-16 16:29:28,466 - DEBUG - Using selector: EpollSelector
+2024-06-16 16:29:36,823 - INFO - [admin]: Welocime
+2024-06-16 16:29:36,827 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 16:29:36,833 - INFO - [admin]: Welocime
+2024-06-16 16:29:36,835 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 16:29:36,838 - INFO - [admin]: Welocime
+2024-06-16 16:29:36,839 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'tickerbase', 'sql': "Select Date, Open from rawdata where tag = 'KRON' AND Date BETWEEN '2024-01-27 10:00:00' AND '2024-01-27 11:00:00'", 'uid': 'admin'}
+2024-06-16 16:29:36,839 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 16:29:36,855 - INFO - [admin]: Connect with MariaDB
+2024-06-16 16:29:36,886 - INFO - [admin]: dataframe to json
+2024-06-16 16:29:36,889 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 105
+2024-06-16 16:29:36,893 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 105
+2024-06-16 16:29:41,668 - INFO - [admin]: Welocime
+2024-06-16 16:29:41,671 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 16:29:41,677 - INFO - [admin]: Welocime
+2024-06-16 16:29:41,681 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 16:29:41,686 - INFO - [admin]: Welocime
+2024-06-16 16:29:41,686 - INFO - [START] getDataMariadbQuery: {'host': 'host.docker.internal', 'port': 30370, 'user': 'root', 'password': '840702870217', 'database': 'backend', 'sql': "Select * from account where project = 'minIO' and site = 'SIT'", 'uid': 'admin'}
+2024-06-16 16:29:41,687 - INFO - [admin]: Build the conn for MariaDB
+2024-06-16 16:29:41,704 - INFO - [admin]: Connect with MariaDB
+2024-06-16 16:29:41,715 - INFO - [admin]: dataframe to json
+2024-06-16 16:29:41,717 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 179
+2024-06-16 16:29:41,720 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 179
+2024-06-16 16:29:41,720 - INFO - {'statusCode': 200, 'data': [{'project': 'minIO', 'site': 'SIT', 'account': 'minio', 'password': 'ji3g4minio', 'info': '{"endpoint_url": "http://host.docker.internal:30900"}'}], 'info': ''}
+2024-06-16 16:29:41,722 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8091
+2024-06-16 16:29:41,724 - INFO - [admin]: Welocime
+2024-06-16 16:29:41,724 - INFO - [START] getDataMinIOObjKeys: {'endpoint_url': 'http://host.docker.internal:30900', 'access_key': 'minio', 'secret_key': 'ji3g4minio', 'bucket_name': 'yylui', 'uid': 'admin'}
+2024-06-16 16:29:41,725 - INFO - [admin]: Build the conn for MinIO
+2024-06-16 16:29:41,726 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-06-16 16:29:41,727 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-06-16 16:29:41,728 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-06-16 16:29:41,730 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-06-16 16:29:41,730 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-06-16 16:29:41,731 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-06-16 16:29:41,731 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-06-16 16:29:41,734 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-06-16 16:29:41,734 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-06-16 16:29:41,734 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-06-16 16:29:41,734 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-06-16 16:29:41,736 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/endpoints.json
+2024-06-16 16:29:41,750 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/sdk-default-configuration.json
+2024-06-16 16:29:41,750 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x7fa2b0401da0>
+2024-06-16 16:29:41,762 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+2024-06-16 16:29:41,777 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+2024-06-16 16:29:41,784 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/partitions.json
+2024-06-16 16:29:41,788 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x7fa2b0342200>
+2024-06-16 16:29:41,788 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x7fa27ab9f6a0>
+2024-06-16 16:29:41,801 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x7fa2b0341f80>
+2024-06-16 16:29:41,803 - DEBUG - Setting s3 timeout as (60, 60)
+2024-06-16 16:29:41,806 - DEBUG - Loading JSON file: /home/coder/.local/lib/python3.11/site-packages/botocore/data/_retry.json
+2024-06-16 16:29:41,807 - DEBUG - Registering retry handlers for service: s3
+2024-06-16 16:29:41,807 - DEBUG - Registering S3 region redirector handler
+2024-06-16 16:29:41,808 - DEBUG - Registering S3Express Identity Resolver
+2024-06-16 16:29:41,808 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function set_list_objects_encoding_type_url at 0x7fa2b022ccc0>
+2024-06-16 16:29:41,808 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function validate_bucket_name at 0x7fa2b04037e0>
+2024-06-16 16:29:41,808 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function remove_bucket_from_url_paths_from_model at 0x7fa2b022d940>
+2024-06-16 16:29:41,808 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x7fa27ac55fd0>>
+2024-06-16 16:29:41,809 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x7fa26348d810>>
+2024-06-16 16:29:41,809 - DEBUG - Event before-parameter-build.s3.ListObjects: calling handler <function generate_idempotent_uuid at 0x7fa2b0403600>
+2024-06-16 16:29:41,809 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x7fa2b022db20>
+2024-06-16 16:29:41,809 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x7fa27ac55fd0>>
+2024-06-16 16:29:41,809 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'yylui', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://host.docker.internal:30900', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-06-16 16:29:41,810 - DEBUG - Endpoint provider result: http://host.docker.internal:30900/yylui
+2024-06-16 16:29:41,810 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-06-16 16:29:41,810 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-06-16 16:29:41,810 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_expect_header at 0x7fa2b0403ba0>
+2024-06-16 16:29:41,810 - DEBUG - Event before-call.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x7fa2632a9290>>
+2024-06-16 16:29:41,810 - DEBUG - Event before-call.s3.ListObjects: calling handler <function add_recursion_detection_header at 0x7fa2b0401ee0>
+2024-06-16 16:29:41,810 - DEBUG - Event before-call.s3.ListObjects: calling handler <function inject_api_version_header_if_needed at 0x7fa2b022d120>
+2024-06-16 16:29:41,810 - DEBUG - Making request for OperationModel(name=ListObjects) with params: {'url_path': '', 'query_string': {'encoding-type': 'url'}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91'}, 'body': b'', 'auth_path': '/yylui/', 'url': 'http://host.docker.internal:30900/yylui?encoding-type=url', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x7fa27b045310>, 'has_streaming_input': False, 'auth_type': 'v4', 'encoding_type_auto_set': True, 's3_redirect': {'redirected': False, 'bucket': 'yylui', 'params': {'Bucket': 'yylui', 'EncodingType': 'url'}}, 'input_params': {'Bucket': 'yylui'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-06-16 16:29:41,811 - DEBUG - Event request-created.s3.ListObjects: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7fa263285d10>>
+2024-06-16 16:29:41,811 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x7fa26348d810>>
+2024-06-16 16:29:41,811 - DEBUG - Event choose-signer.s3.ListObjects: calling handler <function set_operation_specific_signer at 0x7fa2b04034c0>
+2024-06-16 16:29:41,811 - DEBUG - Event before-sign.s3.ListObjects: calling handler <function remove_arn_from_signing_path at 0x7fa2b022da80>
+2024-06-16 16:29:41,811 - DEBUG - Event before-sign.s3.ListObjects: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x7fa2632a9290>>
+2024-06-16 16:29:41,811 - DEBUG - Calculating signature using v4 auth.
+2024-06-16 16:29:41,811 - DEBUG - CanonicalRequest:
+GET
+/yylui
+encoding-type=url
+host:host.docker.internal:30900
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20240616T162941Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2024-06-16 16:29:41,811 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240616T162941Z
+20240616/us-east-1/s3/aws4_request
+439d2ac68e9e70b806ba434478fee6457aefb094bea75c1fa55117bc7bffe036
+2024-06-16 16:29:41,811 - DEBUG - Signature:
+78dada4c0d1d9e0c6aedd08c4d0c59083f98b588e1e5056e7d160900b9849b67
+2024-06-16 16:29:41,811 - DEBUG - Event request-created.s3.ListObjects: calling handler <function add_retry_headers at 0x7fa2b022d8a0>
+2024-06-16 16:29:41,811 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=http://host.docker.internal:30900/yylui?encoding-type=url, headers={'User-Agent': b'Boto3/1.34.91 md/Botocore#1.34.91 ua/2.0 os/linux#5.15.133.1-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.11.2 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.91', 'X-Amz-Date': b'20240616T162941Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minio/20240616/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=78dada4c0d1d9e0c6aedd08c4d0c59083f98b588e1e5056e7d160900b9849b67', 'amz-sdk-invocation-id': b'9ed72fb0-a94a-402a-b36a-771f7094d021', 'amz-sdk-request': b'attempt=1'}>
+2024-06-16 16:29:41,812 - DEBUG - Starting new HTTP connection (1): host.docker.internal:30900
+2024-06-16 16:29:41,828 - DEBUG - http://host.docker.internal:30900 "GET /yylui?encoding-type=url HTTP/1.1" 200 945
+2024-06-16 16:29:41,828 - DEBUG - Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '945', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '17D98903B4274C68', 'X-Content-Type-Options': 'nosniff', 'X-Xss-Protection': '1; mode=block', 'Date': 'Sun, 16 Jun 2024 16:29:41 GMT'}
+2024-06-16 16:29:41,828 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>yylui</Name><Prefix></Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>chillerFn3_F15P12_202401.csv</Key><LastModified>2024-01-17T14:10:45.699Z</LastModified><ETag>&#34;fbd138a8a0c2c8b4aab781f79da3bdea&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><Contents><Key>chillerFn3_F15P12_202402.csv</Key><LastModified>2024-01-17T14:11:17.051Z</LastModified><ETag>&#34;b1814dd53d3e07ea5875b566396a757e&#34;</ETag><Size>100</Size><Owner><ID>02d6176db174dc93cb1b899f7c6078f08654445fe8cf1b6ce98d8855f66bdbf4</ID><DisplayName>minio</DisplayName></Owner><StorageClass>STANDARD</StorageClass></Contents><EncodingType>url</EncodingType></ListBucketResult>'
+2024-06-16 16:29:41,830 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <botocore.retryhandler.RetryHandler object at 0x7fa2632a9050>
+2024-06-16 16:29:41,830 - DEBUG - No retry needed.
+2024-06-16 16:29:41,830 - DEBUG - Event needs-retry.s3.ListObjects: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x7fa27ac55fd0>>
+2024-06-16 16:29:41,830 - DEBUG - Event after-call.s3.ListObjects: calling handler <function decode_list_object at 0x7fa2b022cd60>
+2024-06-16 16:29:41,832 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/minIO/objKeys HTTP/1.1" 200 99
+2024-07-11 02:59:05,633 - INFO - [admin]: Welocime
+2024-07-11 03:00:26,071 - INFO - [apple]: Welocime
+2024-07-11 03:01:38,143 - INFO - [admin123]: Welocime
+2024-07-11 03:13:18,855 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:13:21,918 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:13:33,277 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:13:40,652 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:14:03,754 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:14:05,751 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:14:34,047 - INFO - [apple]: Welocime
+2024-07-11 03:15:14,492 - INFO - [apple]: Welocime
+2024-07-11 03:15:14,756 - INFO - [apple]: Welocime
+2024-07-11 03:16:14,104 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:16:20,088 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:16:30,502 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:17:24,000 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-07-11 03:17:25,347 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-07-11 03:18:01,749 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-07-11 03:18:50,809 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:19:03,289 - INFO - [apple]: Welocime
+2024-07-11 03:19:03,554 - INFO - [apple]: Welocime
+2024-07-11 03:19:08,892 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-07-11 03:20:05,200 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:20:17,175 - INFO - [apple]: Welocime
+2024-07-11 03:21:25,400 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:21:44,703 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:21:49,428 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:21:55,955 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:21:57,678 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:21:59,621 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:22:17,987 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:22:29,446 - INFO - [apple]: Welocime
+2024-07-11 03:23:01,248 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:23:09,271 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:23:14,544 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:28:03,084 - INFO - [apple]: Welocime
+2024-07-11 03:28:50,405 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:28:52,296 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:28:53,490 - INFO - [apple]: Welocime
+2024-07-11 03:31:07,001 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:31:10,276 - INFO - [apple]: Welocime
+2024-07-11 03:31:29,069 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:31:36,351 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:31:45,137 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:31:49,073 - INFO - [apple]: Welocime
+2024-07-11 03:35:24,222 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:35:24,222 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:35:24,223 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 03:35:24,223 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:35:24,223 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 03:35:24,224 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 03:35:24,224 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:35:24,224 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:35:24,225 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 03:35:24,226 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:35:24,226 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 03:35:24,226 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:35:24,227 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 03:35:24,227 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:35:24,227 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 03:35:24,228 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:35:24,228 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 03:35:24,228 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:35:24,229 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 03:35:24,229 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:35:24,230 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:35:24,230 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:35:24,230 - DEBUG - Calling on_end with no data
+2024-07-11 03:37:06,064 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:37:11,981 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:37:13,695 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:37:15,099 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:37:17,749 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:37:21,720 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:37:27,336 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:37:35,072 - INFO - [apple]: Welocime
+2024-07-11 03:37:45,104 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:37:45,105 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:37:45,105 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 03:37:45,105 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:37:45,105 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 03:37:45,105 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 03:37:45,105 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:37:45,105 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:37:45,105 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 03:37:45,105 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:37:45,105 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 03:37:45,106 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:37:45,106 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 03:37:45,106 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:37:45,106 - DEBUG - Calling on_part_data with data[683:1093]
+2024-07-11 03:37:45,106 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:37:45,106 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:37:45,106 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:37:45,106 - DEBUG - Calling on_end with no data
+2024-07-11 03:40:01,404 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:40:04,576 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:40:10,270 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:40:15,211 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:40:15,211 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:40:15,212 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 03:40:15,212 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:40:15,213 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 03:40:15,213 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 03:40:15,214 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:40:15,214 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:40:15,215 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 03:40:15,215 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:15,216 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 03:40:15,216 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:15,217 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 03:40:15,217 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:15,218 - DEBUG - Calling on_part_data with data[683:1093]
+2024-07-11 03:40:15,218 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:15,218 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:15,219 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:40:15,219 - DEBUG - Calling on_end with no data
+2024-07-11 03:40:48,077 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:40:52,577 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:40:52,577 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:40:52,578 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 03:40:52,578 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:40:52,578 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 03:40:52,579 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 03:40:52,579 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:40:52,579 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:40:52,580 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 03:40:52,580 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:52,580 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 03:40:52,580 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:52,581 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 03:40:52,581 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:52,581 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 03:40:52,582 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:52,582 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 03:40:52,582 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:52,582 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 03:40:52,583 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:52,583 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:40:52,583 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:40:52,584 - DEBUG - Calling on_end with no data
+2024-07-11 03:41:35,307 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:41:37,074 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:41:39,619 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:41:39,620 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:41:39,620 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 03:41:39,620 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:41:39,621 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 03:41:39,621 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 03:41:39,621 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:41:39,622 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:41:39,622 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 03:41:39,623 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:41:39,623 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 03:41:39,623 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:41:39,624 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 03:41:39,624 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:41:39,624 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 03:41:39,625 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:41:39,625 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 03:41:39,625 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:41:39,626 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 03:41:39,626 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:41:39,626 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:41:39,627 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:41:39,627 - DEBUG - Calling on_end with no data
+2024-07-11 03:42:06,664 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:42:12,195 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:42:12,196 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:42:12,196 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 03:42:12,196 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:42:12,196 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 03:42:12,196 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 03:42:12,196 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:42:12,196 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[583:681]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 03:42:12,197 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,198 - DEBUG - Calling on_part_data with data[772:1056]
+2024-07-11 03:42:12,198 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,198 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,198 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,198 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 03:42:12,198 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,198 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:12,199 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:42:12,199 - DEBUG - Calling on_end with no data
+2024-07-11 03:42:21,383 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:42:23,939 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:42:26,032 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:42:30,938 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:42:30,938 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:42:30,938 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 03:42:30,939 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:42:30,939 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 03:42:30,939 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 03:42:30,939 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:42:30,939 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:42:30,940 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 03:42:30,940 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:30,940 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 03:42:30,940 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:30,941 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 03:42:30,941 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:30,941 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 03:42:30,941 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:30,941 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 03:42:30,942 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:30,942 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:42:30,942 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:42:30,942 - DEBUG - Calling on_end with no data
+2024-07-11 03:43:32,529 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:43:34,113 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:43:34,114 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:43:34,114 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 03:43:34,115 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:43:34,116 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 03:43:34,116 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 03:43:34,116 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:43:34,117 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:43:34,118 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 03:43:34,118 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:43:34,119 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 03:43:34,119 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:43:34,119 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 03:43:34,120 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:43:34,120 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 03:43:34,121 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:43:34,121 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 03:43:34,122 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:43:34,122 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 03:43:34,122 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:43:34,123 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:43:34,124 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:43:34,124 - DEBUG - Calling on_end with no data
+2024-07-11 03:44:00,209 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:44:06,961 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:44:50,457 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:44:50,457 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:44:50,457 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 03:44:50,458 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:44:50,458 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:44:50,458 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 03:44:50,458 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,458 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 03:44:50,458 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,458 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 03:44:50,458 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:44:50,459 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:44:50,459 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 03:44:50,459 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 03:44:50,459 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:44:50,459 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 03:44:50,459 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 03:44:50,459 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:44:50,459 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:44:50,459 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 03:44:50,459 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[259:603]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[605:695]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[697:797]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[799:886]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[888:1209]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,460 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:44:50,461 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:44:50,461 - DEBUG - Calling on_end with no data
+2024-07-11 03:45:30,110 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:45:31,329 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:45:40,186 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:45:41,907 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:45:45,870 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:45:48,103 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:45:55,716 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:45:58,718 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:46:00,669 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:46:10,587 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:46:48,719 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:46:48,720 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:46:48,720 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 03:46:48,721 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:46:48,721 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:46:48,722 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 03:46:48,722 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,722 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 03:46:48,723 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,723 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 03:46:48,724 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:46:48,724 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:46:48,724 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 03:46:48,725 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 03:46:48,725 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:46:48,725 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 03:46:48,726 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 03:46:48,726 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:46:48,726 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:46:48,727 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 03:46:48,727 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,728 - DEBUG - Calling on_part_data with data[259:603]
+2024-07-11 03:46:48,728 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,728 - DEBUG - Calling on_part_data with data[605:695]
+2024-07-11 03:46:48,728 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,729 - DEBUG - Calling on_part_data with data[697:797]
+2024-07-11 03:46:48,729 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,729 - DEBUG - Calling on_part_data with data[799:886]
+2024-07-11 03:46:48,729 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,730 - DEBUG - Calling on_part_data with data[888:1209]
+2024-07-11 03:46:48,730 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,730 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:46:48,731 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:46:48,731 - DEBUG - Calling on_end with no data
+2024-07-11 03:48:08,876 - DEBUG - Using selector: EpollSelector
+2024-07-11 03:48:11,034 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:48:11,035 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 03:48:11,036 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 03:48:11,036 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:48:11,036 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:48:11,037 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 03:48:11,037 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,037 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 03:48:11,038 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,038 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 03:48:11,039 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:48:11,039 - DEBUG - Calling on_part_begin with no data
+2024-07-11 03:48:11,039 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 03:48:11,040 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 03:48:11,040 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:48:11,041 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 03:48:11,041 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 03:48:11,041 - DEBUG - Calling on_header_end with no data
+2024-07-11 03:48:11,041 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 03:48:11,042 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 03:48:11,042 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,043 - DEBUG - Calling on_part_data with data[259:603]
+2024-07-11 03:48:11,043 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,043 - DEBUG - Calling on_part_data with data[605:695]
+2024-07-11 03:48:11,044 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,044 - DEBUG - Calling on_part_data with data[697:797]
+2024-07-11 03:48:11,044 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,044 - DEBUG - Calling on_part_data with data[799:886]
+2024-07-11 03:48:11,044 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,044 - DEBUG - Calling on_part_data with data[888:1209]
+2024-07-11 03:48:11,044 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,045 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 03:48:11,045 - DEBUG - Calling on_part_end with no data
+2024-07-11 03:48:11,045 - DEBUG - Calling on_end with no data
+2024-07-11 05:26:59,942 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:27:38,353 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:27:43,605 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:27:55,536 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:27:55,537 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:27:55,537 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 05:27:55,537 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:27:55,538 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:27:55,538 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 05:27:55,538 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,539 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 05:27:55,539 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,540 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 05:27:55,540 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:27:55,540 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:27:55,541 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 05:27:55,541 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 05:27:55,542 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:27:55,542 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 05:27:55,542 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 05:27:55,543 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:27:55,543 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:27:55,543 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 05:27:55,544 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,544 - DEBUG - Calling on_part_data with data[259:603]
+2024-07-11 05:27:55,544 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,545 - DEBUG - Calling on_part_data with data[605:695]
+2024-07-11 05:27:55,545 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,545 - DEBUG - Calling on_part_data with data[697:797]
+2024-07-11 05:27:55,546 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,546 - DEBUG - Calling on_part_data with data[799:886]
+2024-07-11 05:27:55,546 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,547 - DEBUG - Calling on_part_data with data[888:1209]
+2024-07-11 05:27:55,547 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,547 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:27:55,548 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:27:55,548 - DEBUG - Calling on_end with no data
+2024-07-11 05:28:20,421 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:28:25,132 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:28:29,684 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:28:33,105 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:28:34,339 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:28:38,746 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:28:38,746 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:28:38,746 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:28:38,747 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:28:38,747 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:28:38,747 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:28:38,747 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:28:38,747 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 05:28:38,747 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:28:38,748 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[259:706]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[708:797]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[799:1172]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[1178:1209]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,748 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:28:38,749 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:28:38,749 - DEBUG - Calling on_end with no data
+2024-07-11 05:31:51,625 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:31:51,625 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:31:51,625 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 05:31:51,625 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:31:51,625 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:31:51,625 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:31:51,626 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:31:51,626 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:31:51,626 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 05:31:51,626 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:31:51,626 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[259:695]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[697:797]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[799:886]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[888:1209]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:31:51,627 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:31:51,627 - DEBUG - Calling on_end with no data
+2024-07-11 05:51:09,669 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:51:18,045 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:51:19,781 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:51:28,656 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:51:32,796 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:51:39,022 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:51:41,242 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:51:48,245 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:51:59,268 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:06,093 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:09,524 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:12,433 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:37,419 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:39,360 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:43,339 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:47,580 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:50,884 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:52:55,862 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:03,179 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:07,617 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:11,139 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:25,188 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:27,698 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:36,984 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:43,562 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:45,828 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:50,576 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:53:56,225 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:54:03,337 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:54:03,338 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:54:03,338 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 05:54:03,338 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:03,338 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:54:03,338 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 05:54:03,338 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,338 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 05:54:03,338 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,338 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 05:54:03,338 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:54:03,338 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:54:03,338 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 05:54:03,338 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:03,339 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:03,339 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[259:603]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[605:695]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[697:797]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[799:886]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[888:1172]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[1178:1209]
+2024-07-11 05:54:03,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,340 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:03,340 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:54:03,340 - DEBUG - Calling on_end with no data
+2024-07-11 05:54:20,290 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:54:30,498 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:54:30,499 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:54:30,499 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 05:54:30,499 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:30,499 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:54:30,499 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 05:54:30,499 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,500 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 05:54:30,500 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,500 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 05:54:30,500 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:54:30,500 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:54:30,500 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 05:54:30,500 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 05:54:30,500 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:30,501 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 05:54:30,501 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 05:54:30,501 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:30,501 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:54:30,501 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 05:54:30,501 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,501 - DEBUG - Calling on_part_data with data[259:603]
+2024-07-11 05:54:30,501 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,501 - DEBUG - Calling on_part_data with data[605:695]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_data with data[697:797]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_data with data[799:886]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_data with data[888:1209]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:30,502 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:54:30,502 - DEBUG - Calling on_end with no data
+2024-07-11 05:54:51,726 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:54:55,030 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:54:55,030 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:54:55,031 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 05:54:55,031 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:55,032 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:54:55,032 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 05:54:55,033 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:55,033 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 05:54:55,034 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:55,034 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 05:54:55,034 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:54:55,035 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:54:55,035 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 05:54:55,036 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 05:54:55,036 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:55,036 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 05:54:55,037 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 05:54:55,037 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:54:55,037 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:54:55,038 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 05:54:55,038 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:55,039 - DEBUG - Calling on_part_data with data[259:797]
+2024-07-11 05:54:55,039 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:55,040 - DEBUG - Calling on_part_data with data[799:1209]
+2024-07-11 05:54:55,040 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:55,040 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:54:55,041 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:54:55,041 - DEBUG - Calling on_end with no data
+2024-07-11 05:54:55,053 - INFO - [admin]: Welocime
+2024-07-11 05:54:55,053 - INFO - [data]: {'filename': 'plan.txt', 'file_data': '# Log\r\nkubectl describe pod [pod] -n infra-net\r\nkubectl logs [pod] -n infra-net\r\nkubectl exec -it [pod] -n infra-net -- /bin/sh\r\n\r\n# Resource\r\nkubectl top pod -n infra-net\r\ndocker ps -a --format "table {{.ID}}\\t{{.Command}}\\t{{.Names}}"\r\n\r\n# Pod\r\nkubectl get namespaces\r\nkubectl get pods -n infra-net\r\nkubectl delete pod -n infra-net [pod]\r\n\r\n# deploy\r\nkubectl create namespace infra-net\r\nkubectl apply -f minio-one\r\n\r\n# restart\r\nwsl --install\r\n\r\n# token\r\nkubectl create token kubernetes-dashboard-token -n kubernetes-dashboard --duration=87600h\r\n\r\n\r\n\r\n\r\n\r\n\r\nkubectl delete pods minio-one -n infra-net\r\nkubectl apply -f minio-one.yaml\r\nkubectl describe PersistentVolume minio-data-one-pv -n infra-net\r\nkubectl describe pod vscode-774bcbfc6d-xtxzp -n infra-net\r\nkubectl logs vscode-774bcbfc6d-xtxzp -n infra-net\r\n\r\n\r\n\r\n\r\nkubectl delete pods vscode-774bcbfc6d-nw52g -n infra-net\r\nkubectl apply -f kubernetes-dashboard.yaml\r\n\r\n\r\nkubectl logs [pod] -n infra-net\r\n\r\n'}
+2024-07-11 05:55:21,228 - INFO - [apple]: Welocime
+2024-07-11 05:55:55,870 - INFO - [apple]: Welocime
+2024-07-11 05:56:17,166 - INFO - [apple]: Welocime
+2024-07-11 05:56:29,847 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:56:31,090 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:56:39,451 - DEBUG - Using selector: EpollSelector
+2024-07-11 05:56:42,800 - INFO - [apple]: Welocime
+2024-07-11 05:57:02,969 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:57:02,969 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:57:02,969 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 05:57:02,969 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:57:02,969 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:57:02,969 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 05:57:02,970 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:02,970 - DEBUG - Calling on_part_data with data[92:111]
+2024-07-11 05:57:02,970 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:02,970 - DEBUG - Calling on_part_data with data[113:114]
+2024-07-11 05:57:02,970 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:57:02,970 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:57:02,970 - DEBUG - Calling on_header_field with data[158:177]
+2024-07-11 05:57:02,970 - DEBUG - Calling on_header_value with data[179:222]
+2024-07-11 05:57:02,971 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:57:02,971 - DEBUG - Calling on_header_field with data[224:236]
+2024-07-11 05:57:02,971 - DEBUG - Calling on_header_value with data[238:248]
+2024-07-11 05:57:02,971 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:57:02,971 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:57:02,971 - DEBUG - Calling on_part_data with data[252:257]
+2024-07-11 05:57:02,971 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:02,971 - DEBUG - Calling on_part_data with data[259:695]
+2024-07-11 05:57:02,971 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:02,972 - DEBUG - Calling on_part_data with data[697:797]
+2024-07-11 05:57:02,972 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:02,972 - DEBUG - Calling on_part_data with data[799:1209]
+2024-07-11 05:57:02,972 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:02,972 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:02,972 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:57:02,972 - DEBUG - Calling on_end with no data
+2024-07-11 05:57:02,973 - INFO - [admin]: Welocime
+2024-07-11 05:57:12,562 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:57:12,563 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:57:12,563 - DEBUG - Calling on_header_value with data[63:85]
+2024-07-11 05:57:12,563 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:57:12,563 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:57:12,563 - DEBUG - Calling on_part_data with data[89:90]
+2024-07-11 05:57:12,563 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,564 - DEBUG - Calling on_part_data with data[92:112]
+2024-07-11 05:57:12,564 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,564 - DEBUG - Calling on_part_data with data[114:115]
+2024-07-11 05:57:12,564 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:57:12,564 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:57:12,564 - DEBUG - Calling on_header_field with data[159:178]
+2024-07-11 05:57:12,564 - DEBUG - Calling on_header_value with data[180:223]
+2024-07-11 05:57:12,565 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:57:12,565 - DEBUG - Calling on_header_field with data[225:237]
+2024-07-11 05:57:12,565 - DEBUG - Calling on_header_value with data[239:249]
+2024-07-11 05:57:12,565 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:57:12,565 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:57:12,565 - DEBUG - Calling on_part_data with data[253:258]
+2024-07-11 05:57:12,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,566 - DEBUG - Calling on_part_data with data[260:604]
+2024-07-11 05:57:12,566 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,566 - DEBUG - Calling on_part_data with data[606:696]
+2024-07-11 05:57:12,566 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,566 - DEBUG - Calling on_part_data with data[698:798]
+2024-07-11 05:57:12,566 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,566 - DEBUG - Calling on_part_data with data[800:887]
+2024-07-11 05:57:12,566 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,567 - DEBUG - Calling on_part_data with data[889:1210]
+2024-07-11 05:57:12,567 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,567 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:57:12,567 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:57:12,567 - DEBUG - Calling on_end with no data
+2024-07-11 05:57:12,568 - INFO - [admin]: Welocime
+2024-07-11 05:58:14,280 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:58:14,281 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:58:14,281 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:58:14,281 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[583:681]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[772:1056]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:14,281 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:58:14,282 - DEBUG - Calling on_end with no data
+2024-07-11 05:58:14,283 - INFO - [admin]: Welocime
+2024-07-11 05:58:20,133 - DEBUG - Calling on_part_begin with no data
+2024-07-11 05:58:20,133 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 05:58:20,133 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 05:58:20,133 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:58:20,133 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_header_end with no data
+2024-07-11 05:58:20,134 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 05:58:20,134 - DEBUG - Calling on_part_end with no data
+2024-07-11 05:58:20,134 - DEBUG - Calling on_end with no data
+2024-07-11 05:58:20,136 - INFO - [admin]: Welocime
+2024-07-11 05:58:49,252 - INFO - [apple]: Welocime
+2024-07-11 05:59:10,666 - INFO - [apple]: Welocime
+2024-07-11 06:00:32,550 - INFO - [apple]: Welocime
+2024-07-11 06:00:54,670 - INFO - [apple]: Welocime
+2024-07-11 06:01:32,191 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:01:35,015 - INFO - [apple]: Welocime
+2024-07-11 06:01:35,295 - INFO - [apple]: Welocime
+2024-07-11 06:01:40,278 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:03:47,584 - INFO - [apple]: Welocime
+2024-07-11 06:03:47,883 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:03:47,884 - DEBUG - Calling on_header_field with data[37:56]
+2024-07-11 06:03:47,884 - DEBUG - Calling on_header_value with data[58:109]
+2024-07-11 06:03:47,885 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:03:47,885 - DEBUG - Calling on_header_field with data[111:123]
+2024-07-11 06:03:47,885 - DEBUG - Calling on_header_value with data[125:135]
+2024-07-11 06:03:47,885 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:03:47,885 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-11 06:03:47,885 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-11 06:03:47,885 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:03:47,885 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:03:47,886 - DEBUG - Calling on_part_data with data[174:12462]
+2024-07-11 06:03:48,038 - DEBUG - Calling on_part_data with data[0:27512]
+2024-07-11 06:03:48,039 - DEBUG - Calling on_part_data with data[0:648]
+2024-07-11 06:03:48,119 - DEBUG - Calling on_part_data with data[0:3924]
+2024-07-11 06:03:48,120 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:03:48,120 - DEBUG - Calling on_end with no data
+2024-07-11 06:05:06,698 - INFO - [apple]: Welocime
+2024-07-11 06:05:07,058 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:05:07,058 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:05:07,058 - DEBUG - Calling on_header_value with data[63:114]
+2024-07-11 06:05:07,058 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:05:07,058 - DEBUG - Calling on_header_field with data[116:128]
+2024-07-11 06:05:07,058 - DEBUG - Calling on_header_value with data[130:140]
+2024-07-11 06:05:07,058 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:05:07,059 - DEBUG - Calling on_header_field with data[142:167]
+2024-07-11 06:05:07,059 - DEBUG - Calling on_header_value with data[169:175]
+2024-07-11 06:05:07,059 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:05:07,059 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:05:07,059 - DEBUG - Calling on_part_data with data[179:12467]
+2024-07-11 06:05:07,212 - DEBUG - Calling on_part_data with data[0:27512]
+2024-07-11 06:05:07,213 - DEBUG - Calling on_part_data with data[0:648]
+2024-07-11 06:05:07,284 - DEBUG - Calling on_part_data with data[0:5466]
+2024-07-11 06:05:07,284 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:05:07,284 - DEBUG - Calling on_end with no data
+2024-07-11 06:05:19,694 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:05:21,142 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:05:21,143 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:05:21,143 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:05:21,143 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:05:21,143 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:05:21,143 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:05:21,143 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:05:21,144 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:05:21,144 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:05:21,144 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:05:21,144 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 06:05:21,144 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:05:21,144 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 06:05:21,145 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:05:21,145 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:05:21,145 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:05:21,145 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:05:21,145 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:05:21,145 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:05:21,145 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:05:21,145 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:05:21,146 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:05:21,146 - DEBUG - Calling on_end with no data
+2024-07-11 06:05:21,151 - INFO - [data]: {'filename': 'plan.txt', 'file_data': '# Log\r\nkubectl describe pod [pod] -n infra-net\r\nkubectl logs [pod] -n infra-net\r\nkubectl exec -it [pod] -n infra-net -- /bin/sh\r\n\r\n# Resource\r\nkubectl top pod -n infra-net\r\ndocker ps -a --format "table {{.ID}}\\t{{.Command}}\\t{{.Names}}"\r\n\r\n# Pod\r\nkubectl get namespaces\r\nkubectl get pods -n infra-net\r\nkubectl delete pod -n infra-net [pod]\r\n\r\n# deploy\r\nkubectl create namespace infra-net\r\nkubectl apply -f minio-one\r\n\r\n# restart\r\nwsl --install\r\n\r\n# token\r\nkubectl create token kubernetes-dashboard-token -n kubernetes-dashboard --duration=87600h\r\n\r\n\r\n\r\n\r\n\r\n\r\nkubectl delete pods minio-one -n infra-net\r\nkubectl apply -f minio-one.yaml\r\nkubectl describe PersistentVolume minio-data-one-pv -n infra-net\r\nkubectl describe pod vscode-774bcbfc6d-xtxzp -n infra-net\r\nkubectl logs vscode-774bcbfc6d-xtxzp -n infra-net\r\n\r\n\r\n\r\n\r\nkubectl delete pods vscode-774bcbfc6d-nw52g -n infra-net\r\nkubectl apply -f kubernetes-dashboard.yaml\r\n\r\n\r\nkubectl logs [pod] -n infra-net\r\n\r\n'}
+2024-07-11 06:05:21,151 - INFO - [admin]: Welocime
+2024-07-11 06:05:27,001 - INFO - [apple]: Welocime
+2024-07-11 06:05:27,289 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:05:27,290 - DEBUG - Calling on_header_field with data[43:62]
+2024-07-11 06:05:27,290 - DEBUG - Calling on_header_value with data[64:115]
+2024-07-11 06:05:27,290 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:05:27,290 - DEBUG - Calling on_header_field with data[117:129]
+2024-07-11 06:05:27,290 - DEBUG - Calling on_header_value with data[131:141]
+2024-07-11 06:05:27,290 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:05:27,291 - DEBUG - Calling on_header_field with data[143:168]
+2024-07-11 06:05:27,291 - DEBUG - Calling on_header_value with data[170:176]
+2024-07-11 06:05:27,291 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:05:27,291 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:05:27,292 - DEBUG - Calling on_part_data with data[180:12468]
+2024-07-11 06:05:27,412 - DEBUG - Calling on_part_data with data[0:27512]
+2024-07-11 06:05:27,413 - DEBUG - Calling on_part_data with data[0:648]
+2024-07-11 06:05:27,527 - DEBUG - Calling on_part_data with data[0:7008]
+2024-07-11 06:05:27,527 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:05:27,528 - DEBUG - Calling on_end with no data
+2024-07-11 06:06:30,185 - INFO - [apple]: Welocime
+2024-07-11 06:06:30,468 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:06:30,468 - DEBUG - Calling on_header_field with data[37:56]
+2024-07-11 06:06:30,468 - DEBUG - Calling on_header_value with data[58:109]
+2024-07-11 06:06:30,468 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:06:30,468 - DEBUG - Calling on_header_field with data[111:123]
+2024-07-11 06:06:30,468 - DEBUG - Calling on_header_value with data[125:144]
+2024-07-11 06:06:30,468 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:06:30,468 - DEBUG - Calling on_header_field with data[146:171]
+2024-07-11 06:06:30,469 - DEBUG - Calling on_header_value with data[173:179]
+2024-07-11 06:06:30,469 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:06:30,469 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:06:30,469 - DEBUG - Calling on_part_data with data[183:4279]
+2024-07-11 06:06:30,470 - DEBUG - Calling on_part_data with data[0:8192]
+2024-07-11 06:06:30,587 - DEBUG - Calling on_part_data with data[0:5632]
+2024-07-11 06:06:30,620 - DEBUG - Calling on_part_data with data[0:16896]
+2024-07-11 06:06:30,621 - DEBUG - Calling on_part_data with data[0:5632]
+2024-07-11 06:06:30,710 - DEBUG - Calling on_part_data with data[0:8550]
+2024-07-11 06:06:30,710 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:06:30,711 - DEBUG - Calling on_end with no data
+2024-07-11 06:07:34,304 - INFO - [apple]: Welocime
+2024-07-11 06:07:45,515 - INFO - [apple]: Welocime
+2024-07-11 06:07:51,900 - INFO - [apple]: Welocime
+2024-07-11 06:08:02,502 - INFO - [apple]: Welocime
+2024-07-11 06:08:02,791 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:08:02,792 - DEBUG - Calling on_header_field with data[43:62]
+2024-07-11 06:08:02,792 - DEBUG - Calling on_header_value with data[64:115]
+2024-07-11 06:08:02,792 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:08:02,792 - DEBUG - Calling on_header_field with data[117:129]
+2024-07-11 06:08:02,792 - DEBUG - Calling on_header_value with data[131:136]
+2024-07-11 06:08:02,792 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:08:02,793 - DEBUG - Calling on_header_field with data[138:163]
+2024-07-11 06:08:02,793 - DEBUG - Calling on_header_value with data[165:171]
+2024-07-11 06:08:02,793 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:08:02,793 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:08:02,793 - DEBUG - Calling on_part_data with data[175:12463]
+2024-07-11 06:08:02,945 - DEBUG - Calling on_part_data with data[0:27512]
+2024-07-11 06:08:02,946 - DEBUG - Calling on_part_data with data[0:648]
+2024-07-11 06:08:03,093 - DEBUG - Calling on_part_data with data[0:14718]
+2024-07-11 06:08:03,094 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:08:03,094 - DEBUG - Calling on_end with no data
+2024-07-11 06:10:07,314 - INFO - [apple]: Welocime
+2024-07-11 06:10:07,597 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:10:07,597 - DEBUG - Calling on_header_field with data[34:53]
+2024-07-11 06:10:07,597 - DEBUG - Calling on_header_value with data[55:97]
+2024-07-11 06:10:07,597 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:07,597 - DEBUG - Calling on_header_field with data[99:111]
+2024-07-11 06:10:07,597 - DEBUG - Calling on_header_value with data[113:123]
+2024-07-11 06:10:07,597 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:07,597 - DEBUG - Calling on_header_field with data[125:150]
+2024-07-11 06:10:07,598 - DEBUG - Calling on_header_value with data[152:158]
+2024-07-11 06:10:07,598 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:07,598 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:10:07,598 - DEBUG - Calling on_part_data with data[162:299]
+2024-07-11 06:10:07,598 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:10:07,598 - DEBUG - Calling on_end with no data
+2024-07-11 06:10:12,138 - INFO - [apple]: Welocime
+2024-07-11 06:10:12,420 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:10:12,420 - DEBUG - Calling on_header_field with data[40:59]
+2024-07-11 06:10:12,421 - DEBUG - Calling on_header_value with data[61:103]
+2024-07-11 06:10:12,421 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:12,421 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-11 06:10:12,421 - DEBUG - Calling on_header_value with data[119:129]
+2024-07-11 06:10:12,421 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:12,421 - DEBUG - Calling on_header_field with data[131:156]
+2024-07-11 06:10:12,421 - DEBUG - Calling on_header_value with data[158:164]
+2024-07-11 06:10:12,421 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:12,422 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:10:12,422 - DEBUG - Calling on_part_data with data[168:305]
+2024-07-11 06:10:12,422 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:10:12,422 - DEBUG - Calling on_end with no data
+2024-07-11 06:10:22,571 - INFO - [apple]: Welocime
+2024-07-11 06:10:22,851 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:10:22,852 - DEBUG - Calling on_header_field with data[43:62]
+2024-07-11 06:10:22,853 - DEBUG - Calling on_header_value with data[64:106]
+2024-07-11 06:10:22,853 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:22,853 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:10:22,853 - DEBUG - Calling on_header_value with data[122:138]
+2024-07-11 06:10:22,854 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:22,854 - DEBUG - Calling on_header_field with data[140:165]
+2024-07-11 06:10:22,854 - DEBUG - Calling on_header_value with data[167:173]
+2024-07-11 06:10:22,855 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:22,855 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:10:22,855 - DEBUG - Calling on_part_data with data[177:314]
+2024-07-11 06:10:22,856 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:10:22,856 - DEBUG - Calling on_end with no data
+2024-07-11 06:10:30,437 - INFO - [apple]: Welocime
+2024-07-11 06:10:30,717 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:10:30,717 - DEBUG - Calling on_header_field with data[34:53]
+2024-07-11 06:10:30,718 - DEBUG - Calling on_header_value with data[55:97]
+2024-07-11 06:10:30,718 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:30,718 - DEBUG - Calling on_header_field with data[99:111]
+2024-07-11 06:10:30,718 - DEBUG - Calling on_header_value with data[113:129]
+2024-07-11 06:10:30,718 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:30,718 - DEBUG - Calling on_header_field with data[131:156]
+2024-07-11 06:10:30,718 - DEBUG - Calling on_header_value with data[158:164]
+2024-07-11 06:10:30,718 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:10:30,718 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:10:30,719 - DEBUG - Calling on_part_data with data[168:305]
+2024-07-11 06:10:30,719 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:10:30,719 - DEBUG - Calling on_end with no data
+2024-07-11 06:14:45,055 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:14:57,668 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:15:15,806 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:15:18,770 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:16:05,633 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:16:05,633 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:16:05,633 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:16:05,633 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:16:05,634 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:16:05,634 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:16:05,634 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:16:05,634 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:16:05,635 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:16:05,635 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:16:05,635 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 06:16:05,635 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:16:05,635 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:16:05,636 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:16:05,636 - DEBUG - Calling on_part_data with data[683:1093]
+2024-07-11 06:16:05,636 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:16:05,636 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:16:05,636 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:16:05,636 - DEBUG - Calling on_end with no data
+2024-07-11 06:16:05,642 - INFO - [data]: {'filename': 'plan.txt', 'file_data': '# Log\r\nkubectl describe pod [pod] -n infra-net\r\nkubectl logs [pod] -n infra-net\r\nkubectl exec -it [pod] -n infra-net -- /bin/sh\r\n\r\n# Resource\r\nkubectl top pod -n infra-net\r\ndocker ps -a --format "table {{.ID}}\\t{{.Command}}\\t{{.Names}}"\r\n\r\n# Pod\r\nkubectl get namespaces\r\nkubectl get pods -n infra-net\r\nkubectl delete pod -n infra-net [pod]\r\n\r\n# deploy\r\nkubectl create namespace infra-net\r\nkubectl apply -f minio-one\r\n\r\n# restart\r\nwsl --install\r\n\r\n# token\r\nkubectl create token kubernetes-dashboard-token -n kubernetes-dashboard --duration=87600h\r\n\r\n\r\n\r\n\r\n\r\n\r\nkubectl delete pods minio-one -n infra-net\r\nkubectl apply -f minio-one.yaml\r\nkubectl describe PersistentVolume minio-data-one-pv -n infra-net\r\nkubectl describe pod vscode-774bcbfc6d-xtxzp -n infra-net\r\nkubectl logs vscode-774bcbfc6d-xtxzp -n infra-net\r\n\r\n\r\n\r\n\r\nkubectl delete pods vscode-774bcbfc6d-nw52g -n infra-net\r\nkubectl apply -f kubernetes-dashboard.yaml\r\n\r\n\r\nkubectl logs [pod] -n infra-net\r\n\r\n'}
+2024-07-11 06:16:05,643 - INFO - [admin]: Welocime
+2024-07-11 06:16:37,404 - INFO - [apple]: Welocime
+2024-07-11 06:17:12,185 - INFO - [apple]: Welocime
+2024-07-11 06:17:12,476 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:17:12,476 - DEBUG - Calling on_header_field with data[38:57]
+2024-07-11 06:17:12,477 - DEBUG - Calling on_header_value with data[59:102]
+2024-07-11 06:17:12,477 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:17:12,478 - DEBUG - Calling on_header_field with data[104:116]
+2024-07-11 06:17:12,478 - DEBUG - Calling on_header_value with data[118:134]
+2024-07-11 06:17:12,478 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:17:12,479 - DEBUG - Calling on_header_field with data[136:161]
+2024-07-11 06:17:12,479 - DEBUG - Calling on_header_value with data[163:169]
+2024-07-11 06:17:12,479 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:17:12,479 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:17:12,480 - DEBUG - Calling on_part_data with data[173:310]
+2024-07-11 06:17:12,481 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:17:12,482 - DEBUG - Calling on_end with no data
+2024-07-11 06:18:08,214 - INFO - [apple]: Welocime
+2024-07-11 06:18:08,480 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_field with data[41:60]
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_value with data[62:104]
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_field with data[106:118]
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_value with data[120:136]
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_field with data[138:163]
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_value with data[165:171]
+2024-07-11 06:18:08,481 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:18:08,481 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:18:08,481 - DEBUG - Calling on_part_data with data[175:312]
+2024-07-11 06:18:08,481 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:18:08,481 - DEBUG - Calling on_end with no data
+2024-07-11 06:18:08,483 - INFO - [data]: {'filename': 'init.sh', 'file_data': '#!/bin/bash\ncp ./apache-jmeter-5.6.3.zip ~/apache-jmeter5.6.3.zip\nunzip ~/apache-jmeter5.6.3.zip -d ~/\n\n~/apache-jmeter-5.6.3/bin/jmeter\n'}
+2024-07-11 06:18:08,483 - INFO - [apple]: Welocime
+2024-07-11 06:35:01,479 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:35:03,717 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:35:54,640 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:37:02,244 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:02,505 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:13,842 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:25,452 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:26,606 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:41,808 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:43,556 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:46,016 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:47,677 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:38:50,435 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:39:11,249 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:39:20,662 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:39:33,353 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:39:35,321 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:39:41,926 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:39:47,920 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:39:52,370 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:39:55,072 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:08,101 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:16,655 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:19,003 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:22,065 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:28,097 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:34,575 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:36,818 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:43,566 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:46,279 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:48,496 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:55,198 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:40:57,430 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:41:01,300 - INFO - [apple]: Welocime
+2024-07-11 06:41:01,729 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:41:01,729 - DEBUG - Calling on_header_field with data[40:59]
+2024-07-11 06:41:01,730 - DEBUG - Calling on_header_value with data[61:103]
+2024-07-11 06:41:01,730 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:41:01,730 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-11 06:41:01,730 - DEBUG - Calling on_header_value with data[119:135]
+2024-07-11 06:41:01,730 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:41:01,730 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-11 06:41:01,730 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-11 06:41:01,730 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:41:01,730 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:41:01,730 - DEBUG - Calling on_part_data with data[174:311]
+2024-07-11 06:41:01,730 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:41:01,730 - DEBUG - Calling on_end with no data
+2024-07-11 06:41:01,732 - INFO - [apple]: Welocime
+2024-07-11 06:41:46,580 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:41:48,746 - INFO - [apple]: Welocime
+2024-07-11 06:41:49,015 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:41:49,015 - DEBUG - Calling on_header_field with data[37:56]
+2024-07-11 06:41:49,016 - DEBUG - Calling on_header_value with data[58:100]
+2024-07-11 06:41:49,017 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:41:49,017 - DEBUG - Calling on_header_field with data[102:114]
+2024-07-11 06:41:49,017 - DEBUG - Calling on_header_value with data[116:132]
+2024-07-11 06:41:49,018 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:41:49,018 - DEBUG - Calling on_header_field with data[134:159]
+2024-07-11 06:41:49,018 - DEBUG - Calling on_header_value with data[161:167]
+2024-07-11 06:41:49,019 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:41:49,019 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:41:49,020 - DEBUG - Calling on_part_data with data[171:308]
+2024-07-11 06:41:49,022 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:41:49,022 - DEBUG - Calling on_end with no data
+2024-07-11 06:41:49,026 - INFO - [apple]: Welocime
+2024-07-11 06:43:16,339 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:43:18,056 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:43:25,790 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:43:27,153 - INFO - [apple]: Welocime
+2024-07-11 06:43:27,467 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:43:27,467 - DEBUG - Calling on_header_field with data[36:55]
+2024-07-11 06:43:27,467 - DEBUG - Calling on_header_value with data[57:99]
+2024-07-11 06:43:27,468 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:43:27,468 - DEBUG - Calling on_header_field with data[101:113]
+2024-07-11 06:43:27,468 - DEBUG - Calling on_header_value with data[115:131]
+2024-07-11 06:43:27,468 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:43:27,468 - DEBUG - Calling on_header_field with data[133:158]
+2024-07-11 06:43:27,468 - DEBUG - Calling on_header_value with data[160:166]
+2024-07-11 06:43:27,468 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:43:27,468 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:43:27,469 - DEBUG - Calling on_part_data with data[170:307]
+2024-07-11 06:43:27,469 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:43:27,469 - DEBUG - Calling on_end with no data
+2024-07-11 06:43:27,471 - INFO - [apple]: Welocime
+2024-07-11 06:43:32,206 - INFO - [apple]: Welocime
+2024-07-11 06:43:32,489 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:43:32,489 - DEBUG - Calling on_header_field with data[40:59]
+2024-07-11 06:43:32,489 - DEBUG - Calling on_header_value with data[61:103]
+2024-07-11 06:43:32,489 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:43:32,490 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-11 06:43:32,490 - DEBUG - Calling on_header_value with data[119:135]
+2024-07-11 06:43:32,490 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:43:32,490 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-11 06:43:32,490 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-11 06:43:32,490 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:43:32,490 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:43:32,490 - DEBUG - Calling on_part_data with data[174:311]
+2024-07-11 06:43:32,490 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:43:32,491 - DEBUG - Calling on_end with no data
+2024-07-11 06:43:32,493 - INFO - [apple]: Welocime
+2024-07-11 06:43:56,950 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:44:17,301 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:44:21,765 - INFO - [apple]: Welocime
+2024-07-11 06:44:22,049 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:44:22,050 - DEBUG - Calling on_header_field with data[34:53]
+2024-07-11 06:44:22,051 - DEBUG - Calling on_header_value with data[55:97]
+2024-07-11 06:44:22,051 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:44:22,051 - DEBUG - Calling on_header_field with data[99:111]
+2024-07-11 06:44:22,054 - DEBUG - Calling on_header_value with data[113:129]
+2024-07-11 06:44:22,054 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:44:22,055 - DEBUG - Calling on_header_field with data[131:156]
+2024-07-11 06:44:22,055 - DEBUG - Calling on_header_value with data[158:164]
+2024-07-11 06:44:22,055 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:44:22,056 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:44:22,057 - DEBUG - Calling on_part_data with data[168:305]
+2024-07-11 06:44:22,057 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:44:22,057 - DEBUG - Calling on_end with no data
+2024-07-11 06:44:22,062 - INFO - [apple]: Welocime
+2024-07-11 06:44:22,063 - INFO - [file]: [{'filename': 'init.sh', 'data': <coroutine object UploadFile.read at 0x7fa7bd9cc040>}]
+2024-07-11 06:45:05,026 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:45:18,975 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:45:20,564 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:45:20,565 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:45:20,565 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:45:20,565 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:45:20,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:45:20,566 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:45:20,566 - DEBUG - Calling on_end with no data
+2024-07-11 06:45:20,571 - INFO - [admin]: Welocime
+2024-07-11 06:45:54,390 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:45:55,583 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:46:35,032 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:46:40,130 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:46:42,760 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:46:45,047 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:46:48,289 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:46:48,290 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:46:48,290 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:46:48,290 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:46:48,290 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:46:48,290 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:46:48,290 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:46:48,290 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:46:48,290 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:46:48,290 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[143:681]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[683:1056]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:46:48,291 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:46:48,291 - DEBUG - Calling on_end with no data
+2024-07-11 06:46:48,298 - INFO - [admin]: Welocime
+2024-07-11 06:49:03,039 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:49:07,430 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:49:07,430 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:49:07,431 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:49:07,431 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:49:07,431 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:49:07,431 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:49:07,431 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:49:07,431 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:49:07,431 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:49:07,431 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:07,431 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 06:49:07,431 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:07,432 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:07,433 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:49:07,433 - DEBUG - Calling on_end with no data
+2024-07-11 06:49:07,439 - INFO - [admin]: Welocime
+2024-07-11 06:49:20,276 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:49:22,656 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:49:22,657 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:49:22,657 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:49:22,657 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:49:22,658 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:49:22,658 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:49:22,658 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:49:22,658 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:49:22,658 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:49:22,659 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:22,659 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 06:49:22,659 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:22,659 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:49:22,659 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:22,659 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:49:22,660 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:22,660 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:49:22,660 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:22,660 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:49:22,660 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:49:22,661 - DEBUG - Calling on_end with no data
+2024-07-11 06:49:22,668 - INFO - [admin]: Welocime
+2024-07-11 06:49:42,158 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:50:15,047 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:50:16,565 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:50:20,862 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:50:20,862 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:50:20,862 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:50:20,862 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:50:20,862 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:50:20,862 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:50:20,862 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:50:20,862 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[683:1093]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:20,863 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:50:20,864 - DEBUG - Calling on_end with no data
+2024-07-11 06:50:20,871 - INFO - [admin]: Welocime
+2024-07-11 06:50:20,871 - INFO - [file]: <coroutine object txt_decode at 0x7f917163c740>
+2024-07-11 06:50:44,228 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:50:47,192 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:50:51,640 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:50:58,623 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:50:58,623 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:50:58,623 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:50:58,623 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:50:58,623 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:50:58,623 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:50:58,623 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:50:58,623 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:50:58,623 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:50:58,623 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:50:58,624 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:50:58,624 - DEBUG - Calling on_end with no data
+2024-07-11 06:50:58,629 - INFO - [admin]: Welocime
+2024-07-11 06:50:58,630 - INFO - [file]: <coroutine object txt_decode at 0x7fdc93f54740>
+2024-07-11 06:51:35,590 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:51:40,606 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:51:44,591 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:51:44,591 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:51:44,591 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:51:44,592 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:51:44,592 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:51:44,592 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:51:44,593 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:51:44,593 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:51:44,593 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:51:44,593 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:51:44,593 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:51:44,593 - DEBUG - Calling on_end with no data
+2024-07-11 06:51:44,598 - INFO - [admin]: Welocime
+2024-07-11 06:51:44,598 - INFO - [file]: [{'filename': 'plan.txt', 'data': '# Log\r\nkubectl describe pod [pod] -n infra-net\r\nkubectl logs [pod] -n infra-net\r\nkubectl exec -it [pod] -n infra-net -- /bin/sh\r\n\r\n# Resource\r\nkubectl top pod -n infra-net\r\ndocker ps -a --format "table {{.ID}}\\t{{.Command}}\\t{{.Names}}"\r\n\r\n# Pod\r\nkubectl get namespaces\r\nkubectl get pods -n infra-net\r\nkubectl delete pod -n infra-net [pod]\r\n\r\n# deploy\r\nkubectl create namespace infra-net\r\nkubectl apply -f minio-one\r\n\r\n# restart\r\nwsl --install\r\n\r\n# token\r\nkubectl create token kubernetes-dashboard-token -n kubernetes-dashboard --duration=87600h\r\n\r\n\r\n\r\n\r\n\r\n\r\nkubectl delete pods minio-one -n infra-net\r\nkubectl apply -f minio-one.yaml\r\nkubectl describe PersistentVolume minio-data-one-pv -n infra-net\r\nkubectl describe pod vscode-774bcbfc6d-xtxzp -n infra-net\r\nkubectl logs vscode-774bcbfc6d-xtxzp -n infra-net\r\n\r\n\r\n\r\n\r\nkubectl delete pods vscode-774bcbfc6d-nw52g -n infra-net\r\nkubectl apply -f kubernetes-dashboard.yaml\r\n\r\n\r\nkubectl logs [pod] -n infra-net\r\n\r\n'}]
+2024-07-11 06:53:21,333 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:53:40,453 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:53:52,343 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:53:58,620 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:53:58,620 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:53:58,620 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:53:58,620 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:53:58,620 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:53:58,621 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:53:58,621 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:53:58,621 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:53:58,621 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:53:58,621 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:53:58,621 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 06:53:58,621 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:53:58,622 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:53:58,622 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:53:58,622 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:53:58,622 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:53:58,622 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:53:58,622 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:53:58,622 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:53:58,622 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:53:58,623 - DEBUG - Calling on_end with no data
+2024-07-11 06:53:58,628 - INFO - [admin]: Welocime
+2024-07-11 06:53:58,628 - INFO - [file]: <coroutine object txt_decode at 0x7f29fcb38840>
+2024-07-11 06:54:18,964 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:54:22,953 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:54:25,114 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:54:27,735 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:54:32,721 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:54:43,661 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:54:43,662 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:54:43,662 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:54:43,662 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:54:43,662 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:54:43,662 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:54:43,662 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:54:43,662 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:54:43,662 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:54:43,663 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:54:43,664 - DEBUG - Calling on_end with no data
+2024-07-11 06:54:43,671 - INFO - [admin]: Welocime
+2024-07-11 06:54:43,671 - INFO - [file]: <coroutine object txt_decode at 0x7f1c4e19c840>
+2024-07-11 06:55:16,030 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:22,293 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:24,761 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:25,932 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:28,715 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:55:28,716 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:55:28,716 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:55:28,717 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:55:28,717 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:55:28,718 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:55:28,718 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:55:28,718 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:55:28,719 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:55:28,719 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:28,720 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 06:55:28,720 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:28,720 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 06:55:28,721 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:28,721 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:55:28,721 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:28,722 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:55:28,722 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:28,723 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:55:28,723 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:28,723 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:28,724 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:55:28,724 - DEBUG - Calling on_end with no data
+2024-07-11 06:55:28,735 - INFO - [admin]: Welocime
+2024-07-11 06:55:29,736 - INFO - [file]: <coroutine object txt_decode at 0x7fb4d4684740>
+2024-07-11 06:55:36,051 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:37,524 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:50,747 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:54,760 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:56,941 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:55:59,760 - DEBUG - Calling on_part_begin with no data
+2024-07-11 06:55:59,761 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 06:55:59,762 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 06:55:59,762 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:55:59,762 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 06:55:59,763 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 06:55:59,763 - DEBUG - Calling on_header_end with no data
+2024-07-11 06:55:59,763 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 06:55:59,764 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 06:55:59,764 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:59,765 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 06:55:59,765 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:59,765 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 06:55:59,766 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:59,766 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 06:55:59,766 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:59,767 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 06:55:59,767 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:59,767 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 06:55:59,768 - DEBUG - Calling on_part_end with no data
+2024-07-11 06:55:59,768 - DEBUG - Calling on_end with no data
+2024-07-11 06:55:59,781 - INFO - [admin]: Welocime
+2024-07-11 06:55:59,781 - INFO - [file]: [{'filename': 'plan.txt', 'data': '# Log\r\nkubectl describe pod [pod] -n infra-net\r\nkubectl logs [pod] -n infra-net\r\nkubectl exec -it [pod] -n infra-net -- /bin/sh\r\n\r\n# Resource\r\nkubectl top pod -n infra-net\r\ndocker ps -a --format "table {{.ID}}\\t{{.Command}}\\t{{.Names}}"\r\n\r\n# Pod\r\nkubectl get namespaces\r\nkubectl get pods -n infra-net\r\nkubectl delete pod -n infra-net [pod]\r\n\r\n# deploy\r\nkubectl create namespace infra-net\r\nkubectl apply -f minio-one\r\n\r\n# restart\r\nwsl --install\r\n\r\n# token\r\nkubectl create token kubernetes-dashboard-token -n kubernetes-dashboard --duration=87600h\r\n\r\n\r\n\r\n\r\n\r\n\r\nkubectl delete pods minio-one -n infra-net\r\nkubectl apply -f minio-one.yaml\r\nkubectl describe PersistentVolume minio-data-one-pv -n infra-net\r\nkubectl describe pod vscode-774bcbfc6d-xtxzp -n infra-net\r\nkubectl logs vscode-774bcbfc6d-xtxzp -n infra-net\r\n\r\n\r\n\r\n\r\nkubectl delete pods vscode-774bcbfc6d-nw52g -n infra-net\r\nkubectl apply -f kubernetes-dashboard.yaml\r\n\r\n\r\nkubectl logs [pod] -n infra-net\r\n\r\n'}]
+2024-07-11 06:56:46,875 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:58:13,584 - DEBUG - Using selector: EpollSelector
+2024-07-11 06:58:57,476 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:00:04,467 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:06,356 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:14,945 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:18,732 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:23,027 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:24,947 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:27,933 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:32,724 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:36,161 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:37,916 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:39,880 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:45,413 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:47,121 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:52,883 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:04:59,801 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:05:07,350 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:05:20,231 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:05:24,820 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:05:28,406 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:05:28,406 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:05:28,406 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:05:28,406 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:05:28,406 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:05:28,407 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:05:28,407 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:05:28,407 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:05:28,407 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:05:28,407 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,407 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 07:05:28,407 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,407 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[583:681]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[772:1056]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,408 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:05:28,409 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:05:28,409 - DEBUG - Calling on_end with no data
+2024-07-11 07:05:28,415 - INFO - [admin]: Welocime
+2024-07-11 07:06:04,437 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:06:13,340 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:06:15,011 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:06:15,012 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:06:15,013 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:06:15,013 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:06:15,014 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:06:15,014 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:06:15,014 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:06:15,015 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:06:15,015 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:06:15,016 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:06:15,016 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 07:06:15,016 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:06:15,017 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:06:15,017 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:06:15,018 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:06:15,018 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:06:15,018 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:06:15,019 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:06:15,019 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:06:15,020 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:06:15,020 - DEBUG - Calling on_end with no data
+2024-07-11 07:06:15,034 - INFO - [admin]: Welocime
+2024-07-11 07:06:27,883 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:06:46,151 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:06:56,766 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:07:16,921 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:07:16,922 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:07:16,922 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:07:16,922 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:07:16,922 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:07:16,922 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:07:16,922 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:07:16,922 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:07:16,922 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:07:16,922 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:16,923 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:07:16,923 - DEBUG - Calling on_end with no data
+2024-07-11 07:07:16,930 - INFO - [admin]: Welocime
+2024-07-11 07:07:30,015 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:07:32,562 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:07:32,562 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:07:32,563 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:07:32,563 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:07:32,563 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:07:32,563 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:07:32,563 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:07:32,563 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[583:590]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[592:681]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,564 - DEBUG - Calling on_part_data with data[772:1056]
+2024-07-11 07:07:32,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,565 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 07:07:32,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,565 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:32,565 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:07:32,565 - DEBUG - Calling on_end with no data
+2024-07-11 07:07:32,571 - INFO - [admin]: Welocime
+2024-07-11 07:07:32,571 - INFO - [file]: [{'filename': 'plan.txt', 'data': '# Log\r\nkubectl describe pod [pod] -n infra-net\r\nkubectl logs [pod] -n infra-net\r\nkubectl exec -it [pod] -n infra-net -- /bin/sh\r\n\r\n# Resource\r\nkubectl top pod -n infra-net\r\ndocker ps -a --format "table {{.ID}}\\t{{.Command}}\\t{{.Names}}"\r\n\r\n# Pod\r\nkubectl get namespaces\r\nkubectl get pods -n infra-net\r\nkubectl delete pod -n infra-net [pod]\r\n\r\n# deploy\r\nkubectl create namespace infra-net\r\nkubectl apply -f minio-one\r\n\r\n# restart\r\nwsl --install\r\n\r\n# token\r\nkubectl create token kubernetes-dashboard-token -n kubernetes-dashboard --duration=87600h\r\n\r\n\r\n\r\n\r\n\r\n\r\nkubectl delete pods minio-one -n infra-net\r\nkubectl apply -f minio-one.yaml\r\nkubectl describe PersistentVolume minio-data-one-pv -n infra-net\r\nkubectl describe pod vscode-774bcbfc6d-xtxzp -n infra-net\r\nkubectl logs vscode-774bcbfc6d-xtxzp -n infra-net\r\n\r\n\r\n\r\n\r\nkubectl delete pods vscode-774bcbfc6d-nw52g -n infra-net\r\nkubectl apply -f kubernetes-dashboard.yaml\r\n\r\n\r\nkubectl logs [pod] -n infra-net\r\n\r\n'}]
+2024-07-11 07:07:47,868 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:07:52,323 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:07:52,323 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:07:52,323 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:07:52,323 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:07:52,323 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:07:52,324 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:07:52,324 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:07:52,324 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:07:52,324 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:07:52,324 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:52,324 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 07:07:52,325 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:52,325 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:07:52,325 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:52,325 - DEBUG - Calling on_part_data with data[683:1093]
+2024-07-11 07:07:52,325 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:52,325 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:07:52,326 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:07:52,326 - DEBUG - Calling on_end with no data
+2024-07-11 07:07:52,331 - INFO - [admin]: Welocime
+2024-07-11 07:07:59,204 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:08:00,293 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:08:00,294 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:08:00,294 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:08:00,294 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:08:00,294 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:08:00,294 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:08:00,294 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:08:00,294 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:08:00,294 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:08:00,295 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:00,296 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:00,296 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:08:00,296 - DEBUG - Calling on_end with no data
+2024-07-11 07:08:00,301 - INFO - [admin]: Welocime
+2024-07-11 07:08:00,301 - INFO - [file]: [{'filename': 'plan.txt', 'data': '# Log\r\nkubectl describe pod [pod] -n infra-net\r\nkubectl logs [pod] -n infra-net\r\nkubectl exec -it [pod] -n infra-net -- /bin/sh\r\n\r\n# Resource\r\nkubectl top pod -n infra-net\r\ndocker ps -a --format "table {{.ID}}\\t{{.Command}}\\t{{.Names}}"\r\n\r\n# Pod\r\nkubectl get namespaces\r\nkubectl get pods -n infra-net\r\nkubectl delete pod -n infra-net [pod]\r\n\r\n# deploy\r\nkubectl create namespace infra-net\r\nkubectl apply -f minio-one\r\n\r\n# restart\r\nwsl --install\r\n\r\n# token\r\nkubectl create token kubernetes-dashboard-token -n kubernetes-dashboard --duration=87600h\r\n\r\n\r\n\r\n\r\n\r\n\r\nkubectl delete pods minio-one -n infra-net\r\nkubectl apply -f minio-one.yaml\r\nkubectl describe PersistentVolume minio-data-one-pv -n infra-net\r\nkubectl describe pod vscode-774bcbfc6d-xtxzp -n infra-net\r\nkubectl logs vscode-774bcbfc6d-xtxzp -n infra-net\r\n\r\n\r\n\r\n\r\nkubectl delete pods vscode-774bcbfc6d-nw52g -n infra-net\r\nkubectl apply -f kubernetes-dashboard.yaml\r\n\r\n\r\nkubectl logs [pod] -n infra-net\r\n\r\n'}]
+2024-07-11 07:08:12,784 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:08:15,115 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:08:15,115 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:08:15,116 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:08:15,116 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:08:15,117 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:08:15,117 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:08:15,117 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:08:15,118 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:08:15,118 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:08:15,119 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:15,119 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:08:15,119 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:15,120 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:08:15,120 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:15,120 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:08:15,120 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:15,120 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:08:15,121 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:15,121 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:08:15,121 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:15,121 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:08:15,122 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:08:15,122 - DEBUG - Calling on_end with no data
+2024-07-11 07:08:15,134 - INFO - [admin]: Welocime
+2024-07-11 07:08:20,789 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:08:31,880 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:08:35,133 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:10,077 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:15,309 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:20,097 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:24,048 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:33,665 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:36,609 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:46,809 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:49,563 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:09:58,100 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:10:05,188 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:10:10,503 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:10:13,756 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:10:21,298 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:10:25,041 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:10:27,257 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:10:42,388 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:11:02,515 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:11:02,515 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:11:02,515 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:11:02,515 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:11:02,515 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:11:02,515 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:11:02,516 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[683:1093]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:11:02,516 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:11:02,516 - DEBUG - Calling on_end with no data
+2024-07-11 07:11:02,521 - INFO - [admin]: Welocime
+2024-07-11 07:11:02,522 - INFO - [file]: [{'filename': 'plan.txt', 'data': '# Log\r\nkubectl describe pod [pod] -n infra-net\r\nkubectl logs [pod] -n infra-net\r\nkubectl exec -it [pod] -n infra-net -- /bin/sh\r\n\r\n# Resource\r\nkubectl top pod -n infra-net\r\ndocker ps -a --format "table {{.ID}}\\t{{.Command}}\\t{{.Names}}"\r\n\r\n# Pod\r\nkubectl get namespaces\r\nkubectl get pods -n infra-net\r\nkubectl delete pod -n infra-net [pod]\r\n\r\n# deploy\r\nkubectl create namespace infra-net\r\nkubectl apply -f minio-one\r\n\r\n# restart\r\nwsl --install\r\n\r\n# token\r\nkubectl create token kubernetes-dashboard-token -n kubernetes-dashboard --duration=87600h\r\n\r\n\r\n\r\n\r\n\r\n\r\nkubectl delete pods minio-one -n infra-net\r\nkubectl apply -f minio-one.yaml\r\nkubectl describe PersistentVolume minio-data-one-pv -n infra-net\r\nkubectl describe pod vscode-774bcbfc6d-xtxzp -n infra-net\r\nkubectl logs vscode-774bcbfc6d-xtxzp -n infra-net\r\n\r\n\r\n\r\n\r\nkubectl delete pods vscode-774bcbfc6d-nw52g -n infra-net\r\nkubectl apply -f kubernetes-dashboard.yaml\r\n\r\n\r\nkubectl logs [pod] -n infra-net\r\n\r\n'}]
+2024-07-11 07:11:17,566 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:11:20,817 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:11:23,581 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:11:26,052 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:11:28,023 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:11:30,989 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:12:03,380 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:12:27,571 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:12:27,572 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:12:27,573 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:12:27,573 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:27,573 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:12:27,574 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:12:27,574 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:27,574 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:12:27,575 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:12:27,575 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:27,575 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 07:12:27,576 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:27,576 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:12:27,576 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:27,577 - DEBUG - Calling on_part_data with data[683:1093]
+2024-07-11 07:12:27,577 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:27,578 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:27,578 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:12:27,579 - DEBUG - Calling on_end with no data
+2024-07-11 07:12:27,590 - INFO - [admin]: Welocime
+2024-07-11 07:12:43,838 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:12:43,838 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:12:43,839 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:12:43,839 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:43,840 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:12:43,840 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:12:43,840 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:43,841 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:12:43,841 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:12:43,841 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,842 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:12:43,842 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,842 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:12:43,843 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,843 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:12:43,843 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,844 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:12:43,844 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,845 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:12:43,845 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,845 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,846 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:12:43,846 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:12:43,846 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:12:43,846 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:12:43,847 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:43,847 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:12:43,847 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:12:43,847 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:43,847 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:12:43,848 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:12:43,848 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,848 - DEBUG - Calling on_part_data with data[1242:1420]
+2024-07-11 07:12:43,849 - DEBUG - Calling on_part_data with data[0:84]
+2024-07-11 07:12:43,849 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,849 - DEBUG - Calling on_part_data with data[86:258]
+2024-07-11 07:12:43,850 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,850 - DEBUG - Calling on_part_data with data[260:360]
+2024-07-11 07:12:43,850 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,850 - DEBUG - Calling on_part_data with data[362:449]
+2024-07-11 07:12:43,850 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,851 - DEBUG - Calling on_part_data with data[451:772]
+2024-07-11 07:12:43,851 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,851 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:12:43,851 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:12:43,852 - DEBUG - Calling on_end with no data
+2024-07-11 07:12:43,854 - INFO - [admin]: Welocime
+2024-07-11 07:12:55,662 - INFO - [apple]: Welocime
+2024-07-11 07:12:55,973 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:12:55,974 - DEBUG - Calling on_header_field with data[43:62]
+2024-07-11 07:12:55,974 - DEBUG - Calling on_header_value with data[64:106]
+2024-07-11 07:12:55,975 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:55,975 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:12:55,975 - DEBUG - Calling on_header_value with data[122:138]
+2024-07-11 07:12:55,976 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:55,976 - DEBUG - Calling on_header_field with data[140:165]
+2024-07-11 07:12:55,976 - DEBUG - Calling on_header_value with data[167:173]
+2024-07-11 07:12:55,977 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:12:55,977 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:12:55,978 - DEBUG - Calling on_part_data with data[177:314]
+2024-07-11 07:12:55,979 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:12:55,979 - DEBUG - Calling on_end with no data
+2024-07-11 07:12:55,981 - INFO - [apple]: Welocime
+2024-07-11 07:17:00,848 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:17:13,548 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:17:28,535 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:17:30,744 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:17:30,745 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:17:30,745 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:17:30,745 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:17:30,745 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_part_data with data[143:681]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:17:30,745 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[772:1056]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:17:30,746 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:17:30,746 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:17:30,746 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[1242:1780]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[1782:1869]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[1871:2155]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,746 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,747 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,747 - DEBUG - Calling on_part_data with data[2161:2192]
+2024-07-11 07:17:30,747 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,747 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:17:30,747 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:17:30,747 - DEBUG - Calling on_end with no data
+2024-07-11 07:17:30,752 - INFO - [admin]: Welocime
+2024-07-11 07:18:12,379 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:18:14,584 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:18:14,584 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:18:14,584 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:18:14,584 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:18:14,585 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:18:14,585 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[143:681]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[772:1056]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,585 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:18:14,586 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:18:14,586 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:18:14,586 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:18:14,586 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:18:14,586 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:18:14,586 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[1242:1780]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[1782:1869]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[1871:2155]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[2161:2192]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:18:14,587 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:18:14,587 - DEBUG - Calling on_end with no data
+2024-07-11 07:19:24,255 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:19:24,256 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:19:24,256 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:19:24,257 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:19:24,257 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:19:24,257 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:19:24,258 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:19:24,258 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:19:24,259 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:19:24,259 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,260 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:19:24,260 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,260 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:19:24,261 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,261 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:19:24,261 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,262 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:19:24,262 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,262 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:19:24,263 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,263 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,264 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:19:24,264 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:19:24,264 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:19:24,265 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:19:24,265 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:19:24,265 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:19:24,266 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:19:24,266 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:19:24,266 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:19:24,267 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:19:24,267 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,268 - DEBUG - Calling on_part_data with data[1242:1586]
+2024-07-11 07:19:24,268 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,269 - DEBUG - Calling on_part_data with data[1588:1678]
+2024-07-11 07:19:24,269 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,269 - DEBUG - Calling on_part_data with data[1680:1780]
+2024-07-11 07:19:24,269 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,270 - DEBUG - Calling on_part_data with data[1782:1869]
+2024-07-11 07:19:24,270 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,270 - DEBUG - Calling on_part_data with data[1871:2192]
+2024-07-11 07:19:24,271 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,271 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:19:24,271 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:19:24,272 - DEBUG - Calling on_end with no data
+2024-07-11 07:20:23,078 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:20:24,590 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:20:24,590 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:20:24,591 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:20:24,591 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:20:24,592 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:20:24,592 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:20:24,592 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:20:24,592 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:20:24,593 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:20:24,593 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,593 - DEBUG - Calling on_part_data with data[143:681]
+2024-07-11 07:20:24,594 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,594 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:20:24,594 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,594 - DEBUG - Calling on_part_data with data[772:1056]
+2024-07-11 07:20:24,595 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,595 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,595 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,596 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 07:20:24,596 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,596 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,596 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:20:24,597 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:20:24,597 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:20:24,597 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:20:24,598 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:20:24,598 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:20:24,598 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:20:24,598 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:20:24,598 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:20:24,599 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:20:24,599 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,599 - DEBUG - Calling on_part_data with data[1242:1780]
+2024-07-11 07:20:24,600 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,600 - DEBUG - Calling on_part_data with data[1782:1869]
+2024-07-11 07:20:24,600 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,600 - DEBUG - Calling on_part_data with data[1871:2155]
+2024-07-11 07:20:24,600 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,601 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,601 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,601 - DEBUG - Calling on_part_data with data[2161:2192]
+2024-07-11 07:20:24,602 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,602 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:20:24,602 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:20:24,602 - DEBUG - Calling on_end with no data
+2024-07-11 07:20:41,590 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:20:44,069 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:20:57,443 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:23:01,239 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:23:05,484 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:23:06,938 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:23:09,901 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:23:09,901 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:23:09,902 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:23:09,902 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:09,903 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:23:09,903 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:23:09,903 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:09,904 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:23:09,904 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:23:09,905 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,905 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:23:09,905 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,905 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:23:09,906 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,906 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,906 - DEBUG - Calling on_part_data with data[583:681]
+2024-07-11 07:23:09,907 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,907 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:23:09,907 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,908 - DEBUG - Calling on_part_data with data[772:1056]
+2024-07-11 07:23:09,908 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,908 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,909 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,909 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 07:23:09,909 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,910 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,910 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:23:09,910 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:23:09,911 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:23:09,911 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:23:09,911 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:09,912 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:23:09,912 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:23:09,912 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:09,912 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:23:09,913 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:23:09,913 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,913 - DEBUG - Calling on_part_data with data[1242:1586]
+2024-07-11 07:23:09,914 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,914 - DEBUG - Calling on_part_data with data[1588:1678]
+2024-07-11 07:23:09,914 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,914 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,914 - DEBUG - Calling on_part_data with data[1682:1780]
+2024-07-11 07:23:09,914 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,915 - DEBUG - Calling on_part_data with data[1782:1869]
+2024-07-11 07:23:09,915 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,915 - DEBUG - Calling on_part_data with data[1871:2155]
+2024-07-11 07:23:09,915 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,915 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,915 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,915 - DEBUG - Calling on_part_data with data[2161:2192]
+2024-07-11 07:23:09,916 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,916 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:09,916 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:23:09,916 - DEBUG - Calling on_end with no data
+2024-07-11 07:23:50,850 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:23:52,046 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:23:52,046 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:23:52,047 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:23:52,047 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:52,048 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:23:52,048 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:23:52,049 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:52,049 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:23:52,050 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:23:52,050 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,051 - DEBUG - Calling on_part_data with data[143:681]
+2024-07-11 07:23:52,051 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,052 - DEBUG - Calling on_part_data with data[683:1056]
+2024-07-11 07:23:52,052 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,052 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,053 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,053 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 07:23:52,054 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,054 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,054 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:23:52,055 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:23:52,055 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:23:52,055 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:23:52,056 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:52,056 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:23:52,056 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:23:52,057 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:52,057 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:23:52,058 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:23:52,058 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,058 - DEBUG - Calling on_part_data with data[1242:1780]
+2024-07-11 07:23:52,059 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,059 - DEBUG - Calling on_part_data with data[1782:2155]
+2024-07-11 07:23:52,059 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,060 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,060 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,060 - DEBUG - Calling on_part_data with data[2161:2192]
+2024-07-11 07:23:52,061 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,061 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:52,061 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:23:52,062 - DEBUG - Calling on_end with no data
+2024-07-11 07:23:55,558 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:23:55,558 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:23:55,558 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:23:55,559 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:55,559 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:23:55,559 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:23:55,559 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:55,559 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:23:55,560 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:23:55,560 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,561 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:23:55,561 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,561 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:23:55,561 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,562 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:23:55,562 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,562 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:23:55,562 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,563 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:23:55,563 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,563 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,563 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:23:55,564 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:23:55,564 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:23:55,564 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:23:55,565 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:55,565 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:23:55,565 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:23:55,566 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:23:55,566 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:23:55,566 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:23:55,567 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,567 - DEBUG - Calling on_part_data with data[1242:1586]
+2024-07-11 07:23:55,567 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,568 - DEBUG - Calling on_part_data with data[1588:1678]
+2024-07-11 07:23:55,568 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,568 - DEBUG - Calling on_part_data with data[1680:1780]
+2024-07-11 07:23:55,568 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,569 - DEBUG - Calling on_part_data with data[1782:1869]
+2024-07-11 07:23:55,569 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,569 - DEBUG - Calling on_part_data with data[1871:2192]
+2024-07-11 07:23:55,570 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,570 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:23:55,571 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:23:55,571 - DEBUG - Calling on_end with no data
+2024-07-11 07:24:09,750 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:24:28,858 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:24:33,629 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:24:40,192 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:24:42,497 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:24:42,497 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:24:42,497 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:24:42,497 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:24:42,498 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:24:42,498 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:24:42,498 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:24:42,498 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:24:42,498 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:24:42,498 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,498 - DEBUG - Calling on_part_data with data[143:681]
+2024-07-11 07:24:42,498 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,498 - DEBUG - Calling on_part_data with data[683:1056]
+2024-07-11 07:24:42,498 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_data with data[1062:1093]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:24:42,499 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:24:42,499 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:24:42,499 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:24:42,499 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[1242:1780]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[1782:2155]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[2161:2192]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:24:42,500 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:24:42,500 - DEBUG - Calling on_end with no data
+2024-07-11 07:25:04,346 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:26:30,409 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:26:41,729 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:26:43,097 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:26:43,097 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:26:43,098 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:26:43,098 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:26:43,098 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:26:43,098 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:26:43,098 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:26:43,098 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:26:43,098 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,099 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,100 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:26:43,100 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:26:43,100 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:26:43,100 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:26:43,100 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:26:43,100 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:26:43,100 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:26:43,100 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:26:43,100 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:26:43,100 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:26:43,100 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[1242:1678]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[1680:1780]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[1782:1869]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[1871:2192]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:26:43,101 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:26:43,102 - DEBUG - Calling on_end with no data
+2024-07-11 07:26:57,425 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:27:07,130 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:27:49,616 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:27:53,450 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:28:09,341 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:30:27,197 - DEBUG - Using selector: EpollSelector
+2024-07-11 07:30:27,223 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:30:27,223 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:30:27,223 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:30:27,223 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:30:27,223 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_part_data with data[143:487]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_part_data with data[489:579]
+2024-07-11 07:30:27,223 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_data with data[683:770]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_data with data[772:1093]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:30:27,224 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:30:27,224 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:30:27,224 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:30:27,224 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:30:27,224 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[1242:1586]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[1588:1678]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[1680:1780]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[1782:1869]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[1871:2192]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:27,225 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:30:27,225 - DEBUG - Calling on_end with no data
+2024-07-11 07:30:27,232 - INFO - [admin]: Welocime
+2024-07-11 07:30:31,335 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:30:31,335 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-11 07:30:31,335 - DEBUG - Calling on_header_value with data[63:106]
+2024-07-11 07:30:31,336 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:30:31,336 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-11 07:30:31,336 - DEBUG - Calling on_header_value with data[122:132]
+2024-07-11 07:30:31,336 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:30:31,336 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:30:31,336 - DEBUG - Calling on_part_data with data[136:141]
+2024-07-11 07:30:31,336 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,337 - DEBUG - Calling on_part_data with data[143:579]
+2024-07-11 07:30:31,337 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,337 - DEBUG - Calling on_part_data with data[581:681]
+2024-07-11 07:30:31,337 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,337 - DEBUG - Calling on_part_data with data[683:1093]
+2024-07-11 07:30:31,337 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,338 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,338 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:30:31,338 - DEBUG - Calling on_part_begin with no data
+2024-07-11 07:30:31,338 - DEBUG - Calling on_header_field with data[1141:1160]
+2024-07-11 07:30:31,338 - DEBUG - Calling on_header_value with data[1162:1205]
+2024-07-11 07:30:31,338 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:30:31,338 - DEBUG - Calling on_header_field with data[1207:1219]
+2024-07-11 07:30:31,338 - DEBUG - Calling on_header_value with data[1221:1231]
+2024-07-11 07:30:31,338 - DEBUG - Calling on_header_end with no data
+2024-07-11 07:30:31,339 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 07:30:31,339 - DEBUG - Calling on_part_data with data[1235:1240]
+2024-07-11 07:30:31,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,339 - DEBUG - Calling on_part_data with data[1242:1678]
+2024-07-11 07:30:31,339 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,339 - DEBUG - Calling on_part_data with data[1680:1780]
+2024-07-11 07:30:31,340 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,340 - DEBUG - Calling on_part_data with data[1782:2192]
+2024-07-11 07:30:31,340 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,340 - DEBUG - Calling on_part_data with data[0:2]
+2024-07-11 07:30:31,340 - DEBUG - Calling on_part_end with no data
+2024-07-11 07:30:31,340 - DEBUG - Calling on_end with no data
+2024-07-11 07:30:31,342 - INFO - [admin]: Welocime
+2024-07-11 08:21:21,451 - INFO - [apple]: Welocime
+2024-07-11 08:21:21,718 - DEBUG - Calling on_part_begin with no data
+2024-07-11 08:21:21,719 - DEBUG - Calling on_header_field with data[40:59]
+2024-07-11 08:21:21,719 - DEBUG - Calling on_header_value with data[61:103]
+2024-07-11 08:21:21,719 - DEBUG - Calling on_header_end with no data
+2024-07-11 08:21:21,719 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-11 08:21:21,719 - DEBUG - Calling on_header_value with data[119:135]
+2024-07-11 08:21:21,719 - DEBUG - Calling on_header_end with no data
+2024-07-11 08:21:21,720 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-11 08:21:21,720 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-11 08:21:21,720 - DEBUG - Calling on_header_end with no data
+2024-07-11 08:21:21,720 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 08:21:21,720 - DEBUG - Calling on_part_data with data[174:311]
+2024-07-11 08:21:21,720 - DEBUG - Calling on_part_end with no data
+2024-07-11 08:21:21,720 - DEBUG - Calling on_part_begin with no data
+2024-07-11 08:21:21,720 - DEBUG - Calling on_header_field with data[353:372]
+2024-07-11 08:21:21,720 - DEBUG - Calling on_header_value with data[374:415]
+2024-07-11 08:21:21,720 - DEBUG - Calling on_header_end with no data
+2024-07-11 08:21:21,721 - DEBUG - Calling on_header_field with data[417:429]
+2024-07-11 08:21:21,721 - DEBUG - Calling on_header_value with data[431:447]
+2024-07-11 08:21:21,721 - DEBUG - Calling on_header_end with no data
+2024-07-11 08:21:21,721 - DEBUG - Calling on_header_field with data[449:474]
+2024-07-11 08:21:21,721 - DEBUG - Calling on_header_value with data[476:482]
+2024-07-11 08:21:21,721 - DEBUG - Calling on_header_end with no data
+2024-07-11 08:21:21,721 - DEBUG - Calling on_headers_finished with no data
+2024-07-11 08:21:21,721 - DEBUG - Calling on_part_data with data[486:539]
+2024-07-11 08:21:21,721 - DEBUG - Calling on_part_end with no data
+2024-07-11 08:21:21,722 - DEBUG - Calling on_end with no data
+2024-07-11 08:21:21,724 - INFO - [apple]: Welocime

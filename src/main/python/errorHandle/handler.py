@@ -20,6 +20,22 @@ def handle_exceptions(func):
             return JSONResponse(content=error_message, status_code=500)
     return wrapper
 
+def async_handle_exceptions(func):
+    @wraps(func)
+    async def wrapper(*args, **kwargs):
+        try:
+            result = await func(*args, **kwargs)
+            return resHandler(result)
+        except Exception as e:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            error_message = {
+                "error_type": str(exc_type),
+                "error_message": str(exc_value),
+                "traceback": [str(line) for line in traceback.format_tb(exc_traceback)],
+            }
+            return JSONResponse(content=error_message, status_code=500)
+    return wrapper
+
 def resHandler(datas):
     statusCode, info = datas['statusCode'], datas['info']
     if statusCode != 200:
