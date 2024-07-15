@@ -7534,3 +7534,816 @@ pip install python-multipart
 2024-07-11 17:37:34,609 - INFO - [admin]: dataframe to json
 2024-07-11 17:37:34,612 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/mariadb/sql/query HTTP/1.1" 200 105
 2024-07-11 17:37:34,614 - DEBUG - http://127.0.0.1:8091 "POST /dataAccess/get/data/site/mariadb/sql/query HTTP/1.1" 200 105
+2024-07-12 01:44:51,896 - DEBUG - Using selector: EpollSelector
+2024-07-12 01:45:14,725 - INFO - [admin]: Welocime
+2024-07-12 01:50:25,338 - DEBUG - Using selector: EpollSelector
+2024-07-12 01:50:27,577 - DEBUG - Using selector: EpollSelector
+2024-07-12 01:50:34,528 - DEBUG - Using selector: EpollSelector
+2024-07-12 01:53:16,642 - INFO - [apple]: Welocime
+2024-07-12 01:53:17,031 - DEBUG - Calling on_part_begin with no data
+2024-07-12 01:53:17,031 - DEBUG - Calling on_header_field with data[44:63]
+2024-07-12 01:53:17,032 - DEBUG - Calling on_header_value with data[65:107]
+2024-07-12 01:53:17,032 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:53:17,032 - DEBUG - Calling on_header_field with data[109:121]
+2024-07-12 01:53:17,032 - DEBUG - Calling on_header_value with data[123:139]
+2024-07-12 01:53:17,032 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:53:17,033 - DEBUG - Calling on_header_field with data[141:166]
+2024-07-12 01:53:17,033 - DEBUG - Calling on_header_value with data[168:174]
+2024-07-12 01:53:17,033 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:53:17,033 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 01:53:17,033 - DEBUG - Calling on_part_data with data[178:315]
+2024-07-12 01:53:17,125 - DEBUG - Calling on_part_end with no data
+2024-07-12 01:53:17,125 - DEBUG - Calling on_part_begin with no data
+2024-07-12 01:53:17,125 - DEBUG - Calling on_header_field with data[46:65]
+2024-07-12 01:53:17,126 - DEBUG - Calling on_header_value with data[67:108]
+2024-07-12 01:53:17,126 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:53:17,126 - DEBUG - Calling on_header_field with data[110:122]
+2024-07-12 01:53:17,126 - DEBUG - Calling on_header_value with data[124:140]
+2024-07-12 01:53:17,126 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:53:17,126 - DEBUG - Calling on_header_field with data[142:167]
+2024-07-12 01:53:17,127 - DEBUG - Calling on_header_value with data[169:175]
+2024-07-12 01:53:17,127 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:53:17,127 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 01:53:17,127 - DEBUG - Calling on_part_data with data[179:232]
+2024-07-12 01:53:17,128 - DEBUG - Calling on_part_end with no data
+2024-07-12 01:53:17,128 - DEBUG - Calling on_end with no data
+2024-07-12 01:53:17,129 - INFO - [apple]: Welocime
+2024-07-12 01:53:47,285 - INFO - [admin]: Welocime
+2024-07-12 01:55:18,817 - INFO - [apple]: Welocime
+2024-07-12 01:55:19,101 - DEBUG - Calling on_part_begin with no data
+2024-07-12 01:55:19,101 - DEBUG - Calling on_header_field with data[40:59]
+2024-07-12 01:55:19,101 - DEBUG - Calling on_header_value with data[61:103]
+2024-07-12 01:55:19,101 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:55:19,101 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-12 01:55:19,101 - DEBUG - Calling on_header_value with data[119:135]
+2024-07-12 01:55:19,102 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:55:19,102 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-12 01:55:19,102 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-12 01:55:19,102 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:55:19,102 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 01:55:19,102 - DEBUG - Calling on_part_data with data[174:311]
+2024-07-12 01:55:19,102 - DEBUG - Calling on_part_end with no data
+2024-07-12 01:55:19,102 - DEBUG - Calling on_part_begin with no data
+2024-07-12 01:55:19,102 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-12 01:55:19,103 - DEBUG - Calling on_header_value with data[63:104]
+2024-07-12 01:55:19,103 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:55:19,103 - DEBUG - Calling on_header_field with data[106:118]
+2024-07-12 01:55:19,103 - DEBUG - Calling on_header_value with data[120:136]
+2024-07-12 01:55:19,103 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:55:19,103 - DEBUG - Calling on_header_field with data[138:163]
+2024-07-12 01:55:19,103 - DEBUG - Calling on_header_value with data[165:171]
+2024-07-12 01:55:19,104 - DEBUG - Calling on_header_end with no data
+2024-07-12 01:55:19,104 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 01:55:19,104 - DEBUG - Calling on_part_data with data[175:228]
+2024-07-12 01:55:19,104 - DEBUG - Calling on_part_end with no data
+2024-07-12 01:55:19,105 - DEBUG - Calling on_end with no data
+2024-07-12 01:55:19,106 - INFO - [apple]: Welocime
+2024-07-12 02:08:22,352 - INFO - [admin]: Welocime
+2024-07-12 09:20:51,893 - INFO - [apple]: Welocime
+2024-07-12 09:20:52,220 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:20:52,220 - DEBUG - Calling on_header_field with data[35:54]
+2024-07-12 09:20:52,220 - DEBUG - Calling on_header_value with data[56:98]
+2024-07-12 09:20:52,220 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:20:52,221 - DEBUG - Calling on_header_field with data[100:112]
+2024-07-12 09:20:52,221 - DEBUG - Calling on_header_value with data[114:130]
+2024-07-12 09:20:52,221 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:20:52,221 - DEBUG - Calling on_header_field with data[132:157]
+2024-07-12 09:20:52,221 - DEBUG - Calling on_header_value with data[159:165]
+2024-07-12 09:20:52,221 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:20:52,221 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:20:52,221 - DEBUG - Calling on_part_data with data[169:306]
+2024-07-12 09:20:52,222 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:20:52,222 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:20:52,222 - DEBUG - Calling on_header_field with data[37:56]
+2024-07-12 09:20:52,222 - DEBUG - Calling on_header_value with data[58:99]
+2024-07-12 09:20:52,222 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:20:52,223 - DEBUG - Calling on_header_field with data[101:113]
+2024-07-12 09:20:52,223 - DEBUG - Calling on_header_value with data[115:131]
+2024-07-12 09:20:52,223 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:20:52,223 - DEBUG - Calling on_header_field with data[133:158]
+2024-07-12 09:20:52,223 - DEBUG - Calling on_header_value with data[160:166]
+2024-07-12 09:20:52,223 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:20:52,223 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:20:52,223 - DEBUG - Calling on_part_data with data[170:223]
+2024-07-12 09:20:52,223 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:20:52,223 - DEBUG - Calling on_end with no data
+2024-07-12 09:20:52,224 - INFO - [apple]: Welocime
+2024-07-12 09:21:10,101 - INFO - [apple]: Welocime
+2024-07-12 09:21:10,368 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:21:10,369 - DEBUG - Calling on_header_field with data[40:59]
+2024-07-12 09:21:10,369 - DEBUG - Calling on_header_value with data[61:103]
+2024-07-12 09:21:10,369 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:10,369 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-12 09:21:10,369 - DEBUG - Calling on_header_value with data[119:135]
+2024-07-12 09:21:10,369 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:10,369 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-12 09:21:10,370 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-12 09:21:10,370 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:10,370 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:21:10,370 - DEBUG - Calling on_part_data with data[174:311]
+2024-07-12 09:21:10,370 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:21:10,370 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_value with data[63:104]
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_field with data[106:118]
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_value with data[120:136]
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_field with data[138:163]
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_value with data[165:171]
+2024-07-12 09:21:10,371 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:10,371 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:21:10,372 - DEBUG - Calling on_part_data with data[175:228]
+2024-07-12 09:21:10,372 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:21:10,372 - DEBUG - Calling on_end with no data
+2024-07-12 09:21:10,373 - INFO - [apple]: Welocime
+2024-07-12 09:21:34,475 - INFO - [apple]: Welocime
+2024-07-12 09:21:34,742 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:21:34,742 - DEBUG - Calling on_header_field with data[41:60]
+2024-07-12 09:21:34,743 - DEBUG - Calling on_header_value with data[62:104]
+2024-07-12 09:21:34,743 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:34,743 - DEBUG - Calling on_header_field with data[106:118]
+2024-07-12 09:21:34,743 - DEBUG - Calling on_header_value with data[120:136]
+2024-07-12 09:21:34,743 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:34,743 - DEBUG - Calling on_header_field with data[138:163]
+2024-07-12 09:21:34,744 - DEBUG - Calling on_header_value with data[165:171]
+2024-07-12 09:21:34,744 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:34,744 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:21:34,744 - DEBUG - Calling on_part_data with data[175:312]
+2024-07-12 09:21:34,745 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:21:34,745 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:21:34,745 - DEBUG - Calling on_header_field with data[43:62]
+2024-07-12 09:21:34,745 - DEBUG - Calling on_header_value with data[64:105]
+2024-07-12 09:21:34,745 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:34,745 - DEBUG - Calling on_header_field with data[107:119]
+2024-07-12 09:21:34,746 - DEBUG - Calling on_header_value with data[121:137]
+2024-07-12 09:21:34,746 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:34,746 - DEBUG - Calling on_header_field with data[139:164]
+2024-07-12 09:21:34,746 - DEBUG - Calling on_header_value with data[166:172]
+2024-07-12 09:21:34,746 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:21:34,746 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:21:34,747 - DEBUG - Calling on_part_data with data[176:229]
+2024-07-12 09:21:34,747 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:21:34,748 - DEBUG - Calling on_end with no data
+2024-07-12 09:21:34,750 - INFO - [apple]: Welocime
+2024-07-12 09:25:07,989 - INFO - [apple]: Welocime
+2024-07-12 09:25:08,256 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:25:08,256 - DEBUG - Calling on_header_field with data[40:59]
+2024-07-12 09:25:08,257 - DEBUG - Calling on_header_value with data[61:103]
+2024-07-12 09:25:08,257 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:25:08,257 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-12 09:25:08,257 - DEBUG - Calling on_header_value with data[119:135]
+2024-07-12 09:25:08,257 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:25:08,257 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-12 09:25:08,258 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-12 09:25:08,258 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:25:08,258 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:25:08,258 - DEBUG - Calling on_part_data with data[174:311]
+2024-07-12 09:25:08,258 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:25:08,259 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:25:08,259 - DEBUG - Calling on_header_field with data[353:372]
+2024-07-12 09:25:08,259 - DEBUG - Calling on_header_value with data[374:415]
+2024-07-12 09:25:08,259 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:25:08,259 - DEBUG - Calling on_header_field with data[417:429]
+2024-07-12 09:25:08,259 - DEBUG - Calling on_header_value with data[431:447]
+2024-07-12 09:25:08,259 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:25:08,259 - DEBUG - Calling on_header_field with data[449:474]
+2024-07-12 09:25:08,260 - DEBUG - Calling on_header_value with data[476:482]
+2024-07-12 09:25:08,260 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:25:08,260 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:25:08,260 - DEBUG - Calling on_part_data with data[486:539]
+2024-07-12 09:25:08,260 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:25:08,261 - DEBUG - Calling on_end with no data
+2024-07-12 09:25:08,262 - INFO - [apple]: Welocime
+2024-07-12 09:26:41,432 - INFO - [apple]: Welocime
+2024-07-12 09:26:41,765 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:26:41,765 - DEBUG - Calling on_header_field with data[43:62]
+2024-07-12 09:26:41,765 - DEBUG - Calling on_header_value with data[64:106]
+2024-07-12 09:26:41,766 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:26:41,766 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-12 09:26:41,766 - DEBUG - Calling on_header_value with data[122:138]
+2024-07-12 09:26:41,766 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:26:41,766 - DEBUG - Calling on_header_field with data[140:165]
+2024-07-12 09:26:41,767 - DEBUG - Calling on_header_value with data[167:173]
+2024-07-12 09:26:41,767 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:26:41,767 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:26:41,767 - DEBUG - Calling on_part_data with data[177:314]
+2024-07-12 09:26:41,768 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:26:41,768 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_field with data[45:64]
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_value with data[66:107]
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_field with data[109:121]
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_value with data[123:139]
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_field with data[141:166]
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_value with data[168:174]
+2024-07-12 09:26:41,768 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:26:41,768 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:26:41,769 - DEBUG - Calling on_part_data with data[178:231]
+2024-07-12 09:26:41,769 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:26:41,769 - DEBUG - Calling on_end with no data
+2024-07-12 09:26:41,770 - INFO - [apple]: Welocime
+2024-07-12 09:27:31,509 - INFO - [apple]: Welocime
+2024-07-12 09:27:31,793 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:27:31,794 - DEBUG - Calling on_header_field with data[43:62]
+2024-07-12 09:27:31,794 - DEBUG - Calling on_header_value with data[64:106]
+2024-07-12 09:27:31,794 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:27:31,794 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-12 09:27:31,794 - DEBUG - Calling on_header_value with data[122:138]
+2024-07-12 09:27:31,795 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:27:31,795 - DEBUG - Calling on_header_field with data[140:165]
+2024-07-12 09:27:31,795 - DEBUG - Calling on_header_value with data[167:173]
+2024-07-12 09:27:31,795 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:27:31,795 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:27:31,795 - DEBUG - Calling on_part_data with data[177:314]
+2024-07-12 09:27:31,796 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:27:31,796 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:27:31,796 - DEBUG - Calling on_header_field with data[45:64]
+2024-07-12 09:27:31,796 - DEBUG - Calling on_header_value with data[66:107]
+2024-07-12 09:27:31,797 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:27:31,797 - DEBUG - Calling on_header_field with data[109:121]
+2024-07-12 09:27:31,797 - DEBUG - Calling on_header_value with data[123:139]
+2024-07-12 09:27:31,797 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:27:31,797 - DEBUG - Calling on_header_field with data[141:166]
+2024-07-12 09:27:31,797 - DEBUG - Calling on_header_value with data[168:174]
+2024-07-12 09:27:31,797 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:27:31,798 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:27:31,798 - DEBUG - Calling on_part_data with data[178:231]
+2024-07-12 09:27:31,798 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:27:31,798 - DEBUG - Calling on_end with no data
+2024-07-12 09:27:31,800 - INFO - [apple]: Welocime
+2024-07-12 09:40:06,598 - INFO - [apple]: Welocime
+2024-07-12 09:40:06,880 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:40:06,880 - DEBUG - Calling on_header_field with data[35:54]
+2024-07-12 09:40:06,881 - DEBUG - Calling on_header_value with data[56:98]
+2024-07-12 09:40:06,881 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:40:06,881 - DEBUG - Calling on_header_field with data[100:112]
+2024-07-12 09:40:06,881 - DEBUG - Calling on_header_value with data[114:130]
+2024-07-12 09:40:06,881 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:40:06,881 - DEBUG - Calling on_header_field with data[132:157]
+2024-07-12 09:40:06,881 - DEBUG - Calling on_header_value with data[159:165]
+2024-07-12 09:40:06,882 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:40:06,882 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:40:06,882 - DEBUG - Calling on_part_data with data[169:306]
+2024-07-12 09:40:06,882 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:40:06,882 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:40:06,883 - DEBUG - Calling on_header_field with data[343:362]
+2024-07-12 09:40:06,883 - DEBUG - Calling on_header_value with data[364:405]
+2024-07-12 09:40:06,883 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:40:06,883 - DEBUG - Calling on_header_field with data[407:419]
+2024-07-12 09:40:06,883 - DEBUG - Calling on_header_value with data[421:437]
+2024-07-12 09:40:06,883 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:40:06,883 - DEBUG - Calling on_header_field with data[439:464]
+2024-07-12 09:40:06,884 - DEBUG - Calling on_header_value with data[466:472]
+2024-07-12 09:40:06,884 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:40:06,884 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:40:06,884 - DEBUG - Calling on_part_data with data[476:529]
+2024-07-12 09:40:06,884 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:40:06,884 - DEBUG - Calling on_end with no data
+2024-07-12 09:40:06,886 - INFO - [apple]: Welocime
+2024-07-12 09:46:52,820 - INFO - [apple]: Welocime
+2024-07-12 09:46:53,155 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:46:53,155 - DEBUG - Calling on_header_field with data[37:56]
+2024-07-12 09:46:53,155 - DEBUG - Calling on_header_value with data[58:100]
+2024-07-12 09:46:53,155 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:46:53,156 - DEBUG - Calling on_header_field with data[102:114]
+2024-07-12 09:46:53,156 - DEBUG - Calling on_header_value with data[116:132]
+2024-07-12 09:46:53,156 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:46:53,156 - DEBUG - Calling on_header_field with data[134:159]
+2024-07-12 09:46:53,156 - DEBUG - Calling on_header_value with data[161:167]
+2024-07-12 09:46:53,156 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:46:53,156 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:46:53,156 - DEBUG - Calling on_part_data with data[171:308]
+2024-07-12 09:46:53,157 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:46:53,157 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_field with data[39:58]
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_value with data[60:101]
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_field with data[103:115]
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_value with data[117:133]
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_field with data[135:160]
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_value with data[162:168]
+2024-07-12 09:46:53,157 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:46:53,157 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:46:53,157 - DEBUG - Calling on_part_data with data[172:225]
+2024-07-12 09:46:53,158 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:46:53,158 - DEBUG - Calling on_end with no data
+2024-07-12 09:46:53,159 - INFO - [apple]: Welocime
+2024-07-12 09:47:15,771 - INFO - [apple]: Welocime
+2024-07-12 09:47:16,053 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_field with data[39:58]
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_value with data[60:102]
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_field with data[104:116]
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_value with data[118:134]
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_field with data[136:161]
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_value with data[163:169]
+2024-07-12 09:47:16,054 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:16,054 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:47:16,054 - DEBUG - Calling on_part_data with data[173:310]
+2024-07-12 09:47:16,054 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:47:16,055 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_field with data[351:370]
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_value with data[372:413]
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_field with data[415:427]
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_value with data[429:445]
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_field with data[447:472]
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_value with data[474:480]
+2024-07-12 09:47:16,055 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:16,055 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:47:16,055 - DEBUG - Calling on_part_data with data[484:537]
+2024-07-12 09:47:16,055 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:47:16,055 - DEBUG - Calling on_end with no data
+2024-07-12 09:47:16,057 - INFO - [apple]: Welocime
+2024-07-12 09:47:54,958 - INFO - [apple]: Welocime
+2024-07-12 09:47:55,240 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:47:55,240 - DEBUG - Calling on_header_field with data[35:54]
+2024-07-12 09:47:55,240 - DEBUG - Calling on_header_value with data[56:98]
+2024-07-12 09:47:55,241 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:55,241 - DEBUG - Calling on_header_field with data[100:112]
+2024-07-12 09:47:55,241 - DEBUG - Calling on_header_value with data[114:130]
+2024-07-12 09:47:55,241 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:55,241 - DEBUG - Calling on_header_field with data[132:157]
+2024-07-12 09:47:55,241 - DEBUG - Calling on_header_value with data[159:165]
+2024-07-12 09:47:55,241 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:55,241 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:47:55,242 - DEBUG - Calling on_part_data with data[169:306]
+2024-07-12 09:47:55,242 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:47:55,242 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:47:55,242 - DEBUG - Calling on_header_field with data[343:362]
+2024-07-12 09:47:55,242 - DEBUG - Calling on_header_value with data[364:405]
+2024-07-12 09:47:55,242 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:55,242 - DEBUG - Calling on_header_field with data[407:419]
+2024-07-12 09:47:55,243 - DEBUG - Calling on_header_value with data[421:437]
+2024-07-12 09:47:55,243 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:55,243 - DEBUG - Calling on_header_field with data[439:464]
+2024-07-12 09:47:55,243 - DEBUG - Calling on_header_value with data[466:472]
+2024-07-12 09:47:55,243 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:47:55,243 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:47:55,243 - DEBUG - Calling on_part_data with data[476:529]
+2024-07-12 09:47:55,244 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:47:55,244 - DEBUG - Calling on_end with no data
+2024-07-12 09:47:55,245 - INFO - [apple]: Welocime
+2024-07-12 09:49:59,583 - INFO - [apple]: Welocime
+2024-07-12 09:49:59,864 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:49:59,864 - DEBUG - Calling on_header_field with data[44:63]
+2024-07-12 09:49:59,864 - DEBUG - Calling on_header_value with data[65:107]
+2024-07-12 09:49:59,864 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:49:59,864 - DEBUG - Calling on_header_field with data[109:121]
+2024-07-12 09:49:59,865 - DEBUG - Calling on_header_value with data[123:139]
+2024-07-12 09:49:59,865 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:49:59,865 - DEBUG - Calling on_header_field with data[141:166]
+2024-07-12 09:49:59,865 - DEBUG - Calling on_header_value with data[168:174]
+2024-07-12 09:49:59,865 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:49:59,865 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:49:59,865 - DEBUG - Calling on_part_data with data[178:315]
+2024-07-12 09:49:59,865 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:49:59,866 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:49:59,866 - DEBUG - Calling on_header_field with data[361:380]
+2024-07-12 09:49:59,866 - DEBUG - Calling on_header_value with data[382:423]
+2024-07-12 09:49:59,866 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:49:59,866 - DEBUG - Calling on_header_field with data[425:437]
+2024-07-12 09:49:59,867 - DEBUG - Calling on_header_value with data[439:455]
+2024-07-12 09:49:59,867 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:49:59,867 - DEBUG - Calling on_header_field with data[457:482]
+2024-07-12 09:49:59,867 - DEBUG - Calling on_header_value with data[484:490]
+2024-07-12 09:49:59,867 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:49:59,867 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:49:59,868 - DEBUG - Calling on_part_data with data[494:547]
+2024-07-12 09:49:59,868 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:49:59,868 - DEBUG - Calling on_end with no data
+2024-07-12 09:49:59,869 - INFO - [apple]: Welocime
+2024-07-12 09:50:46,783 - INFO - [apple]: Welocime
+2024-07-12 09:50:47,133 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:50:47,133 - DEBUG - Calling on_header_field with data[39:58]
+2024-07-12 09:50:47,133 - DEBUG - Calling on_header_value with data[60:102]
+2024-07-12 09:50:47,134 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:50:47,134 - DEBUG - Calling on_header_field with data[104:116]
+2024-07-12 09:50:47,134 - DEBUG - Calling on_header_value with data[118:134]
+2024-07-12 09:50:47,134 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:50:47,134 - DEBUG - Calling on_header_field with data[136:161]
+2024-07-12 09:50:47,134 - DEBUG - Calling on_header_value with data[163:169]
+2024-07-12 09:50:47,135 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:50:47,135 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:50:47,135 - DEBUG - Calling on_part_data with data[173:310]
+2024-07-12 09:50:47,135 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:50:47,135 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:50:47,136 - DEBUG - Calling on_header_field with data[351:370]
+2024-07-12 09:50:47,136 - DEBUG - Calling on_header_value with data[372:413]
+2024-07-12 09:50:47,136 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:50:47,136 - DEBUG - Calling on_header_field with data[415:427]
+2024-07-12 09:50:47,136 - DEBUG - Calling on_header_value with data[429:445]
+2024-07-12 09:50:47,136 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:50:47,136 - DEBUG - Calling on_header_field with data[447:472]
+2024-07-12 09:50:47,136 - DEBUG - Calling on_header_value with data[474:480]
+2024-07-12 09:50:47,137 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:50:47,137 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:50:47,137 - DEBUG - Calling on_part_data with data[484:537]
+2024-07-12 09:50:47,137 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:50:47,137 - DEBUG - Calling on_end with no data
+2024-07-12 09:50:47,139 - INFO - [apple]: Welocime
+2024-07-12 09:52:31,994 - INFO - [apple]: Welocime
+2024-07-12 09:52:32,325 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:52:32,326 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-12 09:52:32,326 - DEBUG - Calling on_header_value with data[63:105]
+2024-07-12 09:52:32,326 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:32,326 - DEBUG - Calling on_header_field with data[107:119]
+2024-07-12 09:52:32,326 - DEBUG - Calling on_header_value with data[121:137]
+2024-07-12 09:52:32,326 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:32,327 - DEBUG - Calling on_header_field with data[139:164]
+2024-07-12 09:52:32,327 - DEBUG - Calling on_header_value with data[166:172]
+2024-07-12 09:52:32,327 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:32,327 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:52:32,327 - DEBUG - Calling on_part_data with data[176:313]
+2024-07-12 09:52:32,328 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:52:32,328 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:52:32,328 - DEBUG - Calling on_header_field with data[44:63]
+2024-07-12 09:52:32,328 - DEBUG - Calling on_header_value with data[65:106]
+2024-07-12 09:52:32,328 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:32,328 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-12 09:52:32,328 - DEBUG - Calling on_header_value with data[122:138]
+2024-07-12 09:52:32,328 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:32,329 - DEBUG - Calling on_header_field with data[140:165]
+2024-07-12 09:52:32,329 - DEBUG - Calling on_header_value with data[167:173]
+2024-07-12 09:52:32,329 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:32,329 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:52:32,329 - DEBUG - Calling on_part_data with data[177:230]
+2024-07-12 09:52:32,329 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:52:32,329 - DEBUG - Calling on_end with no data
+2024-07-12 09:52:32,331 - INFO - [apple]: Welocime
+2024-07-12 09:52:37,197 - INFO - [apple]: Welocime
+2024-07-12 09:52:37,462 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:52:37,462 - DEBUG - Calling on_header_field with data[38:57]
+2024-07-12 09:52:37,462 - DEBUG - Calling on_header_value with data[59:101]
+2024-07-12 09:52:37,462 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:37,462 - DEBUG - Calling on_header_field with data[103:115]
+2024-07-12 09:52:37,463 - DEBUG - Calling on_header_value with data[117:133]
+2024-07-12 09:52:37,463 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:37,463 - DEBUG - Calling on_header_field with data[135:160]
+2024-07-12 09:52:37,463 - DEBUG - Calling on_header_value with data[162:168]
+2024-07-12 09:52:37,463 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:37,463 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:52:37,464 - DEBUG - Calling on_part_data with data[172:309]
+2024-07-12 09:52:37,464 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:52:37,464 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:52:37,464 - DEBUG - Calling on_header_field with data[40:59]
+2024-07-12 09:52:37,465 - DEBUG - Calling on_header_value with data[61:102]
+2024-07-12 09:52:37,465 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:37,465 - DEBUG - Calling on_header_field with data[104:116]
+2024-07-12 09:52:37,465 - DEBUG - Calling on_header_value with data[118:134]
+2024-07-12 09:52:37,465 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:37,465 - DEBUG - Calling on_header_field with data[136:161]
+2024-07-12 09:52:37,466 - DEBUG - Calling on_header_value with data[163:169]
+2024-07-12 09:52:37,466 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:52:37,466 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:52:37,466 - DEBUG - Calling on_part_data with data[173:226]
+2024-07-12 09:52:37,466 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:52:37,466 - DEBUG - Calling on_end with no data
+2024-07-12 09:52:37,468 - INFO - [apple]: Welocime
+2024-07-12 09:53:29,875 - INFO - [apple]: Welocime
+2024-07-12 09:53:30,140 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:53:30,140 - DEBUG - Calling on_header_field with data[36:55]
+2024-07-12 09:53:30,140 - DEBUG - Calling on_header_value with data[57:99]
+2024-07-12 09:53:30,141 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:53:30,141 - DEBUG - Calling on_header_field with data[101:113]
+2024-07-12 09:53:30,141 - DEBUG - Calling on_header_value with data[115:131]
+2024-07-12 09:53:30,141 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:53:30,141 - DEBUG - Calling on_header_field with data[133:158]
+2024-07-12 09:53:30,141 - DEBUG - Calling on_header_value with data[160:166]
+2024-07-12 09:53:30,141 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:53:30,141 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:53:30,141 - DEBUG - Calling on_part_data with data[170:307]
+2024-07-12 09:53:30,142 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:53:30,142 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:53:30,142 - DEBUG - Calling on_header_field with data[38:57]
+2024-07-12 09:53:30,142 - DEBUG - Calling on_header_value with data[59:100]
+2024-07-12 09:53:30,142 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:53:30,142 - DEBUG - Calling on_header_field with data[102:114]
+2024-07-12 09:53:30,142 - DEBUG - Calling on_header_value with data[116:132]
+2024-07-12 09:53:30,143 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:53:30,143 - DEBUG - Calling on_header_field with data[134:159]
+2024-07-12 09:53:30,143 - DEBUG - Calling on_header_value with data[161:167]
+2024-07-12 09:53:30,143 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:53:30,143 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:53:30,143 - DEBUG - Calling on_part_data with data[171:224]
+2024-07-12 09:53:30,144 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:53:30,144 - DEBUG - Calling on_end with no data
+2024-07-12 09:53:30,145 - INFO - [apple]: Welocime
+2024-07-12 09:54:24,056 - INFO - [apple]: Welocime
+2024-07-12 09:54:24,320 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:54:24,320 - DEBUG - Calling on_header_field with data[44:63]
+2024-07-12 09:54:24,320 - DEBUG - Calling on_header_value with data[65:107]
+2024-07-12 09:54:24,320 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:54:24,321 - DEBUG - Calling on_header_field with data[109:121]
+2024-07-12 09:54:24,321 - DEBUG - Calling on_header_value with data[123:139]
+2024-07-12 09:54:24,321 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:54:24,321 - DEBUG - Calling on_header_field with data[141:166]
+2024-07-12 09:54:24,321 - DEBUG - Calling on_header_value with data[168:174]
+2024-07-12 09:54:24,321 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:54:24,321 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:54:24,322 - DEBUG - Calling on_part_data with data[178:315]
+2024-07-12 09:54:24,322 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:54:24,322 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:54:24,322 - DEBUG - Calling on_header_field with data[46:65]
+2024-07-12 09:54:24,322 - DEBUG - Calling on_header_value with data[67:108]
+2024-07-12 09:54:24,323 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:54:24,323 - DEBUG - Calling on_header_field with data[110:122]
+2024-07-12 09:54:24,323 - DEBUG - Calling on_header_value with data[124:140]
+2024-07-12 09:54:24,323 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:54:24,323 - DEBUG - Calling on_header_field with data[142:167]
+2024-07-12 09:54:24,323 - DEBUG - Calling on_header_value with data[169:175]
+2024-07-12 09:54:24,323 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:54:24,323 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:54:24,323 - DEBUG - Calling on_part_data with data[179:232]
+2024-07-12 09:54:24,323 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:54:24,323 - DEBUG - Calling on_end with no data
+2024-07-12 09:54:24,325 - INFO - [apple]: Welocime
+2024-07-12 09:56:41,770 - INFO - [apple]: Welocime
+2024-07-12 09:56:42,034 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:56:42,034 - DEBUG - Calling on_header_field with data[35:54]
+2024-07-12 09:56:42,034 - DEBUG - Calling on_header_value with data[56:98]
+2024-07-12 09:56:42,034 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:56:42,034 - DEBUG - Calling on_header_field with data[100:112]
+2024-07-12 09:56:42,034 - DEBUG - Calling on_header_value with data[114:130]
+2024-07-12 09:56:42,035 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:56:42,035 - DEBUG - Calling on_header_field with data[132:157]
+2024-07-12 09:56:42,035 - DEBUG - Calling on_header_value with data[159:165]
+2024-07-12 09:56:42,035 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:56:42,035 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:56:42,036 - DEBUG - Calling on_part_data with data[169:306]
+2024-07-12 09:56:42,036 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:56:42,036 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:56:42,036 - DEBUG - Calling on_header_field with data[343:362]
+2024-07-12 09:56:42,036 - DEBUG - Calling on_header_value with data[364:405]
+2024-07-12 09:56:42,037 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:56:42,037 - DEBUG - Calling on_header_field with data[407:419]
+2024-07-12 09:56:42,037 - DEBUG - Calling on_header_value with data[421:437]
+2024-07-12 09:56:42,037 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:56:42,038 - DEBUG - Calling on_header_field with data[439:464]
+2024-07-12 09:56:42,038 - DEBUG - Calling on_header_value with data[466:472]
+2024-07-12 09:56:42,038 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:56:42,038 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:56:42,039 - DEBUG - Calling on_part_data with data[476:529]
+2024-07-12 09:56:42,039 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:56:42,039 - DEBUG - Calling on_end with no data
+2024-07-12 09:56:42,041 - INFO - [apple]: Welocime
+2024-07-12 09:57:22,133 - INFO - [apple]: Welocime
+2024-07-12 09:57:22,397 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:57:22,397 - DEBUG - Calling on_header_field with data[38:57]
+2024-07-12 09:57:22,397 - DEBUG - Calling on_header_value with data[59:101]
+2024-07-12 09:57:22,397 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:57:22,397 - DEBUG - Calling on_header_field with data[103:115]
+2024-07-12 09:57:22,397 - DEBUG - Calling on_header_value with data[117:133]
+2024-07-12 09:57:22,397 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:57:22,398 - DEBUG - Calling on_header_field with data[135:160]
+2024-07-12 09:57:22,398 - DEBUG - Calling on_header_value with data[162:168]
+2024-07-12 09:57:22,398 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:57:22,398 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:57:22,398 - DEBUG - Calling on_part_data with data[172:309]
+2024-07-12 09:57:22,398 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:57:22,398 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:57:22,398 - DEBUG - Calling on_header_field with data[349:368]
+2024-07-12 09:57:22,399 - DEBUG - Calling on_header_value with data[370:411]
+2024-07-12 09:57:22,399 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:57:22,399 - DEBUG - Calling on_header_field with data[413:425]
+2024-07-12 09:57:22,399 - DEBUG - Calling on_header_value with data[427:443]
+2024-07-12 09:57:22,399 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:57:22,399 - DEBUG - Calling on_header_field with data[445:470]
+2024-07-12 09:57:22,399 - DEBUG - Calling on_header_value with data[472:478]
+2024-07-12 09:57:22,399 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:57:22,400 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:57:22,400 - DEBUG - Calling on_part_data with data[482:535]
+2024-07-12 09:57:22,400 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:57:22,400 - DEBUG - Calling on_end with no data
+2024-07-12 09:57:22,402 - INFO - [apple]: Welocime
+2024-07-12 09:59:20,592 - INFO - [apple]: Welocime
+2024-07-12 09:59:20,857 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:59:20,857 - DEBUG - Calling on_header_field with data[36:55]
+2024-07-12 09:59:20,858 - DEBUG - Calling on_header_value with data[57:99]
+2024-07-12 09:59:20,858 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:59:20,858 - DEBUG - Calling on_header_field with data[101:113]
+2024-07-12 09:59:20,858 - DEBUG - Calling on_header_value with data[115:131]
+2024-07-12 09:59:20,858 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:59:20,859 - DEBUG - Calling on_header_field with data[133:158]
+2024-07-12 09:59:20,859 - DEBUG - Calling on_header_value with data[160:166]
+2024-07-12 09:59:20,859 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:59:20,859 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:59:20,859 - DEBUG - Calling on_part_data with data[170:307]
+2024-07-12 09:59:20,860 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:59:20,860 - DEBUG - Calling on_part_begin with no data
+2024-07-12 09:59:20,860 - DEBUG - Calling on_header_field with data[345:364]
+2024-07-12 09:59:20,860 - DEBUG - Calling on_header_value with data[366:407]
+2024-07-12 09:59:20,860 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:59:20,860 - DEBUG - Calling on_header_field with data[409:421]
+2024-07-12 09:59:20,861 - DEBUG - Calling on_header_value with data[423:439]
+2024-07-12 09:59:20,861 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:59:20,861 - DEBUG - Calling on_header_field with data[441:466]
+2024-07-12 09:59:20,861 - DEBUG - Calling on_header_value with data[468:474]
+2024-07-12 09:59:20,861 - DEBUG - Calling on_header_end with no data
+2024-07-12 09:59:20,861 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 09:59:20,862 - DEBUG - Calling on_part_data with data[478:531]
+2024-07-12 09:59:20,862 - DEBUG - Calling on_part_end with no data
+2024-07-12 09:59:20,863 - DEBUG - Calling on_end with no data
+2024-07-12 09:59:20,864 - INFO - [apple]: Welocime
+2024-07-12 10:02:51,805 - INFO - [apple]: Welocime
+2024-07-12 10:02:52,086 - DEBUG - Calling on_part_begin with no data
+2024-07-12 10:02:52,086 - DEBUG - Calling on_header_field with data[42:61]
+2024-07-12 10:02:52,086 - DEBUG - Calling on_header_value with data[63:105]
+2024-07-12 10:02:52,086 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:02:52,086 - DEBUG - Calling on_header_field with data[107:119]
+2024-07-12 10:02:52,087 - DEBUG - Calling on_header_value with data[121:137]
+2024-07-12 10:02:52,087 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:02:52,087 - DEBUG - Calling on_header_field with data[139:164]
+2024-07-12 10:02:52,087 - DEBUG - Calling on_header_value with data[166:172]
+2024-07-12 10:02:52,087 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:02:52,087 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 10:02:52,088 - DEBUG - Calling on_part_data with data[176:313]
+2024-07-12 10:02:52,088 - DEBUG - Calling on_part_end with no data
+2024-07-12 10:02:52,088 - DEBUG - Calling on_part_begin with no data
+2024-07-12 10:02:52,088 - DEBUG - Calling on_header_field with data[357:376]
+2024-07-12 10:02:52,088 - DEBUG - Calling on_header_value with data[378:419]
+2024-07-12 10:02:52,088 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:02:52,088 - DEBUG - Calling on_header_field with data[421:433]
+2024-07-12 10:02:52,089 - DEBUG - Calling on_header_value with data[435:451]
+2024-07-12 10:02:52,089 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:02:52,089 - DEBUG - Calling on_header_field with data[453:478]
+2024-07-12 10:02:52,089 - DEBUG - Calling on_header_value with data[480:486]
+2024-07-12 10:02:52,089 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:02:52,089 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 10:02:52,090 - DEBUG - Calling on_part_data with data[490:543]
+2024-07-12 10:02:52,090 - DEBUG - Calling on_part_end with no data
+2024-07-12 10:02:52,090 - DEBUG - Calling on_end with no data
+2024-07-12 10:02:52,092 - INFO - [apple]: Welocime
+2024-07-12 10:03:24,954 - INFO - [apple]: Welocime
+2024-07-12 10:03:25,235 - DEBUG - Calling on_part_begin with no data
+2024-07-12 10:03:25,235 - DEBUG - Calling on_header_field with data[43:62]
+2024-07-12 10:03:25,235 - DEBUG - Calling on_header_value with data[64:106]
+2024-07-12 10:03:25,235 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:03:25,235 - DEBUG - Calling on_header_field with data[108:120]
+2024-07-12 10:03:25,236 - DEBUG - Calling on_header_value with data[122:138]
+2024-07-12 10:03:25,236 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:03:25,236 - DEBUG - Calling on_header_field with data[140:165]
+2024-07-12 10:03:25,236 - DEBUG - Calling on_header_value with data[167:173]
+2024-07-12 10:03:25,236 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:03:25,236 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 10:03:25,236 - DEBUG - Calling on_part_data with data[177:314]
+2024-07-12 10:03:25,237 - DEBUG - Calling on_part_end with no data
+2024-07-12 10:03:25,237 - DEBUG - Calling on_part_begin with no data
+2024-07-12 10:03:25,237 - DEBUG - Calling on_header_field with data[45:64]
+2024-07-12 10:03:25,237 - DEBUG - Calling on_header_value with data[66:107]
+2024-07-12 10:03:25,237 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:03:25,237 - DEBUG - Calling on_header_field with data[109:121]
+2024-07-12 10:03:25,237 - DEBUG - Calling on_header_value with data[123:139]
+2024-07-12 10:03:25,237 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:03:25,238 - DEBUG - Calling on_header_field with data[141:166]
+2024-07-12 10:03:25,238 - DEBUG - Calling on_header_value with data[168:174]
+2024-07-12 10:03:25,238 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:03:25,238 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 10:03:25,238 - DEBUG - Calling on_part_data with data[178:231]
+2024-07-12 10:03:25,238 - DEBUG - Calling on_part_end with no data
+2024-07-12 10:03:25,238 - DEBUG - Calling on_end with no data
+2024-07-12 10:03:25,241 - INFO - [apple]: Welocime
+2024-07-12 10:05:19,528 - INFO - [apple]: Welocime
+2024-07-12 10:05:19,870 - DEBUG - Calling on_part_begin with no data
+2024-07-12 10:05:19,871 - DEBUG - Calling on_header_field with data[39:58]
+2024-07-12 10:05:19,871 - DEBUG - Calling on_header_value with data[60:102]
+2024-07-12 10:05:19,871 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:05:19,871 - DEBUG - Calling on_header_field with data[104:116]
+2024-07-12 10:05:19,871 - DEBUG - Calling on_header_value with data[118:134]
+2024-07-12 10:05:19,871 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:05:19,872 - DEBUG - Calling on_header_field with data[136:161]
+2024-07-12 10:05:19,872 - DEBUG - Calling on_header_value with data[163:169]
+2024-07-12 10:05:19,872 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:05:19,872 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 10:05:19,872 - DEBUG - Calling on_part_data with data[173:310]
+2024-07-12 10:05:19,873 - DEBUG - Calling on_part_end with no data
+2024-07-12 10:05:19,873 - DEBUG - Calling on_part_begin with no data
+2024-07-12 10:05:19,873 - DEBUG - Calling on_header_field with data[41:60]
+2024-07-12 10:05:19,873 - DEBUG - Calling on_header_value with data[62:103]
+2024-07-12 10:05:19,873 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:05:19,873 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-12 10:05:19,874 - DEBUG - Calling on_header_value with data[119:135]
+2024-07-12 10:05:19,874 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:05:19,874 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-12 10:05:19,874 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-12 10:05:19,874 - DEBUG - Calling on_header_end with no data
+2024-07-12 10:05:19,874 - DEBUG - Calling on_headers_finished with no data
+2024-07-12 10:05:19,874 - DEBUG - Calling on_part_data with data[174:227]
+2024-07-12 10:05:19,875 - DEBUG - Calling on_part_end with no data
+2024-07-12 10:05:19,875 - DEBUG - Calling on_end with no data
+2024-07-12 10:05:19,876 - INFO - [apple]: Welocime
+2024-07-15 01:39:32,968 - INFO - [apple]: Welocime
+2024-07-15 01:39:33,275 - DEBUG - Calling on_part_begin with no data
+2024-07-15 01:39:33,275 - DEBUG - Calling on_header_field with data[37:56]
+2024-07-15 01:39:33,275 - DEBUG - Calling on_header_value with data[58:100]
+2024-07-15 01:39:33,275 - DEBUG - Calling on_header_end with no data
+2024-07-15 01:39:33,275 - DEBUG - Calling on_header_field with data[102:114]
+2024-07-15 01:39:33,275 - DEBUG - Calling on_header_value with data[116:132]
+2024-07-15 01:39:33,275 - DEBUG - Calling on_header_end with no data
+2024-07-15 01:39:33,276 - DEBUG - Calling on_header_field with data[134:159]
+2024-07-15 01:39:33,276 - DEBUG - Calling on_header_value with data[161:167]
+2024-07-15 01:39:33,276 - DEBUG - Calling on_header_end with no data
+2024-07-15 01:39:33,276 - DEBUG - Calling on_headers_finished with no data
+2024-07-15 01:39:33,276 - DEBUG - Calling on_part_data with data[171:308]
+2024-07-15 01:39:33,368 - DEBUG - Calling on_part_end with no data
+2024-07-15 01:39:33,368 - DEBUG - Calling on_part_begin with no data
+2024-07-15 01:39:33,368 - DEBUG - Calling on_header_field with data[39:58]
+2024-07-15 01:39:33,368 - DEBUG - Calling on_header_value with data[60:101]
+2024-07-15 01:39:33,369 - DEBUG - Calling on_header_end with no data
+2024-07-15 01:39:33,369 - DEBUG - Calling on_header_field with data[103:115]
+2024-07-15 01:39:33,369 - DEBUG - Calling on_header_value with data[117:133]
+2024-07-15 01:39:33,369 - DEBUG - Calling on_header_end with no data
+2024-07-15 01:39:33,369 - DEBUG - Calling on_header_field with data[135:160]
+2024-07-15 01:39:33,369 - DEBUG - Calling on_header_value with data[162:168]
+2024-07-15 01:39:33,369 - DEBUG - Calling on_header_end with no data
+2024-07-15 01:39:33,369 - DEBUG - Calling on_headers_finished with no data
+2024-07-15 01:39:33,369 - DEBUG - Calling on_part_data with data[172:225]
+2024-07-15 01:39:33,369 - DEBUG - Calling on_part_end with no data
+2024-07-15 01:39:33,369 - DEBUG - Calling on_end with no data
+2024-07-15 01:39:33,371 - INFO - [apple]: Welocime
+2024-07-15 02:07:43,658 - INFO - [apple]: Welocime
+2024-07-15 02:07:43,958 - DEBUG - Calling on_part_begin with no data
+2024-07-15 02:07:43,958 - DEBUG - Calling on_header_field with data[39:58]
+2024-07-15 02:07:43,958 - DEBUG - Calling on_header_value with data[60:102]
+2024-07-15 02:07:43,959 - DEBUG - Calling on_header_end with no data
+2024-07-15 02:07:43,959 - DEBUG - Calling on_header_field with data[104:116]
+2024-07-15 02:07:43,959 - DEBUG - Calling on_header_value with data[118:134]
+2024-07-15 02:07:43,959 - DEBUG - Calling on_header_end with no data
+2024-07-15 02:07:43,959 - DEBUG - Calling on_header_field with data[136:161]
+2024-07-15 02:07:43,959 - DEBUG - Calling on_header_value with data[163:169]
+2024-07-15 02:07:43,960 - DEBUG - Calling on_header_end with no data
+2024-07-15 02:07:43,960 - DEBUG - Calling on_headers_finished with no data
+2024-07-15 02:07:43,960 - DEBUG - Calling on_part_data with data[173:310]
+2024-07-15 02:07:44,022 - DEBUG - Calling on_part_end with no data
+2024-07-15 02:07:44,022 - DEBUG - Calling on_part_begin with no data
+2024-07-15 02:07:44,023 - DEBUG - Calling on_header_field with data[41:60]
+2024-07-15 02:07:44,023 - DEBUG - Calling on_header_value with data[62:103]
+2024-07-15 02:07:44,023 - DEBUG - Calling on_header_end with no data
+2024-07-15 02:07:44,023 - DEBUG - Calling on_header_field with data[105:117]
+2024-07-15 02:07:44,023 - DEBUG - Calling on_header_value with data[119:135]
+2024-07-15 02:07:44,023 - DEBUG - Calling on_header_end with no data
+2024-07-15 02:07:44,024 - DEBUG - Calling on_header_field with data[137:162]
+2024-07-15 02:07:44,024 - DEBUG - Calling on_header_value with data[164:170]
+2024-07-15 02:07:44,024 - DEBUG - Calling on_header_end with no data
+2024-07-15 02:07:44,024 - DEBUG - Calling on_headers_finished with no data
+2024-07-15 02:07:44,024 - DEBUG - Calling on_part_data with data[174:227]
+2024-07-15 02:07:44,024 - DEBUG - Calling on_part_end with no data
+2024-07-15 02:07:44,025 - DEBUG - Calling on_end with no data
+2024-07-15 02:07:44,026 - INFO - [apple]: Welocime
+2024-07-15 06:37:48,467 - INFO - [apple]: Welocime
+2024-07-15 06:37:48,795 - DEBUG - Calling on_part_begin with no data
+2024-07-15 06:37:48,795 - DEBUG - Calling on_header_field with data[37:56]
+2024-07-15 06:37:48,796 - DEBUG - Calling on_header_value with data[58:100]
+2024-07-15 06:37:48,796 - DEBUG - Calling on_header_end with no data
+2024-07-15 06:37:48,796 - DEBUG - Calling on_header_field with data[102:114]
+2024-07-15 06:37:48,796 - DEBUG - Calling on_header_value with data[116:132]
+2024-07-15 06:37:48,796 - DEBUG - Calling on_header_end with no data
+2024-07-15 06:37:48,796 - DEBUG - Calling on_header_field with data[134:159]
+2024-07-15 06:37:48,797 - DEBUG - Calling on_header_value with data[161:167]
+2024-07-15 06:37:48,797 - DEBUG - Calling on_header_end with no data
+2024-07-15 06:37:48,797 - DEBUG - Calling on_headers_finished with no data
+2024-07-15 06:37:48,797 - DEBUG - Calling on_part_data with data[171:308]
+2024-07-15 06:37:48,798 - DEBUG - Calling on_part_end with no data
+2024-07-15 06:37:48,798 - DEBUG - Calling on_part_begin with no data
+2024-07-15 06:37:48,798 - DEBUG - Calling on_header_field with data[347:366]
+2024-07-15 06:37:48,798 - DEBUG - Calling on_header_value with data[368:409]
+2024-07-15 06:37:48,799 - DEBUG - Calling on_header_end with no data
+2024-07-15 06:37:48,799 - DEBUG - Calling on_header_field with data[411:423]
+2024-07-15 06:37:48,799 - DEBUG - Calling on_header_value with data[425:441]
+2024-07-15 06:37:48,799 - DEBUG - Calling on_header_end with no data
+2024-07-15 06:37:48,799 - DEBUG - Calling on_header_field with data[443:468]
+2024-07-15 06:37:48,800 - DEBUG - Calling on_header_value with data[470:476]
+2024-07-15 06:37:48,800 - DEBUG - Calling on_header_end with no data
+2024-07-15 06:37:48,800 - DEBUG - Calling on_headers_finished with no data
+2024-07-15 06:37:48,801 - DEBUG - Calling on_part_data with data[480:533]
+2024-07-15 06:37:48,801 - DEBUG - Calling on_part_end with no data
+2024-07-15 06:37:48,802 - DEBUG - Calling on_end with no data
+2024-07-15 06:37:48,803 - INFO - [apple]: Welocime
+2024-07-15 15:40:48,379 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:49:11,587 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:49:14,114 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:49:40,588 - INFO - [admin]: Welocime
+2024-07-15 15:51:17,645 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:51:19,632 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:51:40,775 - INFO - [admin]: Welocime
+2024-07-15 15:51:54,532 - INFO - [admin]: Welocime
+2024-07-15 15:52:04,173 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:52:24,449 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:52:27,921 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:52:52,870 - INFO - [admin]: Welocime
+2024-07-15 15:53:01,996 - INFO - [admin]: Welocime
+2024-07-15 15:54:06,130 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:54:13,026 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:54:19,436 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:54:21,393 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:54:24,158 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:54:31,034 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:54:32,814 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:55:15,762 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:56:03,430 - DEBUG - Using selector: EpollSelector
+2024-07-15 15:58:39,925 - DEBUG - Using selector: EpollSelector

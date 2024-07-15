@@ -7,8 +7,9 @@ import asyncio
 
 app = FastAPI(
     servers=[
-        {"url": "http://127.0.0.1:10802/backend-dev", "description": "Staging environment"},
-        {"url": "https://prod.example.com", "description": "Production environment"},
+        {"url": "http://host.docker.internal:10802/vscode-server/backend", "description": "internal"},
+        {"url": "http://mydormroom.ddns.net:10802/vscode-server/backend", "description": "external"},
+        {"url": "https://prod.example.com", "description": "production"},
     ],
     root_path="/api/v1",
 )
