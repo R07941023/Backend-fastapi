@@ -6,15 +6,17 @@ import asyncio
 
 
 app = FastAPI(
-    servers=[
-        {"url": "http://host.docker.internal:10802/vscode-server/backend", "description": "internal"},
-        {"url": "http://mydormroom.ddns.net:10802/vscode-server/backend", "description": "external"},
-        {"url": "https://prod.example.com", "description": "production"},
-    ],
     root_path="/api/v1",
+    servers=[
+        {"url": "http://mydormroom.ddns.net:10802/vscode-server/backend", "description": "Staging"},
+        {"url": "https://prod.example.com", "description": "Production"},
+        {"url": "http://host.docker.internal:10802/vscode-server/backend", "description": "Internal"}
+    ]
 )
 app.include_router(appTest, prefix="")
 app.include_router(dataAccess, prefix="/dataAccess")
+
+
 
 
 
