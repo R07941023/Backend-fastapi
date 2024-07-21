@@ -34,6 +34,7 @@ def mariadbSiteSqlQuery(item):
     connInfo = readConnMariadbSite(item['site'])
     dbConn = {}
     dbConn['host'] = connInfo['host']
+    dbConn['port'] = int(connInfo['port'])
     dbConn['user'] = connInfo['user']
     dbConn['password'] = connInfo['password']
     dbConn['database'] = item['database']
@@ -49,6 +50,7 @@ def mariadbSiteSqlNonquery(item):
     connInfo = readConnMariadbSite(item['site'])
     dbConn = {}
     dbConn['host'] = connInfo['host']
+    dbConn['port'] = int(connInfo['port'])
     dbConn['user'] = connInfo['user']
     dbConn['password'] = connInfo['password']
     dbConn['database'] = item['database']
@@ -62,6 +64,7 @@ def mariadbSqlQuery(item):
     res = {'statusCode': 200, "data": 'Pass', "info": ''}
     db_config = {
     'host': item['host'],
+    'port': item['port'],
     'user': item['user'],
     'password': item['password'],
     'database': item['database']
@@ -82,6 +85,7 @@ def mariadbSqlNonquery(item):
     res = {'statusCode': 200, "data": 'Pass', "info": ''}
     db_config = {
     'host': item['host'],
+    'port': item['port'],
     'user': item['user'],
     'password': item['password'],
     'database': item['database']

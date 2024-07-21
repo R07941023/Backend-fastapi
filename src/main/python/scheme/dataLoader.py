@@ -31,6 +31,7 @@ class connSQLSite(BaseModel):
 
 class connSQLInfra(BaseModel):
     host: str = Field(default='localhost')
+    port: int = Field(default=30307)
     user: str = Field(default='root')
     password: str = Field(default='admin')
     database: str = Field(default='machine_learning')
